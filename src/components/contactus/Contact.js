@@ -95,11 +95,11 @@ function contact() {
       <div className="rectangle-div"></div>
       <textarea className="your-message" placeholder="Your Message"></textarea>
     </div>
-      <div class="contact-us-inner">
-        <div class="instance-child"></div>
+      <div className="contact-us-inner">
+        <div className="instance-child"></div>
       </div>
-      <b class="send">Send</b>
-      <div class="group-parent">
+      <b className="send">Send</b>
+      <div className="group-parent">
       <div className="fotter"></div>
       <div className="background-group" id="groupContainer15">
         <Image className="background-icon7" alt="" src={contant} />
