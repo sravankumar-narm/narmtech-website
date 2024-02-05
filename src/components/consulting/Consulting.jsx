@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import './globals.css';
+import "./globals.css";
 import Logo from "../../public/Images/consult/logo.png";
 import backgoundimg2 from "../../public/Images/consult/back-img-2.png";
 import img2 from "../../public/Images/consult/img-2.png";
@@ -28,7 +28,7 @@ export default function Home() {
         <Image className="logo" src={Logo} />
         <ul className="nav-items">
           <li>
-            <Link href='/'>Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
             <a href=" #">Offerings</a>

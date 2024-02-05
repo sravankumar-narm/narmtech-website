@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import React, { useCallback, useState } from "react";
-import styles from "./IT.module.css";
-import './IT.css';
+import styles from "./Edu.module.css";
+import "./Edu.css";
 
 const Legal = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -53,7 +53,7 @@ const Legal = () => {
         className={`legalInner ${isMenuOpen ? menuOpen : ""}`}
       >
         <div className="narmLogoParent">
-          <div className="narmLogo">
+          <div className="narmLog">
             <img
               className="narmTechLogo1"
               loading="eager"
@@ -68,6 +68,7 @@ const Legal = () => {
             onClick={toggleMenu}
           >
             ☰
+
           </div>
 
           <div className="menuButton">
@@ -123,45 +124,49 @@ const Legal = () => {
                 <img
                   className="backgroundIcon"
                   alt=""
-                  src="Images/IT/background@2x.png"
+                  src="Images/Edu/background@2x.png"
                 />
                 <div className="wrapperBackground">
                   <img
                     className="backgroundIcon1"
                     alt=""
-                    src="Images/IT/Vyayah1.png"
+                    src="Images/Edu/Adhyayn1.png"
                   />
-                  
-                  
                 </div>
               </div>
             </div>
             <div className="frameContainer">
               <div className="legalParent">
-                <h1 className="legal1">IT Infrastructure</h1>
+                <h1 className="legal1">Education</h1>
                 <div className="thisPowerfulSolutionContainer">
                   <p className="thisPowerfulSolution">
-                  Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to
-                   provide cost-effective recommendations. These recommendations help organizations optimize their IT spending,
-                   identifycost-saving opportunities, and align their resources with business needs
+                    Leveraging AI and analytics, the product analyzes usage
+                    patterns, performance metrics, and cost data to provide
+                    cost-effective recommendations. These recommendations help
+                    organizations optimize their IT spending,
+                    identifycost-saving opportunities, and align their
+                    resources with business
                   </p>
-                  
+
                   <ul className="intelligentDocumentsVerifica">
                     <li
                       className="intelligentDocumentsVerifica1"
-                    >{`Continuous recommendations of resource optimization with respect
-                    to cost and performance`}</li>
+                    >{`Intelligent, Automated, Guided Administrative Tasks: From Admissions to Convocations/Placements.`}</li>
                     <li className="generatingFormsAnd">
-                    Recommendation on IT investments.
+                      Attendance tracking, Grading.
                     </li>
                     <li className="lifecycleManagementOf">
-                    Comprehensive insights and control over the IT infrastructure.
-
+                      Optimized recommendations for resource allocation,
+                      including classroom assignments, course scheduling, and
+                      staff deployment.
                     </li>
                     <li className="recommendationsWithRespect">
-                    Integrated Command Center with advanced analytics and monitoring of infrastructure.
+                      Freeing up Staff Time for more value-added activities.
                     </li>
-                    <li>Intelligent Forecasting and Alerts</li>
+                    <li>
+                      Reports and Valuable insights, enabling decision-makers to
+                      make informed choices quickly and efficiently.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -169,18 +174,25 @@ const Legal = () => {
           </div>
           <div className="contactusButtonInner">
             <div className="rectangleParent">
-              <div className="frameChild" />
+              <div className="frameChild">
+                <img
+                  className="overlayImage"
+                  src="Images/Edu/Quizifai1.png"
+                  alt=""
+                />
+              </div>
               <div className="frameDiv">
                 <div className="legalGroup">
-                  <h2 className="legal2">IT Infrastructure</h2>
+                  <h2 className="legal2">QuizifAI</h2>
                   <div className="thisPowerfulSolutionContainer1">
                     <p className="thisPowerfulSolution1">
-                    Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, 
-                    and cost data to provide cost-effective recommendations. These recommendations help organizations 
-                    optimize their IT spending, identify cost-saving
-                     opportunities, and align their resources with business needs
+                      Leveraging AI and analytics, the product analyzes usage
+                      patterns, performance metrics, and cost data to provide
+                      cost-effective recommendations. These recommendations help
+                      organizations optimize their IT spending, identify
+                      cost-saving opportunities, and align their resources with
+                      business needs
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -188,20 +200,25 @@ const Legal = () => {
           </div>
         </div>
       </section>
-      <img className="backgroundIcon2" alt="" src="Images/IT/background-2.svg" />
+      <img
+        className="backgroundIcon2"
+        alt=""
+        src="Images/Edu/background-2.svg"
+      />
       <section className="legalChild">
-        <div className="frameGroup">
+        <div className= "frameGroup">
           <div className="frameWrapper1">
             <div className="legalContainer">
-              <h2 className="legal3">IT Infrastructure</h2>
+              <h2 className="legal3">Education</h2>
               <div className="thisPowerfulSolutionContainer2">
                 <p className="thisPowerfulSolution2">
-                Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, 
-                and cost data to provide cost-effective recommendations. These recommendations help organizations 
-                optimize their IT spending,
-                 identify cost-saving opportunities, and align their resources with business needs
+                  Leveraging AI and analytics, the product analyzes usage
+                  patterns, performance metrics, and cost data to provide
+                  cost-effective recommendations. These recommendations help
+                  organizations optimize their IT spending, identify
+                  cost-saving opportunities, and align their resources with
+                  business needs
                 </p>
-              
               </div>
             </div>
           </div>
@@ -212,14 +229,15 @@ const Legal = () => {
         <div className="homeMenuFrame" />
         <div className="offeringsMenuFrame">
           <div className="consultingMenuFrame">
-            <h2 className="legal4">IT Infrastructure</h2>
+            <h2 className="legal4">Education</h2>
             <div className="thisPowerfulSolutionContainer3">
               <p className="thisPowerfulSolution3">
-              Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to
-               provide cost-effective recommendations. These recommendations help organizations optimize their IT spending, 
-              identify cost-saving opportunities, and align their resources with business needs
+                Leveraging AI and analytics, the product analyzes usage
+                patterns, performance metrics, and cost data to provide
+                cost-effective recommendations. These recommendations help
+                organizations optimize their IT spending, identify cost-saving
+                opportunities, and align their resources with business needs
               </p>
-            
             </div>
           </div>
         </div>
@@ -227,14 +245,15 @@ const Legal = () => {
       <section className="contactusFrame">
         <div className="logoFrameParent">
           <div className="logoFrame">
-            <h2 className="legal5">IT Infrastructure</h2>
+            <h2 className="legal5">Education</h2>
             <div className="thisPowerfulSolutionContainer4">
               <p className="thisPowerfulSolution4">
-              Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to provide
-               cost-effective recommendations. These recommendations help organizations optimize their IT spending,
-               identify cost-saving opportunities, and align their resources with business needs
+                Leveraging AI and analytics, the product analyzes usage
+                patterns, performance metrics, and cost data to provide
+                cost-effective recommendations. These recommendations help
+                organizations optimize their IT spending, identify cost-saving
+                opportunities, and align their resources with business needs
               </p>
-  
             </div>
           </div>
           <div className="instanceFrame" />
@@ -263,42 +282,42 @@ const Legal = () => {
               className="framesFrameChild"
               loading="eager"
               alt=""
-              src="Images/IT/group-27.svg"
+              src="Images/Edu/group-27.svg"
             />
             <div className="layerFrame">
               <img
                 className="backgroundIcon3"
                 alt=""
-                src="Images/IT/background-3.svg"
+                src="Images/Edu/background-3.svg"
               />
               <img
                 className="layer1Icon"
                 loading="eager"
                 alt=""
-                src="Images/IT/layer-1.svg"
+                src="Images/Edu/layer-1.svg"
               />
             </div>
             <img
               className="isolationModeIcon"
               loading="eager"
               alt=""
-              src="Images/IT/isolation-mode.svg"
+              src="Images/Edu/isolation-mode.svg"
             />
             <img
               className="frameTripletsIcon"
               loading="eager"
               alt=""
-              src="Images/IT/frame.svg"
+              src="Images/Edu/frame.svg"
             />
             <img
               className="frameTripletsIcon1"
               alt=""
-              src="Images/IT/frame-1.svg"
+              src="Images/Edu/frame-1.svg"
             />
             <img
               className="frameTripletsIcon2"
               alt=""
-              src="Images/IT/frame-2.svg"
+              src="Images/Edu/frame-2.svg"
             />
           </div>
           <div className="postLocationLine">
@@ -308,7 +327,7 @@ const Legal = () => {
                   <p
                     className="rdMainVirgo"
                   >{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
-                  <p className={styles.seegehalliBengaluruKarnata}>
+                  <p className="seegehalliBengaluruKarnata">
                     Seegehalli, Bengaluru, Karnataka 560049
                   </p>
                 </div>
@@ -347,7 +366,11 @@ const Legal = () => {
           </div>
         </div>
       </footer>
-      <img className="backgroundIcon4" alt="" src="Images/IT/background-4.svg" />
+      <img
+        className="backgroundIcon4"
+        alt=""
+        src="Images/Edu/background-4.svg"
+      />
     </div>
   );
 };

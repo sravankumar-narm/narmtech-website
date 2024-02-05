@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import React, { useCallback, useState } from "react";
-import styles from "./IT.module.css";
-import './IT.css';
+import styles from "./agri.module.css";
+import "./agri.css";
 
 const Legal = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -49,22 +49,18 @@ const Legal = () => {
 
   return (
     <div className="legal">
-      <header
-        className={`legalInner ${isMenuOpen ? menuOpen : ""}`}
-      >
+      <header className={`legalInner ${isMenuOpen ? menuOpen : ""}`}>
         <div className="narmLogoParent">
           <div className="narmLogo">
             <img
               className="narmTechLogo1"
               loading="eager"
               alt=""
-              src="Images/Edu/narm-tech-logo-1@2x.png"
+              src="Images/agri/narm-tech-logo-1@2x.png"
             />
           </div>
           <div
-            className={`mobileMenuButton ${
-              isMenuOpen ? open : ""
-            }`}
+            className={`mobileMenuButton ${isMenuOpen ? open : ""}`}
             onClick={toggleMenu}
           >
             ☰
@@ -123,45 +119,53 @@ const Legal = () => {
                 <img
                   className="backgroundIcon"
                   alt=""
-                  src="Images/IT/background@2x.png"
+                  src="Images/agri/background@2x.png"
                 />
                 <div className="wrapperBackground">
                   <img
                     className="backgroundIcon1"
                     alt=""
-                    src="Images/IT/Vyayah1.png"
+                    src="Images/agri/Vyavasayah1.png"
                   />
-                  
-                  
                 </div>
               </div>
             </div>
             <div className="frameContainer">
               <div className="legalParent">
-                <h1 className="legal1">IT Infrastructure</h1>
+                <h1 className="legal1">Agriculture</h1>
                 <div className="thisPowerfulSolutionContainer">
                   <p className="thisPowerfulSolution">
-                  Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to
-                   provide cost-effective recommendations. These recommendations help organizations optimize their IT spending,
-                   identifycost-saving opportunities, and align their resources with business needs
+                    AI-powered Agriculture Life Cycle Operations Management
+                    Application empowers farmers. This AI-powered application
+                    offers a comprehensive suite of tools and functionalities to
+                    manage the entire agriculture life cycle. It covers
+                    activities such as crop planning, planting, irrigation,
+                    fertilization, pest control, harvesting, and post-harvest
+                    management. , facilitates optimal farmer-market connections,
+                    and maximizes profitability in the agricultural industry.
                   </p>
-                  
+
                   <ul className="intelligentDocumentsVerifica">
-                    <li
-                      className="intelligentDocumentsVerifica1"
-                    >{`Continuous recommendations of resource optimization with respect
-                    to cost and performance`}</li>
+                    <li className="intelligentDocumentsVerifica1">{`
+                    Recommendations on Crop Selection and Optimized Utilization of resources such as land, water, fertilizers, and labor.
+                    `}</li>
                     <li className="generatingFormsAnd">
-                    Recommendation on IT investments.
+                      Facilitates seamless connections between farmers and
+                      agriculture markets.
                     </li>
                     <li className="lifecycleManagementOf">
-                    Comprehensive insights and control over the IT infrastructure.
-
+                      Informed decisions about market demand and supply.
                     </li>
                     <li className="recommendationsWithRespect">
-                    Integrated Command Center with advanced analytics and monitoring of infrastructure.
+                      Facilitates seamless connections between farmers and
+                      agriculture markets, ensuring direct access to potential
+                      buyers, distributors, and retailers.
                     </li>
-                    <li>Intelligent Forecasting and Alerts</li>
+                    <li>
+                      Enables farmers to showcase their products, negotiate
+                      prices, and make informed decisions about market demand
+                      and supply.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -172,15 +176,19 @@ const Legal = () => {
               <div className="frameChild" />
               <div className="frameDiv">
                 <div className="legalGroup">
-                  <h2 className="legal2">IT Infrastructure</h2>
+                  <h2 className="legal2">Agriculture</h2>
                   <div className="thisPowerfulSolutionContainer1">
                     <p className="thisPowerfulSolution1">
-                    Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, 
-                    and cost data to provide cost-effective recommendations. These recommendations help organizations 
-                    optimize their IT spending, identify cost-saving
-                     opportunities, and align their resources with business needs
+                      AI-powered Agriculture Life Cycle Operations Management
+                      Application empowers farmers. This AI-powered application
+                      offers a comprehensive suite of tools and functionalities
+                      to manage the entire agriculture life cycle. It covers
+                      activities such as crop planning, planting, irrigation,
+                      fertilization, pest control, harvesting, and post-harvest
+                      management. , facilitates optimal farmer-market
+                      connections, and maximizes profitability in the
+                      agricultural industry.
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -188,20 +196,27 @@ const Legal = () => {
           </div>
         </div>
       </section>
-      <img className="backgroundIcon2" alt="" src="Images/IT/background-2.svg" />
+      <img
+        className="backgroundIcon2"
+        alt=""
+        src="Images/agri/background-2.svg"
+      />
       <section className="legalChild">
         <div className="frameGroup">
           <div className="frameWrapper1">
             <div className="legalContainer">
-              <h2 className="legal3">IT Infrastructure</h2>
+              <h2 className="legal3">Agriculture</h2>
               <div className="thisPowerfulSolutionContainer2">
                 <p className="thisPowerfulSolution2">
-                Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, 
-                and cost data to provide cost-effective recommendations. These recommendations help organizations 
-                optimize their IT spending,
-                 identify cost-saving opportunities, and align their resources with business needs
+                  AI-powered Agriculture Life Cycle Operations Management
+                  Application empowers farmers. This AI-powered application
+                  offers a comprehensive suite of tools and functionalities to
+                  manage the entire agriculture life cycle. It covers activities
+                  such as crop planning, planting, irrigation, fertilization,
+                  pest control, harvesting, and post-harvest management. ,
+                  facilitates optimal farmer-market connections, and maximizes
+                  profitability in the agricultural industry.
                 </p>
-              
               </div>
             </div>
           </div>
@@ -212,14 +227,18 @@ const Legal = () => {
         <div className="homeMenuFrame" />
         <div className="offeringsMenuFrame">
           <div className="consultingMenuFrame">
-            <h2 className="legal4">IT Infrastructure</h2>
+            <h2 className="legal4">Agriculture</h2>
             <div className="thisPowerfulSolutionContainer3">
               <p className="thisPowerfulSolution3">
-              Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to
-               provide cost-effective recommendations. These recommendations help organizations optimize their IT spending, 
-              identify cost-saving opportunities, and align their resources with business needs
+                AI-powered Agriculture Life Cycle Operations Management
+                Application empowers farmers. This AI-powered application offers
+                a comprehensive suite of tools and functionalities to manage the
+                entire agriculture life cycle. It covers activities such as crop
+                planning, planting, irrigation, fertilization, pest control,
+                harvesting, and post-harvest management. , facilitates optimal
+                farmer-market connections, and maximizes profitability in the
+                agricultural industry.
               </p>
-            
             </div>
           </div>
         </div>
@@ -227,14 +246,18 @@ const Legal = () => {
       <section className="contactusFrame">
         <div className="logoFrameParent">
           <div className="logoFrame">
-            <h2 className="legal5">IT Infrastructure</h2>
+            <h2 className="legal5">Agriculture</h2>
             <div className="thisPowerfulSolutionContainer4">
               <p className="thisPowerfulSolution4">
-              Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to provide
-               cost-effective recommendations. These recommendations help organizations optimize their IT spending,
-               identify cost-saving opportunities, and align their resources with business needs
+                AI-powered Agriculture Life Cycle Operations Management
+                Application empowers farmers. This AI-powered application offers
+                a comprehensive suite of tools and functionalities to manage the
+                entire agriculture life cycle. It covers activities such as crop
+                planning, planting, irrigation, fertilization, pest control,
+                harvesting, and post-harvest management. , facilitates optimal
+                farmer-market connections, and maximizes profitability in the
+                agricultural industry.
               </p>
-  
             </div>
           </div>
           <div className="instanceFrame" />
@@ -251,10 +274,7 @@ const Legal = () => {
         </div>
       </div>
       <footer className="contactInfoGroup">
-        <div
-          className="postDetailsFrameParent"
-          onClick={onGroupContainerClick}
-        >
+        <div className="postDetailsFrameParent" onClick={onGroupContainerClick}>
           <div className="postDetailsFrame">
             <h1 className="contactUs1">Contact Us</h1>
           </div>
@@ -263,52 +283,50 @@ const Legal = () => {
               className="framesFrameChild"
               loading="eager"
               alt=""
-              src="Images/IT/group-27.svg"
+              src="Images/agri/group-27.svg"
             />
             <div className="layerFrame">
               <img
                 className="backgroundIcon3"
                 alt=""
-                src="Images/IT/background-3.svg"
+                src="Images/agri/background-3.svg"
               />
               <img
                 className="layer1Icon"
                 loading="eager"
                 alt=""
-                src="Images/IT/layer-1.svg"
+                src="Images/agri/layer-1.svg"
               />
             </div>
             <img
               className="isolationModeIcon"
               loading="eager"
               alt=""
-              src="Images/IT/isolation-mode.svg"
+              src="Images/agri/isolation-mode.svg"
             />
             <img
               className="frameTripletsIcon"
               loading="eager"
               alt=""
-              src="Images/IT/frame.svg"
+              src="Images/agri/frame.svg"
             />
             <img
               className="frameTripletsIcon1"
               alt=""
-              src="Images/IT/frame-1.svg"
+              src="Images/agri/frame-1.svg"
             />
             <img
               className="frameTripletsIcon2"
               alt=""
-              src="Images/IT/frame-2.svg"
+              src="Images/agri/frame-2.svg"
             />
           </div>
           <div className="postLocationLine">
             <div className="postInfo">
               <div className="policyTitleFrame">
                 <div className="rdMainVirgoContainer">
-                  <p
-                    className="rdMainVirgo"
-                  >{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
-                  <p className={styles.seegehalliBengaluruKarnata}>
+                  <p className="rdMainVirgo">{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
+                  <p className="seegehalliBengaluruKarnata">
                     Seegehalli, Bengaluru, Karnataka 560049
                   </p>
                 </div>
@@ -337,9 +355,7 @@ const Legal = () => {
                   </div>
                   <div className="privacyPolicyParent">
                     <div className="privacyPolicy">Privacy Policy</div>
-                    <div
-                      className="termsConditions"
-                    >{`Terms & Conditions`}</div>
+                    <div className="termsConditions">{`Terms & Conditions`}</div>
                   </div>
                 </div>
               </div>
@@ -347,7 +363,11 @@ const Legal = () => {
           </div>
         </div>
       </footer>
-      <img className="backgroundIcon4" alt="" src="Images/IT/background-4.svg" />
+      <img
+        className="backgroundIcon4"
+        alt=""
+        src="Images/agri/background-4.svg"
+      />
     </div>
   );
 };

@@ -37,84 +37,84 @@ const Legal = () => {
   }, []);
 
   return (
-    <div className={styles.legal}>
-      <header className={styles.legalInner}>
-        <div className={styles.narmLogoParent}>
-          <div className={styles.narmLogo}>
+    <div className="legal">
+      <header className="legalInner">
+        <div className="narmLogoParent">
+          <div className="narmLogo">
             <img
-              className={styles.narmTechLogo1}
+              className="narmTechLogo1"
               loading="eager"
               alt=""
               src="Images/legal/narm-tech-logo-1@2x.png"
             />
           </div>
-          <div className={styles.menuButton}>
-            <div className={styles.menu} onClick={onMenuContainerClick}>
-              <div className={styles.home}>{`Home`}</div>
+          <div className="menuButton">
+            <div className="menu" onClick={onMenuContainerClick}>
+              <div className="home">{`Home`}</div>
             </div>
-            <button className={styles.menu1} onClick={onMenuClick}>
-              <div className={styles.offerings}>Offerings</div>
+            <button className="menu1" onClick={onMenuClick}>
+              <div className="offerings">Offerings</div>
             </button>
-            <div className={styles.menu2} onClick={onMenuContainer1Click}>
-              <div className={styles.consulting}>{`Consulting `}</div>
+            <div className="menu2" onClick={onMenuContainer1Click}>
+              <div className="consulting">{`Consulting `}</div>
             </div>
-            <div className={styles.menu3} onClick={onMenuContainer2Click}>
-              <div className={styles.aboutUs}>{`About us`}</div>
+            <div className="menu3" onClick={onMenuContainer2Click}>
+              <div className="aboutUs">{`About us`}</div>
             </div>
-            <button className={styles.menu4} onClick={onMenu1Click}>
-              <div className={styles.ourTeam}>Our Team</div>
+            <button className="menu4" onClick={onMenu1Click}>
+              <div className="ourTeam">Our Team</div>
             </button>
-            <button className={styles.menu5} onClick={onMenu2Click}>
-              <div className={styles.contactUs}>Contact us</div>
+            <button className="menu5" onClick={onMenu2Click}>
+              <div className="contactUs">Contact us</div>
             </button>
           </div>
         </div>
       </header>
-      <section className={styles.ourTeamButton}>
-        <div className={styles.contactusButton}>
-          <div className={styles.frameParent}>
-            <div className={styles.frameWrapper}>
-              <div className={styles.backgroundParent}>
+      <section className="ourTeamButton">
+        <div className="contactusButton">
+          <div className="frameParent">
+            <div className="frameWrapper">
+              <div className="backgroundParent">
                 <img
-                  className={styles.backgroundIcon}
+                  className="backgroundIcon"
                   alt=""
                   src="Images/legal/background@2x.png"
                 />
-                <div className={styles.wrapperBackground}>
+                <div className="wrapperBackground">
                   <img
-                    className={styles.backgroundIcon1}
+                    className="backgroundIcon1"
                     alt=""
                     src="Images/legal/background-1@2x.png"
                   />
                 </div>
               </div>
             </div>
-            <div className={styles.frameContainer}>
-              <div className={styles.legalParent}>
-                <h1 className={styles.legal1}>Legal</h1>
-                <div className={styles.thisPowerfulSolutionContainer}>
-                  <p className={styles.thisPowerfulSolution}>
+            <div className="frameContainer">
+              <div className="legalParent">
+                <h1 className="legal1">Legal</h1>
+                <div className="thisPowerfulSolutionContainer">
+                  <p className="thisPowerfulSolution">
                     This powerful solution revolutionizes the legal landscape by
                     empowering legal practitioners and law firms with advanced
                     automation and organization capabilities.
                   </p>
-                  <p className={styles.bySeamlesslyHandling}>
+                  <p className="bySeamlesslyHandling">
                     By seamlessly handling their day-to-day operations,
                     streamlining data management, and organizing critical
                     documentation, this software acts as a catalyst for enhanced
                     efficiency in legal processes
                   </p>
-                  <ul className={styles.intelligentDocumentsVerifica}>
+                  <ul className="intelligentDocumentsVerifica">
                     <li
-                      className={styles.intelligentDocumentsVerifica1}
+                      className="intelligentDocumentsVerifica1"
                     >{`Intelligent Documents Verification & Creating Insights, Reports`}</li>
-                    <li className={styles.generatingFormsAnd}>
+                    <li className="generatingFormsAnd">
                       Generating Forms and Documents Quickly
                     </li>
-                    <li className={styles.lifecycleManagementOf}>
+                    <li className="lifecycleManagementOf">
                       Lifecycle Management of Legal Cases
                     </li>
-                    <li className={styles.recommendationsWithRespect}>
+                    <li className="recommendationsWithRespect">
                       Recommendations with respect to statues available
                     </li>
                     <li>Validations and Intelligent Citations</li>
@@ -123,19 +123,19 @@ const Legal = () => {
               </div>
             </div>
           </div>
-          <div className={styles.contactusButtonInner}>
-            <div className={styles.rectangleParent}>
-              <div className={styles.frameChild} />
-              <div className={styles.frameDiv}>
-                <div className={styles.legalGroup}>
-                  <h2 className={styles.legal2}>Legal</h2>
-                  <div className={styles.thisPowerfulSolutionContainer1}>
-                    <p className={styles.thisPowerfulSolution1}>
+          <div className="contactusButtonInner">
+            <div className="rectangleParent">
+              <div className="frameChild" />
+              <div className="frameDiv">
+                <div className="legalGroup">
+                  <h2 className="legal2">Legal</h2>
+                  <div className="thisPowerfulSolutionContainer1">
+                    <p className="thisPowerfulSolution1">
                       This powerful solution revolutionizes the legal landscape
                       by empowering legal practitioners and law firms with
                       advanced automation and organization capabilities.
                     </p>
-                    <p className={styles.bySeamlesslyHandling1}>
+                    <p className="bySeamlesslyHandling1">
                       By seamlessly handling their day-to-day operations,
                       streamlining data management, and organizing critical
                       documentation, this software acts as a catalyst for
@@ -148,19 +148,19 @@ const Legal = () => {
           </div>
         </div>
       </section>
-      <img className={styles.backgroundIcon2} alt="" src="Images/legal/background-2.svg" />
-      <section className={styles.legalChild}>
-        <div className={styles.frameGroup}>
-          <div className={styles.frameWrapper1}>
-            <div className={styles.legalContainer}>
-              <h2 className={styles.legal3}>Legal</h2>
-              <div className={styles.thisPowerfulSolutionContainer2}>
-                <p className={styles.thisPowerfulSolution2}>
+      <img className="backgroundIcon2" alt="" src="Images/legal/background-2.svg" />
+      <section className="legalChild">
+        <div className="frameGroup">
+          <div className="frameWrapper1">
+            <div className="legalContainer">
+              <h2 className="legal3">Legal</h2>
+              <div className="thisPowerfulSolutionContainer2">
+                <p className="thisPowerfulSolution2">
                   This powerful solution revolutionizes the legal landscape by
                   empowering legal practitioners and law firms with advanced
                   automation and organization capabilities.
                 </p>
-                <p className={styles.bySeamlesslyHandling2}>
+                <p className="bySeamlesslyHandling2">
                   By seamlessly handling their day-to-day operations,
                   streamlining data management, and organizing critical
                   documentation, this software acts as a catalyst for enhanced
@@ -169,21 +169,21 @@ const Legal = () => {
               </div>
             </div>
           </div>
-          <div className={styles.frameItem} />
+          <div className="frameItem" />
         </div>
       </section>
-      <section className={styles.homeMenuFrameParent}>
-        <div className={styles.homeMenuFrame} />
-        <div className={styles.offeringsMenuFrame}>
-          <div className={styles.consultingMenuFrame}>
-            <h2 className={styles.legal4}>Legal</h2>
-            <div className={styles.thisPowerfulSolutionContainer3}>
-              <p className={styles.thisPowerfulSolution3}>
+      <section className="homeMenuFrameParent">
+        <div className="homeMenuFrame" />
+        <div className="offeringsMenuFrame">
+          <div className="consultingMenuFrame">
+            <h2 className="legal4">Legal</h2>
+            <div className="thisPowerfulSolutionContainer3">
+              <p className="thisPowerfulSolution3">
                 This powerful solution revolutionizes the legal landscape by
                 empowering legal practitioners and law firms with advanced
                 automation and organization capabilities.
               </p>
-              <p className={styles.bySeamlesslyHandling3}>
+              <p className="bySeamlesslyHandling3">
                 By seamlessly handling their day-to-day operations, streamlining
                 data management, and organizing critical documentation, this
                 software acts as a catalyst for enhanced efficiency in legal
@@ -193,17 +193,17 @@ const Legal = () => {
           </div>
         </div>
       </section>
-      <section className={styles.contactusFrame}>
-        <div className={styles.logoFrameParent}>
-          <div className={styles.logoFrame}>
-            <h2 className={styles.legal5}>Legal</h2>
-            <div className={styles.thisPowerfulSolutionContainer4}>
-              <p className={styles.thisPowerfulSolution4}>
+      <section className="contactusFrame">
+        <div className="logoFrameParent">
+          <div className="logoFrame">
+            <h2 className="legal5">Legal</h2>
+            <div className="thisPowerfulSolutionContainer4">
+              <p className="thisPowerfulSolution4">
                 This powerful solution revolutionizes the legal landscape by
                 empowering legal practitioners and law firms with advanced
                 automation and organization capabilities.
               </p>
-              <p className={styles.bySeamlesslyHandling4}>
+              <p className="bySeamlesslyHandling4">
                 By seamlessly handling their day-to-day operations, streamlining
                 data management, and organizing critical documentation, this
                 software acts as a catalyst for enhanced efficiency in legal
@@ -211,108 +211,108 @@ const Legal = () => {
               </p>
             </div>
           </div>
-          <div className={styles.instanceFrame} />
+          <div className="instanceFrame" />
         </div>
       </section>
-      <div className={styles.knowMoreRectangle}>
-        <div className={styles.contactUsRectangle}>
-          <div className={styles.contactUsRectangleInner}>
-            <div className={styles.instanceChild} />
+      <div className="knowMoreRectangle">
+        <div className="contactUsRectangle">
+          <div className="contactUsRectangleInner">
+            <div className="instanceChild"/>
           </div>
-          <b className={styles.knowMore} onClick={onKnowMoreTextClick}>
+          <b className="knowMore" onClick={onKnowMoreTextClick}>
             Know More
           </b>
         </div>
       </div>
-      <footer className={styles.contactInfoGroup}>
+      <footer className="contactInfoGroup">
         <div
-          className={styles.postDetailsFrameParent}
-          onClick={onGroupContainerClick}
+          className="postDetailsFrameParent"
+          onClick="onGroupContainerClick"
         >
-          <div className={styles.postDetailsFrame}>
-            <h1 className={styles.contactUs1}>Contact Us</h1>
+          <div className="postDetailsFrame">
+            <h1 className="contactUs1">Contact Us</h1>
           </div>
-          <div className={styles.framesFrame}>
+          <div className="framesFrame">
             <img
-              className={styles.framesFrameChild}
+              className="framesFrameChild"
               loading="eager"
               alt=""
               src="Images/legal/group-27.svg"
             />
-            <div className={styles.layerFrame}>
+            <div className="layerFrame">
               <img
-                className={styles.backgroundIcon3}
+                className="backgroundIcon3"
                 alt=""
                 src="Images/legal/background-3.svg"
               />
               <img
-                className={styles.layer1Icon}
+                className="layer1Icon"
                 loading="eager"
                 alt=""
                 src="Images/legal/layer-1.svg"
               />
             </div>
             <img
-              className={styles.isolationModeIcon}
+              className="isolationModeIcon"
               loading="eager"
               alt=""
               src="Images/legal/isolation-mode.svg"
             />
             <img
-              className={styles.frameTripletsIcon}
+              className="frameTripletsIcon"
               loading="eager"
               alt=""
               src="Images/legal/frame.svg"
             />
             <img
-              className={styles.frameTripletsIcon1}
+              className="frameTripletsIcon1"
               alt=""
               src="Images/legal/frame-1.svg"
             />
             <img
-              className={styles.frameTripletsIcon2}
+              className="frameTripletsIcon2"
               alt=""
               src="Images/legal/frame-2.svg"
             />
           </div>
-          <div className={styles.postLocationLine}>
-            <div className={styles.postInfo}>
-              <div className={styles.policyTitleFrame}>
-                <div className={styles.rdMainVirgoContainer}>
+          <div className="postLocationLine">
+            <div className="postInfo">
+              <div className="policyTitleFrame">
+                <div className="rdMainVirgoContainer">
                   <p
-                    className={styles.rdMainVirgo}
+                    className="rdMainVirgo"
                   >{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
-                  <p className={styles.seegehalliBengaluruKarnata}>
+                  <p className="seegehalliBengaluruKarnata">
                     Seegehalli, Bengaluru, Karnataka 560049
                   </p>
                 </div>
-                <div className={styles.contactUsFrame}>
-                  <div className={styles.infonarmtechcomHrnarmtech}>
-                    <p className={styles.infonarmtechcom}>info@narmtech.com</p>
-                    <p className={styles.hrnarmtechcom}>hr@narmtech.com</p>
+                <div className="contactUsFrame">
+                  <div className="infonarmtechcomHrnarmtech">
+                    <p className="infonarmtechcom">info@narmtech.com</p>
+                    <p className="hrnarmtechcom">hr@narmtech.com</p>
                   </div>
                 </div>
-                <div className={styles.salesAndServices91Container}>
-                  <p className={styles.salesAndServices}>
+                <div className="salesAndServices91Container">
+                  <p className="salesAndServices">
                     +91 9611291621 - Sales and Services
                   </p>
-                  <p className={styles.hiringQueries918297902227}>
+                  <p className="hiringQueries918297902227">
                     +91 9663901621 - Hiring Queries+91 8297902227 - Whatsapp
                   </p>
                 </div>
               </div>
             </div>
-            <div className={styles.lineSeparator}>
-              <div className={styles.footerCopyright} />
-              <div className={styles.privacyPolicyTerms}>
-                <div className={styles.copyright2023NarmTechParent}>
-                  <div className={styles.copyright2023}>
+            <div className="lineSeparator">
+              <div className="footerCopyright"/>
+              <div className="privacyPolicyTerms">
+                <div className="copyright2023NarmTechParent">
+                  <div className="copyright2023">
                     © Copyright 2024 - Narm Tech
                   </div>
-                  <div className={styles.privacyPolicyParent}>
-                    <div className={styles.privacyPolicy}>Privacy Policy</div>
+                  <div className="privacyPolicyParent">
+                    <div className="privacyPolicy">Privacy Policy</div>
                     <div
-                      className={styles.termsConditions}
+                      className="termsConditions"
                     >{`Terms & Conditions`}</div>
                   </div>
                 </div>
@@ -321,7 +321,7 @@ const Legal = () => {
           </div>
         </div>
       </footer>
-      <img className={styles.backgroundIcon4} alt="" src="Images/legal/background-4.svg" />
+      <img className="backgroundIcon4" alt="" src="Images/legal/background-4.svg" />
     </div>
   );
 };
