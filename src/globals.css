@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --body-regular: Inter;
+  --font-jost: Jost;
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --body-regular-size: 16px;
+  --font-size-6xl: 25px;
+  --font-size-11xl: 30px;
+  --font-size-lg: 18px;
+  --font-size-21xl: 39px;
+  --font-size-xl: 20px;
+  --font-size-31xl: 47px;;
+  --font-size-3xs: 10px;
+  --font-size-6xs: 7px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-blueviolet-100: #815aff;
+  --color-blueviolet-200: rgba(104, 80, 255, 0.2);
+  --color-darkslategray-100: #454545;
+  --color-darkslategray-200: #444;
+  --color-darkslategray-300: #303030;
+  --color-steelblue: #0f5376;
+  --color-yellow: #fff500;
+  --color-gainsboro: #e3e3e3;
+  --color-black: #000;
+  --color-royalblue: #6f82fe;
+  --white-white-stich: #fffffd;
+  --color-gray-100: #fffefe;
+  --color-gray-200: #797979;
+  --color-gray-300: #242331;
+  --color-gray-400: rgba(255, 255, 255, 0.1);
+  --color-tomato-100: #f25822;
+  --color-tomato-200: #fc4e2b;
+  --ff-saas: #5236ff;
+  --color-whitesmoke: #eee;
+  --color-dimgray: #4e4e4e;
+
+  /* --color-lightgray: rgba(204, 204, 204, 0.1); */
+  --color-mediumslateblue: #9d64fd;
+  --color-gray-100: #242331;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(227, 227, 227, 0.5);
+  --color-tomato: #fc4e2b;
+  --color-darkslategray: #444;
+
+  /* Gaps */
+  --gap-12xs: 1px;
+  --gap-8xs: 5px;
+  --gap-3xl: 22px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-33xl: 23px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-40xl: 59px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-20xl: 39px;
+  --br-11xs-7: 1.7px;
+  --br-8xs: 5px;
+  --br-9xs: 4px;
+
+
+  /* New style */
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --body-regular: Inter;
+
+  /* font sizes */
+  /* --font-size-lg: 18px;
+  --body-regular-size: 16px;
+  --font-size-31xl: 50px; */
+
+  /* Colors */
+  
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-33xl: 22px;
+  --padding-2xl: 21px;
+
+  /* Border radiuses */
+  --br-20xl: 39px;
+  --br-xl: 20px;
+  --br-31xl: 50px;
+}
