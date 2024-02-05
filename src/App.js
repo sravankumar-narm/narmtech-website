@@ -1,14 +1,3 @@
-<<<<<<< Updated upstream
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './componnets/Home'
-
-function App() {
-  return (
-    <div className="container-fuild">
-      <Home />
-    </div>
-=======
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home.js";
@@ -33,8 +22,7 @@ const App = () => {
         <Route exact path="/ourteam" element={<Ourteam />} />
       </Routes>
     </BrowserRouter>
->>>>>>> Stashed changes
   );
-}
+};
 
 export default App;
