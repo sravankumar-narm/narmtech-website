@@ -1,6 +1,5 @@
-'use client'
+
 import { useCallback } from "react";
-import styles from "./legal.module.css";
 import './legal.css';
 
 const Legal = () => {

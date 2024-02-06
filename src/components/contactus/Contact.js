@@ -147,10 +147,10 @@ function contact() {
             <div className="privacy-policy">Terms & Conditions</div>
           </div>
         </div>
-        <circle className="cricle3"></circle>
+        <circle className="cricle3-dummy"></circle>
      <circle className="cricle4"></circle>
      <circle className="cricle5"></circle>
-          <div class="line-div"></div>
+          <div className="line-div"></div>
         </div>
    
       </div>

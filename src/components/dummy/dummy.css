@@ -50,7 +50,7 @@ body {
     height: 45px;
     object-fit: cover;
   }
-  .cricle{
+  .cricle-dummy{
     position: absolute;
     top: -203px;
     left: 6px;
@@ -80,7 +80,7 @@ flex-shrink: 0;
 border-radius: 554.289px;
 border: 1px solid rgba(227, 227, 227, 0.50);
   }
-  .home {
+  .home-dummy {
     position: relative;
     font-weight: 600;
     white-space: pre-wrap;
@@ -528,7 +528,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
   justify-content: center;
     font-family: var(--font-open-sans);
   }
-  .cricle3{
+  .cricle3-dummy{
     position: absolute;
     top: -52px;
     left: 51px;
@@ -538,7 +538,7 @@ flex-shrink: 0;
 border-radius: 687.357px;
 border: 1px solid rgba(227, 227, 227, 0.50);
   }
-  .cricle4{
+  .cricle4-dummy{
     position: absolute;
     top: 0px;
     left:  789px;

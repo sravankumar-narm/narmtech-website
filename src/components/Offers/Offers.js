@@ -1,19 +1,14 @@
 import React from "react";
-//import Image from "next/image";
-//import Logo from "../..//Images/offers/Logo.png";
 import Logo from "../../Images/offers/Logo.png";
 import Logo1 from "../../Images/offers/NYAYAH.png";
 import Logo2 from "../../Images/offers/Adhyayn.png";
 import Logo3 from "../../Images/offers/vyayah1.png";
-//import Logo4 from "../../Images/offers/vyayah.png";
 import Logo4 from "../../Images/offers/Vyayah.png";
 import Logo5 from "../../Images/offers/Quizifai.png";
 import Logo6 from "../../Images/offers/Background1.png";
 import Logo7 from "../../Images/offers/Background5.png";
-//import Vector from "../../Images/offers/vector14.png";
 import Vector from "../../Images/offers/Vector14.png";
 import Vector1 from "../../Images/offers/Vector15.png";
-//import Vector1 from "../../Images/offers/vector15.png";
 import contant1 from "../../Images/offers/location.png";
 import contant2 from "../../Images/offers/email.png";
 import contant3 from "../../Images/offers/whatapp.png";
@@ -21,10 +16,8 @@ import contant from "../../Images/offers/Background2.png";
 import F from "../../Images/offers/F.png";
 import X from "../../Images/offers/X.png";
 import I from "../../Images/offers/I.png";
-//import a from "next/a";
 import "./offers.css";
-
-const Offers = () => {
+const Home = () => {
   return (
     <div className="offer">
       <div className="menu-button"></div>
@@ -152,7 +145,7 @@ const Offers = () => {
           <img
             className="background-icon4"
             alt=""
-            src=".//background@2x.png"
+            src="./public/background@2x.png"
           />
 
           <b className="text"> </b>
@@ -336,4 +329,4 @@ const Offers = () => {
   );
 };
 
-export default Offers;
+export default Home;

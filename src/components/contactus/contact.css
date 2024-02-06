@@ -49,7 +49,7 @@ body {
     height: 45px;
     object-fit: cover;
   }
-  .cricle{
+  .cricle-contact{
     position: absolute;
     top: -203px;
     left: 6px;
@@ -521,7 +521,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
   justify-content: center;
     font-family: var(--font-open-sans);
   }
-  .cricle3{
+  .cricle3-contact{
     position: absolute;
     top: -52px;
     left: 51px;
@@ -531,7 +531,7 @@ flex-shrink: 0;
 border-radius: 687.357px;
 border: 1px solid rgba(227, 227, 227, 0.50);
   }
-  .cricle4{
+  .cricle4-contact{
     position: absolute;
     top: 0px;
     left:  789px;
@@ -799,7 +799,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         width: 399px;
         height: 6px;
     }
-    .cricle,
+    .cricle-contact,
      .background-icon7{
         display: none;
      }
@@ -1040,7 +1040,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         width: 629px;
         height: 6px;
     }
-    .cricle,
+    .cricle-contact,
     .background-icon1,
     .background-icon ,
      .background-icon7{

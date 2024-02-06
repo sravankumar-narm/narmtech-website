@@ -1,9 +1,5 @@
-"use client";
-
-//import Image from "next/image";
-import './consulting.css';
+// import Logo from "../../Images/consult/logo.png";
 import Logo from "../../Images/consult/logo.png";
-//import backgoundimg2 from "../../Images/consult/back-img-2.png";
 import backgoundimg2 from "../../Images/consult/Back-img-2.png";
 import img2 from "../../Images/consult/img-2.png";
 import backgroundimg1 from "../../Images/consult/Back-img-2.png";
@@ -19,9 +15,8 @@ import fb from "../../Images/consult/fb.png";
 import x from "../../Images/consult/x.png";
 import li from "../../Images/consult/li.png";
 import backgroundimg3 from "../../Images/consult/Back-img-3.png";
-//import Link from "next/link";
 // import button from "../../Images/consult/button.png"
-export default function Home() {
+function Consulting() {
   return (
     <>
       {/* navigation bar */}
@@ -29,7 +24,7 @@ export default function Home() {
         <img className="logo" src={Logo} />
         <ul className="nav-items">
           <li>
-            <a href='/'>Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href=" #">Offerings</a>
@@ -405,3 +400,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Consulting

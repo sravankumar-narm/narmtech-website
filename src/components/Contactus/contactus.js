@@ -35,7 +35,7 @@ function Contactus() {
       </div>
       <div className="menu5">
         <a href="#" className="our-team">Contact us</a>
-        <div class="dropdown-content">
+        <div className="dropdown-content">
             <div>Home</div>
             <div>Offerings</div>
             <div>Consulting</div>
@@ -56,7 +56,7 @@ function Contactus() {
         alt=""
         src={Logo1}
       />
-         <circle className="cricle"></circle>
+         <circle className="cricle-contact"></circle>
      <circle className="cricle1"></circle>
      <circle className="cricle2"></circle>
     </div>
@@ -93,11 +93,11 @@ function Contactus() {
       <div className="rectangle-div"></div>
       <textarea className="your-message" placeholder="Your Message"></textarea>
     </div>
-      <div class="contact-us-inner">
-        <div class="instance-child"></div>
+      <div className="contact-us-inner">
+        <div className="instance-child"></div>
       </div>
-      <b class="send">Send</b>
-      <div class="group-parent">
+      <b className="send">Send</b>
+      <div className="group-parent">
       <div className="fotter"></div>
       <div className="background-group" id="groupContainer15">
         <img className="background-icon7" alt="" src={contant} />
@@ -148,7 +148,7 @@ function Contactus() {
         <circle className="cricle3"></circle>
      <circle className="cricle4"></circle>
      <circle className="cricle5"></circle>
-          <div class="line-div"></div>
+          <div className="line-div"></div>
         </div>
    
       </div>

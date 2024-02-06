@@ -1,34 +1,32 @@
 import React from "react";
-import Image from "next/image";
-import Logo from "../../public/Images/offers/Logo.png";
-import Logo1 from "../../public/Images/offers/NYAYAH.png";
-import Logo2 from "../../public/Images/offers/Adhyayn.png";
-import Logo3 from "../../public/Images/offers/vyayah1.png";
-import Logo4 from "../../public/Images/offers/vyayah.png";
-import Logo5 from "../../public/Images/offers/Quizifai.png";
-import Logo6 from "../../public/Images/offers/Background1.png";
-import Logo7 from "../../public/Images/offers/Background5.png";
-import Vector from "../../public/Images/offers/vector14.png";
-import Vector1 from "../../public/Images/offers/vector15.png";
-import contant1 from "../../public/Images/offers/location.png";
-import contant2 from "../../public/Images/offers/email.png";
-import contant3 from "../../public/Images/offers/whatapp.png";
-import contant from "../../public/Images/offers/Background2.png";
-import F from "../../public/Images/offers/F.png";
-import X from "../../public/Images/offers/X.png";
-import I from "../../public/Images/offers/I.png";
-import Link from "next/link";
+import Logo from "../../Images/offers/Logo.png";
+import Logo1 from "../../Images/offers/NYAYAH.png";
+import Logo2 from "../../Images/offers/Adhyayn.png";
+import Logo3 from "../../Images/offers/vyayah1.png";
+import Logo4 from "../../Images/offers/Vyayah.png";
+import Logo5 from "../../Images/offers/Quizifai.png";
+import Logo6 from "../../Images/offers/Background1.png";
+import Logo7 from "../../Images/offers/Background5.png";
+import Vector from "../../Images/offers/Vector14.png";
+import Vector1 from "../../Images/offers/Vector15.png";
+import contant1 from "../../Images/offers/location.png";
+import contant2 from "../../Images/offers/email.png";
+import contant3 from "../../Images/offers/whatapp.png";
+import contant from "../../Images/offers/Background2.png";
+import F from "../../Images/offers/F.png";
+import X from "../../Images/offers/X.png";
+import I from "../../Images/offers/I.png";
 import "./offers.css";
 const Home = () => {
   return (
     <div className="offer">
       <div className="menu-button"></div>
       {/* <img className="narm-tech-logo-1" src={Logo} alt="NARMTECH" /> */}
-      <Image className="narm-tech-logo-1" src={Logo} />
+      <img className="narm-tech-logo-1" src={Logo} />
 
-      <Image className="offer-child" alt="" src={Vector} />
+      <img className="offer-child" alt="" src={Vector} />
 
-      <Image className="offer-item" alt="" src={Vector1} />
+      <img className="offer-item" alt="" src={Vector1} />
 
       <div className="background"></div>
       <div className="leveraging-ai-and-container">
@@ -57,7 +55,7 @@ const Home = () => {
           <li>Intelligent Forecasting and Alerts</li>
         </ul>
       </div>
-      <Image className="background-icon" alt="" src={Logo6} />
+      <img className="background-icon" alt="" src={Logo6} />
       <div className="pattern"></div>
       <div className="pattern1"></div>
       <div className="background-icon2"></div>
@@ -101,7 +99,7 @@ const Home = () => {
             </ul>
           </div>
         </div>
-        <Image className="background-icon1" alt="" src={Logo6} />
+        <img className="background-icon1" alt="" src={Logo6} />
       </div>
       <div className="background-Agriculture"></div>
       <div className="group-parent">
@@ -142,7 +140,7 @@ const Home = () => {
               </li>
             </ul>
           </div>
-          <Image className="background-icon3" alt="" src={Logo7} />
+          <img className="background-icon3" alt="" src={Logo7} />
 
           <img
             className="background-icon4"
@@ -153,7 +151,7 @@ const Home = () => {
           <b className="text"> </b>
         </div>
       </div>
-      <Image className="background-icon5" alt="" src={Logo7} />
+      <img className="background-icon5" alt="" src={Logo7} />
 
       <div className="background-Education"></div>
       <div className="education-parent">
@@ -213,7 +211,7 @@ const Home = () => {
         More Details
       </b>
       <div className="image-parent">
-        <Image className="image-icon" alt="" src={Logo2} />
+        <img className="image-icon" alt="" src={Logo2} />
 
         <div className="rectangle-parent">
           <div className="group-child"></div>
@@ -223,7 +221,7 @@ const Home = () => {
         </div>
       </div>
       <div className="image-group">
-        <Image className="image-icon1" alt="" src={Logo3} />
+        <img className="image-icon1" alt="" src={Logo3} />
 
         <div className="rectangle-group">
           <div className="group-child2"></div>
@@ -233,7 +231,7 @@ const Home = () => {
         </div>
       </div>
       <div className="image-container">
-        <Image className="image-icon2" alt="" src={Logo1} />
+        <img className="image-icon2" alt="" src={Logo1} />
 
         <div className="rectangle-container">
           <div className="group-child2"></div>
@@ -243,7 +241,7 @@ const Home = () => {
         </div>
       </div>
       <div className="group-div">
-        <Image className="image-icon1" alt="" src={Logo4} />
+        <img className="image-icon1" alt="" src={Logo4} />
 
         <div className="rectangle-group">
           <div className="group-child2"></div>
@@ -254,22 +252,22 @@ const Home = () => {
       </div>
       <div className="fotter"></div>
       <div className="background-group" id="groupContainer15">
-        <Image className="background-icon7" alt="" src={contant} />
+        <img className="background-icon7" alt="" src={contant} />
         <div className="contact-us-parent">
           <div className="contact-us">Contact Us</div>
           <div className="group-container">
-            <Image className="group-icon" alt="" src={contant3} />
+            <img className="group-icon" alt="" src={contant3} />
 
-            <Image className="layer-1-icon" alt="" src={contant2} />
+            <img className="layer-1-icon" alt="" src={contant2} />
 
-            <Image className="isolation-mode-icon" alt="" src={contant1} />
+            <img className="isolation-mode-icon" alt="" src={contant1} />
 
             <div className="frame-parent">
-              <Image className="frame-icon" alt="" src={F} />
+              <img className="frame-icon" alt="" src={F} />
 
-              <Image className="frame-icon" alt="" src={X} />
+              <img className="frame-icon" alt="" src={X} />
 
-              <Image className="frame-icon" alt="" src={I} />
+              <img className="frame-icon" alt="" src={I} />
             </div>
             <div className="rd-main-virgo-container">
               <p className="leveraging-ai-and">
@@ -304,24 +302,24 @@ const Home = () => {
 
       <div className="menu-button"></div>
       <div className="menu">
-        <Link href="/">Home</Link>
+        <a href="/">Home</a>
       </div>
       <div className="menu1">
-        <Link href="/offers">Offerings</Link>
+        <a href="/offers">Offerings</a>
       </div>
       <div className="menu2">
-        <Link href="/consulting">Consulting</Link>
+        <a href="/consulting">Consulting</a>
       </div>
       <div className="menu3">
-        <Link href="/aboutus">About us</Link>
+        <a href="/aboutus">About us</a>
       </div>
       <div className="menu4">
-        <Link href="/ourteam">Our Team</Link>
+        <a href="/ourteam">Our Team</a>
       </div>
       <div className="menu5">
-        <Link href="/contactus">Contact us</Link>
+        <a href="/contactus">Contact us</a>
       </div>
-      <Image
+      <img
         className="quizifai-tag-v2-1-icon"
         alt=""
         src={Logo5}

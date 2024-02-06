@@ -1,7 +1,7 @@
-"use client"
+"use client";
 import React, { useCallback, useState } from "react";
 import styles from "./agri.module.css";
-import './agri.css';
+import "./agri.css";
 
 const Legal = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -49,9 +49,7 @@ const Legal = () => {
 
   return (
     <div className="legal">
-      <header
-        className={`legalInner ${isMenuOpen ? menuOpen : ""}`}
-      >
+      <header className={`legalInner ${isMenuOpen ? menuOpen : ""}`}>
         <div className="narmLogoParent">
           <div className="narmLogo">
             <img
@@ -62,9 +60,7 @@ const Legal = () => {
             />
           </div>
           <div
-            className={`mobileMenuButton ${
-              isMenuOpen ? open : ""
-            }`}
+            className={`mobileMenuButton ${isMenuOpen ? open : ""}`}
             onClick={toggleMenu}
           >
             ☰
@@ -131,8 +127,6 @@ const Legal = () => {
                     alt=""
                     src="Images/agri/Vyavasayah1.png"
                   />
-                  
-                  
                 </div>
               </div>
             </div>
@@ -141,29 +135,37 @@ const Legal = () => {
                 <h1 className="legal1">Agriculture</h1>
                 <div className="thisPowerfulSolutionContainer">
                   <p className="thisPowerfulSolution">
-                  AI-powered Agriculture Life Cycle Operations Management Application empowers farmers. 
-                  This AI-powered application offers a comprehensive suite of tools and functionalities to manage the 
-                  entire agriculture life cycle. It covers activities such as crop planning, planting, irrigation, 
-                  fertilization, pest control, harvesting, and post-harvest management. , facilitates optimal farmer-market
-                   connections, and maximizes profitability in the agricultural industry.
+                    AI-powered Agriculture Life Cycle Operations Management
+                    Application empowers farmers. This AI-powered application
+                    offers a comprehensive suite of tools and functionalities to
+                    manage the entire agriculture life cycle. It covers
+                    activities such as crop planning, planting, irrigation,
+                    fertilization, pest control, harvesting, and post-harvest
+                    management. , facilitates optimal farmer-market connections,
+                    and maximizes profitability in the agricultural industry.
                   </p>
-                  
+
                   <ul className="intelligentDocumentsVerifica">
-                    <li
-                      className="intelligentDocumentsVerifica1"
-                    >{`
+                    <li className="intelligentDocumentsVerifica1">{`
                     Recommendations on Crop Selection and Optimized Utilization of resources such as land, water, fertilizers, and labor.
                     `}</li>
                     <li className="generatingFormsAnd">
-                    Facilitates seamless connections between farmers and agriculture markets.
+                      Facilitates seamless connections between farmers and
+                      agriculture markets.
                     </li>
                     <li className="lifecycleManagementOf">
-                    Informed decisions about market demand and supply.
+                      Informed decisions about market demand and supply.
                     </li>
                     <li className="recommendationsWithRespect">
-                    Facilitates seamless connections between farmers and agriculture markets, ensuring direct access to potential buyers, distributors, and retailers.
+                      Facilitates seamless connections between farmers and
+                      agriculture markets, ensuring direct access to potential
+                      buyers, distributors, and retailers.
                     </li>
-                    <li>Enables farmers to showcase their products, negotiate prices, and make informed decisions about market demand and supply.</li>
+                    <li>
+                      Enables farmers to showcase their products, negotiate
+                      prices, and make informed decisions about market demand
+                      and supply.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -177,13 +179,16 @@ const Legal = () => {
                   <h2 className="legal2">Agriculture</h2>
                   <div className="thisPowerfulSolutionContainer1">
                     <p className="thisPowerfulSolution1">
-                    AI-powered Agriculture Life Cycle Operations Management Application empowers farmers. 
-                    This AI-powered application offers a comprehensive suite of tools and functionalities to manage 
-                    the entire agriculture life cycle. It covers activities such as crop planning, planting, irrigation, 
-                    fertilization, pest control, harvesting, and post-harvest management. , facilitates
-                     optimal farmer-market connections, and maximizes profitability in the agricultural industry.
+                      AI-powered Agriculture Life Cycle Operations Management
+                      Application empowers farmers. This AI-powered application
+                      offers a comprehensive suite of tools and functionalities
+                      to manage the entire agriculture life cycle. It covers
+                      activities such as crop planning, planting, irrigation,
+                      fertilization, pest control, harvesting, and post-harvest
+                      management. , facilitates optimal farmer-market
+                      connections, and maximizes profitability in the
+                      agricultural industry.
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -191,7 +196,11 @@ const Legal = () => {
           </div>
         </div>
       </section>
-      <img className="backgroundIcon2" alt="" src="Images/agri/background-2.svg" />
+      <img
+        className="backgroundIcon2"
+        alt=""
+        src="Images/agri/background-2.svg"
+      />
       <section className="legalChild">
         <div className="frameGroup">
           <div className="frameWrapper1">
@@ -199,13 +208,15 @@ const Legal = () => {
               <h2 className="legal3">Agriculture</h2>
               <div className="thisPowerfulSolutionContainer2">
                 <p className="thisPowerfulSolution2">
-                AI-powered Agriculture Life Cycle Operations Management Application empowers farmers. 
-                    This AI-powered application offers a comprehensive suite of tools and functionalities to manage 
-                    the entire agriculture life cycle. It covers activities such as crop planning, planting, irrigation, 
-                    fertilization, pest control, harvesting, and post-harvest management. , facilitates
-                     optimal farmer-market connections, and maximizes profitability in the agricultural industry.
+                  AI-powered Agriculture Life Cycle Operations Management
+                  Application empowers farmers. This AI-powered application
+                  offers a comprehensive suite of tools and functionalities to
+                  manage the entire agriculture life cycle. It covers activities
+                  such as crop planning, planting, irrigation, fertilization,
+                  pest control, harvesting, and post-harvest management. ,
+                  facilitates optimal farmer-market connections, and maximizes
+                  profitability in the agricultural industry.
                 </p>
-              
               </div>
             </div>
           </div>
@@ -219,13 +230,15 @@ const Legal = () => {
             <h2 className="legal4">Agriculture</h2>
             <div className="thisPowerfulSolutionContainer3">
               <p className="thisPowerfulSolution3">
-              AI-powered Agriculture Life Cycle Operations Management Application empowers farmers. 
-                    This AI-powered application offers a comprehensive suite of tools and functionalities to manage 
-                    the entire agriculture life cycle. It covers activities such as crop planning, planting, irrigation, 
-                    fertilization, pest control, harvesting, and post-harvest management. , facilitates
-                     optimal farmer-market connections, and maximizes profitability in the agricultural industry.
+                AI-powered Agriculture Life Cycle Operations Management
+                Application empowers farmers. This AI-powered application offers
+                a comprehensive suite of tools and functionalities to manage the
+                entire agriculture life cycle. It covers activities such as crop
+                planning, planting, irrigation, fertilization, pest control,
+                harvesting, and post-harvest management. , facilitates optimal
+                farmer-market connections, and maximizes profitability in the
+                agricultural industry.
               </p>
-            
             </div>
           </div>
         </div>
@@ -236,13 +249,15 @@ const Legal = () => {
             <h2 className="legal5">Agriculture</h2>
             <div className="thisPowerfulSolutionContainer4">
               <p className="thisPowerfulSolution4">
-              AI-powered Agriculture Life Cycle Operations Management Application empowers farmers. 
-                    This AI-powered application offers a comprehensive suite of tools and functionalities to manage 
-                    the entire agriculture life cycle. It covers activities such as crop planning, planting, irrigation, 
-                    fertilization, pest control, harvesting, and post-harvest management. , facilitates
-                     optimal farmer-market connections, and maximizes profitability in the agricultural industry.
+                AI-powered Agriculture Life Cycle Operations Management
+                Application empowers farmers. This AI-powered application offers
+                a comprehensive suite of tools and functionalities to manage the
+                entire agriculture life cycle. It covers activities such as crop
+                planning, planting, irrigation, fertilization, pest control,
+                harvesting, and post-harvest management. , facilitates optimal
+                farmer-market connections, and maximizes profitability in the
+                agricultural industry.
               </p>
-  
             </div>
           </div>
           <div className="instanceFrame" />
@@ -259,10 +274,7 @@ const Legal = () => {
         </div>
       </div>
       <footer className="contactInfoGroup">
-        <div
-          className="postDetailsFrameParent"
-          onClick={onGroupContainerClick}
-        >
+        <div className="postDetailsFrameParent" onClick={onGroupContainerClick}>
           <div className="postDetailsFrame">
             <h1 className="contactUs1">Contact Us</h1>
           </div>
@@ -313,9 +325,7 @@ const Legal = () => {
             <div className="postInfo">
               <div className="policyTitleFrame">
                 <div className="rdMainVirgoContainer">
-                  <p
-                    className="rdMainVirgo"
-                  >{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
+                  <p className="rdMainVirgo">{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
                   <p className="seegehalliBengaluruKarnata">
                     Seegehalli, Bengaluru, Karnataka 560049
                   </p>
@@ -345,9 +355,7 @@ const Legal = () => {
                   </div>
                   <div className="privacyPolicyParent">
                     <div className="privacyPolicy">Privacy Policy</div>
-                    <div
-                      className="termsConditions"
-                    >{`Terms & Conditions`}</div>
+                    <div className="termsConditions">{`Terms & Conditions`}</div>
                   </div>
                 </div>
               </div>
@@ -355,7 +363,11 @@ const Legal = () => {
           </div>
         </div>
       </footer>
-      <img className="backgroundIcon4" alt="" src="Images/agri/background-4.svg" />
+      <img
+        className="backgroundIcon4"
+        alt=""
+        src="Images/agri/background-4.svg"
+      />
     </div>
   );
 };

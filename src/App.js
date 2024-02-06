@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home/Home.js";
 import Offers from "./components/Offers/Offers.js"
-import Consulting from "./components/Consulting/consulting.jsx";
+import Consulting from "./components/Consulting/Consulting.jsx";
 import Contactus from "./components/Contactus/contactus.js";
-import Dummy from "./components/Dummy/dummy.js";
+import Dummy from "./components/Dummy/Dummy.js";
 import Legal from "./components/Legal/Legal.js";
 import Ourteam from "./components/Ourteam/Ourteam.js";
 

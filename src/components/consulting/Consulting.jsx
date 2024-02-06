@@ -1,34 +1,30 @@
-"use client";
-
-import Image from "next/image";
-import "./globals.css";
-import Logo from "../../public/Images/consult/logo.png";
-import backgoundimg2 from "../../public/Images/consult/back-img-2.png";
-import img2 from "../../public/Images/consult/img-2.png";
-import backgroundimg1 from "../../public/Images/consult/Back-img-2.png";
-import img1 from "../../public/Images/consult/img-1.png";
-import img3 from "../../public/Images/consult/img-3.png";
-import vector15 from "../../public/Images/consult/Vector 15.png";
-import vector14 from "../../public/Images/consult/Vector 14.png";
-import robot from "../../public/Images/consult/robot.png";
-import wtsapp from "../../public/Images/consult/wtsapp.png";
-import mail from "../../public/Images/consult/mail.png";
-import location from "../../public/Images/consult/location.png";
-import fb from "../../public/Images/consult/fb.png";
-import x from "../../public/Images/consult/x.png";
-import li from "../../public/Images/consult/li.png";
-import backgroundimg3 from "../../public/Images/consult/Back-img-3.png";
-import Link from "next/link";
-// import button from "../../public/Images/consult/button.png"
-export default function Home() {
+// import Logo from "../../Images/consult/logo.png";
+import Logo from "../../Images/consult/logo.png";
+import backgoundimg2 from "../../Images/consult/Back-img-2.png";
+import img2 from "../../Images/consult/img-2.png";
+import backgroundimg1 from "../../Images/consult/Back-img-2.png";
+import img1 from "../../Images/consult/img-1.png";
+import img3 from "../../Images/consult/img-3.png";
+import vector15 from "../../Images/consult/Vector 15.png";
+import vector14 from "../../Images/consult/Vector 14.png";
+import robot from "../../Images/consult/robot.png";
+import wtsapp from "../../Images/consult/wtsapp.png";
+import mail from "../../Images/consult/mail.png";
+import location from "../../Images/consult/location.png";
+import fb from "../../Images/consult/fb.png";
+import x from "../../Images/consult/x.png";
+import li from "../../Images/consult/li.png";
+import backgroundimg3 from "../../Images/consult/Back-img-3.png";
+// import button from "../../Images/consult/button.png"
+function Consulting() {
   return (
     <>
       {/* navigation bar */}
       <div className="nav">
-        <Image className="logo" src={Logo} />
+        <img className="logo" src={Logo} />
         <ul className="nav-items">
           <li>
-            <Link href="/">Home</Link>
+            <a href="/">Home</a>
           </li>
           <li>
             <a href=" #">Offerings</a>
@@ -51,8 +47,8 @@ export default function Home() {
       {/* DATA-ANALYTICS */}
 
       <div className="data-analytics-1">
-        <Image className="back-img-1" src={backgroundimg1} />
-        <Image className="inner-box-1" src={img1} />
+        <img className="back-img-1" src={backgroundimg1} />
+        <img className="inner-box-1" src={img1} />
       </div>
       <div className="data-analytics-2">
         <h1>Data-Analytics</h1>
@@ -130,7 +126,7 @@ export default function Home() {
             implementing data platforms, along with <br />
             conducting Proof of Concepts.
           </p>
-          <Image className="robot" src={robot} />
+          <img className="robot" src={robot} />
         </span>
         {/* sub-box-4 */}
         <span className="analytics-sub-box4">
@@ -180,7 +176,7 @@ export default function Home() {
             <br /> methodologies for business insights.
           </p>
         </span>
-        <Image className="vector-1" src={vector15} />
+        <img className="vector-1" src={vector15} />
       </div>
       {/* DATA-TRANSFORMATION */}
 
@@ -261,12 +257,12 @@ export default function Home() {
         </span>
       </div>
       <div className="data-transformation-2">
-        <Image className="back-img-2" src={backgoundimg2} />
-        <Image className="inner-box-2" src={img2} />
+        <img className="back-img-2" src={backgoundimg2} />
+        <img className="inner-box-2" src={img2} />
       </div>
       <div className="data-engineering-1">
-        <Image className="back-img-3" src={backgoundimg2} />
-        <Image className="inner-box-3" src={img3} />
+        <img className="back-img-3" src={backgoundimg2} />
+        <img className="inner-box-3" src={img3} />
       </div>
 
       <div className="data-engineering-2">
@@ -346,35 +342,35 @@ export default function Home() {
           </p>
         </span>
       </div>
-      <Image className="vector-2" src={vector14} />
+      <img className="vector-2" src={vector14} />
       {/* FOOTER-PART */}
       <div className="footer">
-        <Image className="back-img-4" src={backgroundimg3} />
+        <img className="back-img-4" src={backgroundimg3} />
         <h1>Contact Us</h1>
 
         {/* icon-1 */}
-        <Image className="location-icon" src={location} />
+        <img className="location-icon" src={location} />
         <p className="para-1">
           #92, 3rd Main, Virgo Nagar, Post,
           <br />
           Seegehalli, Bengaluru, Karnataka 560049
         </p>
 
-        <Image className="fb-icon" src={fb} />
+        <img className="fb-icon" src={fb} />
 
-        <Image className="x-icon" src={x} />
+        <img className="x-icon" src={x} />
 
-        <Image className="linkedin-icon" src={li} />
+        <img className="linkedin-icon" src={li} />
 
         {/* icon-2 */}
-        <Image className="mail-icon" src={mail} />
+        <img className="mail-icon" src={mail} />
         <p className="para-2">
           info@narmtech.com<br></br>
           hr@narmtech.com
         </p>
 
         {/* icon-3 */}
-        <Image className="whatsapp-icon" src={wtsapp} />
+        <img className="whatsapp-icon" src={wtsapp} />
         <p className="para-3">
           +91 9611291621 - Sales and Services<br></br>
           +91 9663901621 - Hiring Queries<br></br>
@@ -404,3 +400,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Consulting

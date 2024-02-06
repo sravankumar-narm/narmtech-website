@@ -1,7 +1,7 @@
 "use client";
 import React, { useCallback, useState } from "react";
 import styles from "./Edu.module.css";
-import "./Edu.css";
+import "./edu.css";
 
 const Legal = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);

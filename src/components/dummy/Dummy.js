@@ -1,26 +1,24 @@
 import React from "react";
 import "./dummy.css";
-import Image from "next/image";
-import "./globals.css";
-import Logo from "../../public/Images/dummy/Logo.png";
-import Logo1 from "../../public/Images/dummy/Background9.png";
-import Logo2 from "../../public/Images/dummy/Background12.png";
-import contant1 from "../../public/Images/dummy/location.png";
-import contant2 from "../../public/Images/dummy/email.png";
-import contant3 from "../../public/Images/dummy/whatapp.png";
-import contant from "../../public/Images/dummy/Background2.png";
-import F from "../../public/Images/dummy/F.png";
-import X from "../../public/Images/dummy/X.png";
-import I from "../../public/Images/dummy/I.png";
+import Logo from "../../Images/dummy/Logo.png";
+import Logo1 from "../../Images/dummy/Background9.png";
+import Logo2 from "../../Images/dummy/Background12.png";
+import contant1 from "../../Images/dummy/location.png";
+import contant2 from "../../Images/dummy/email.png";
+import contant3 from "../../Images/dummy/whatapp.png";
+import contant from "../../Images/dummy/Background2.png";
+import F from "../../Images/dummy/F.png";
+import X from "../../Images/dummy/X.png";
+import I from "../../Images/dummy/I.png";
 
-function contact() {
+function Dummy() {
   return (
     <div className="contact-us">
     <div className="menu-button"></div>
-    <Image className="narm-tech-logo-1" src={Logo} />
+    <img className="narm-tech-logo-1" src={Logo} />
 
     <div className="menu">
-        <a href="#" className="home">Home</a>
+        <a href="#" className="home-dummy">Home</a>
       </div>
       <div className="menu1">
         <a href="#" className="offerings">Offerings</a>
@@ -36,7 +34,7 @@ function contact() {
       </div>
       <div className="menu5">
         <a href="#" className="our-team">Contact us</a>
-        <div class="dropdown-content">
+        <div className="dropdown-content">
             <div>Home</div>
             <div>Offerings</div>
             <div>Consulting</div>
@@ -46,18 +44,18 @@ function contact() {
            </div>
     </div>
     <div className="background-parent">
-      <Image
+      <img
         className="background-icon"
         alt=""
         src={Logo2}
       />
 
-      <Image
+      <img
         className="background-icon1"
         alt=""
         src={Logo1}
       />
-          <circle className="cricle"></circle>
+          <circle className="cricle-dummy"></circle>
      <circle className="cricle1"></circle>
      <circle className="cricle2"></circle>
     </div>
@@ -82,29 +80,29 @@ function contact() {
       <div className="rectangle-div"></div>
       <textarea className="your-message" placeholder="Your Message"></textarea>
     </div>
-      <div class="contact-us-inner">
-        <div class="instance-child"></div>
+      <div className="contact-us-inner">
+        <div className="instance-child"></div>
       </div>
-      <b class="send">Send</b>
-      <div class="group-parent">
+      <b className="send">Send</b>
+      <div className="group-parent">
       <div className="fotter"></div>
       <div className="background-group" id="groupContainer15">
-        <Image className="background-icon7" alt="" src={contant} />
+        <img className="background-icon7" alt="" src={contant} />
         <div className="contact-us-parent">
           <div className="contact-us2">Contact Us</div>
           <div className="group-container">
-            <Image className="group-icon" alt="" src={contant3} />
+            <img className="group-icon" alt="" src={contant3} />
 
-            <Image className="layer-1-icon" alt="" src={contant2} />
+            <img className="layer-1-icon" alt="" src={contant2} />
 
-            <Image className="isolation-mode-icon" alt="" src={contant1} />
+            <img className="isolation-mode-icon" alt="" src={contant1} />
 
             <div className="frame-parent">
-              <Image className="frame-icon" alt="" src={F} />
+              <img className="frame-icon" alt="" src={F} />
 
-              <Image className="frame-icon" alt="" src={X} />
+              <img className="frame-icon" alt="" src={X} />
 
-              <Image className="frame-icon" alt="" src={I} />
+              <img className="frame-icon" alt="" src={I} />
             </div>
             <div className="rd-main-virgo-container">
               <p className="leveraging-ai-and">
@@ -134,10 +132,10 @@ function contact() {
             <div className="privacy-policy">Terms & Conditions</div>
           </div>
         </div>
-        <circle className="cricle3"></circle>
-     <circle className="cricle4"></circle>
+        <circle className="cricle3-dummy"></circle>
+     <circle className="cricle4-dummy"></circle>
      <circle className="cricle5"></circle>
-          <div class="line-div"></div>
+          <div className="line-div"></div>
         </div>
    
       </div>
@@ -145,4 +143,4 @@ function contact() {
   );
 }
 
-export default contact;
+export default Dummy;
