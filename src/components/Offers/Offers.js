@@ -28,8 +28,8 @@ const Home = () => {
 
       <img className="offer-item" alt="" src={Vector1} />
 
-      <div className="background"></div>
-      <div className="leveraging-ai-and-container">
+      <div className="offer-background"></div>
+      <div className="offer-leveraging-ai-and-container">
         <p className="leveraging-ai-and">
           Leveraging AI and analytics, the product analyzes usage patterns,
           performance metrics, and cost data to provide cost-effective
@@ -55,22 +55,22 @@ const Home = () => {
           <li>Intelligent Forecasting and Alerts</li>
         </ul>
       </div>
-      <img className="background-icon" alt="" src={Logo6} />
+      <img className="offer-background-icon" alt="" src={Logo6} />
       <div className="pattern"></div>
       <div className="pattern1"></div>
-      <div className="background-icon2"></div>
+      <div className="offer-background-icon2"></div>
       <div className="vyayah-logo3-11"></div>
-      <div className="background-icon6"></div>
+      <div className="offer-background-icon6"></div>
       <div className="educationc-crical"></div>
-      <div className="background-icon4"></div>
+      <div className="offer-background-icon4"></div>
       <div className="Agriculture-crical"></div>
 
       <b className="it-infrastructure">IT Infrastructure</b>
-      <div className="background-parent">
-        <div className="background1"></div>
-        <div className="sub-content">
-          <b className="legal">Legal</b>
-          <div className="this-powerful-solution-container">
+      <div className="offer-background-parent">
+        <div className="offer-background1"></div>
+        <div className="offer-sub-content">
+          <b className="offer-legal">Legal</b>
+          <div className="offer-this-powerful-solution-container">
             <p className="leveraging-ai-and">
               This powerful solution revolutionizes the legal landscape by
               empowering legal practitioners and law firms with advanced
@@ -99,14 +99,14 @@ const Home = () => {
             </ul>
           </div>
         </div>
-        <img className="background-icon1" alt="" src={Logo6} />
+        <img className="offer-background-icon1" alt="" src={Logo6} />
       </div>
       <div className="background-Agriculture"></div>
-      <div className="group-parent">
-        <div className="background-wrapper"></div>
-        <div className="ai-powered-agriculture-life-cy-parent">
+      <div className="offer-group-parent">
+        <div className="offer-background-wrapper"></div>
+        <div className="offer-ai-powered-agriculture-life-cy-parent">
           <b className="Agriculture">Agriculture</b>
-          <div className="ai-powered-agriculture-life-container">
+          <div className="offer-ai-powered-agriculture-life-container">
             <p className="leveraging-ai-and">
               AI-powered Agriculture Life Cycle Operations Management
               Application empowers farmers. This AI-powered application offers a
@@ -140,10 +140,10 @@ const Home = () => {
               </li>
             </ul>
           </div>
-          <img className="background-icon3" alt="" src={Logo7} />
+          <img className="offer-background-icon3" alt="" src={Logo7} />
 
           <img
-            className="background-icon4"
+            className="offer-background-icon4"
             alt=""
             src="./public/background@2x.png"
           />
@@ -151,12 +151,12 @@ const Home = () => {
           <b className="text"> </b>
         </div>
       </div>
-      <img className="background-icon5" alt="" src={Logo7} />
+      <img className="offer-background-icon5" alt="" src={Logo7} />
 
       <div className="background-Education"></div>
       <div className="education-parent">
         <b className="education">Education</b>
-        <div className="leveraging-ai-and-container1">
+        <div className="offer-leveraging-ai-and-container1">
           <p className="leveraging-ai-and">
             Leveraging AI and analytics, the product analyzes usage patterns,
             performance metrics, and cost data to provide cost-effective
@@ -189,7 +189,7 @@ const Home = () => {
       <div className="offer-inner">
         <div className="instance-child"></div>
       </div>
-      <div className="rectangle-div">
+      <div className="offer-rectangle-div">
         <div className="instance-child"></div>
       </div>
       <div className="offer-inner1">
@@ -210,66 +210,66 @@ const Home = () => {
       <b className="more-details3" id="moreDetailsText3">
         More Details
       </b>
-      <div className="image-parent">
-        <img className="image-icon" alt="" src={Logo2} />
+      <div className="offer-image-parent">
+        <img className="offer-image-icon" alt="" src={Logo2} />
 
-        <div className="rectangle-parent">
-          <div className="group-child"></div>
-          <div className="group-item"></div>
-          <div className="group-inner"></div>
-          <div className="group-child1"></div>
+        <div className="offer-rectangle-parent">
+          <div className="offer-group-child"></div>
+          <div className="offer-group-item"></div>
+          <div className="offer-group-inner"></div>
+          <div className="offer-group-child1"></div>
         </div>
       </div>
-      <div className="image-group">
-        <img className="image-icon1" alt="" src={Logo3} />
+      <div className="offer-image-group">
+        <img className="offer-image-icon1" alt="" src={Logo3} />
 
-        <div className="rectangle-group">
-          <div className="group-child2"></div>
-          <div className="group-item"></div>
-          <div className="group-inner"></div>
-          <div className="group-child1"></div>
+        <div className="offer-rectangle-group">
+          <div className="offer-group-child2"></div>
+          <div className="offer-group-item"></div>
+          <div className="offer-group-inner"></div>
+          <div className="offer-group-child1"></div>
         </div>
       </div>
-      <div className="image-container">
-        <img className="image-icon2" alt="" src={Logo1} />
+      <div className="offer-image-container">
+        <img className="offer-image-icon2" alt="" src={Logo1} />
 
-        <div className="rectangle-container">
-          <div className="group-child2"></div>
-          <div className="group-item"></div>
-          <div className="group-inner"></div>
-          <div className="group-child1"></div>
+        <div className="offer-rectangle-container">
+          <div className="offer-group-child2"></div>
+          <div className="offer-group-item"></div>
+          <div className="offer-group-inner"></div>
+          <div className="offer-group-child1"></div>
         </div>
       </div>
-      <div className="group-div">
-        <img className="image-icon1" alt="" src={Logo4} />
+      <div className="offer-group-div">
+        <img className="offer-image-icon1" alt="" src={Logo4} />
 
-        <div className="rectangle-group">
-          <div className="group-child2"></div>
-          <div className="group-item"></div>
-          <div className="group-inner"></div>
-          <div className="group-child1"></div>
+        <div className="offer-rectangle-group">
+          <div className="offer-group-child2"></div>
+          <div className="offer-group-item"></div>
+          <div className="offer-group-inner"></div>
+          <div className="offer-group-child1"></div>
         </div>
       </div>
-      <div className="fotter"></div>
-      <div className="background-group" id="groupContainer15">
-        <img className="background-icon7" alt="" src={contant} />
-        <div className="contact-us-parent">
-          <div className="contact-us">Contact Us</div>
-          <div className="group-container">
-            <img className="group-icon" alt="" src={contant3} />
+      <div className="offer-fotter"></div>
+      <div className="offer-background-group" id="groupContainer15">
+        <img className="offer-background-icon7" alt="" src={contant} />
+        <div className="offer-contact-us-parent">
+          <div className="offer-contact-us">Contact Us</div>
+          <div className="offer-group-container">
+            <img className="offer-group-icon" alt="" src={contant3} />
 
-            <img className="layer-1-icon" alt="" src={contant2} />
+            <img className="offer-layer-1-icon" alt="" src={contant2} />
 
-            <img className="isolation-mode-icon" alt="" src={contant1} />
+            <img className="offer-isolation-mode-icon" alt="" src={contant1} />
 
-            <div className="frame-parent">
-              <img className="frame-icon" alt="" src={F} />
+            <div className="offer-frame-parent">
+              <img className="offer-frame-icon" alt="" src={F} />
 
-              <img className="frame-icon" alt="" src={X} />
+              <img className="offer-frame-icon" alt="" src={X} />
 
-              <img className="frame-icon" alt="" src={I} />
+              <img className="offer-frame-icon" alt="" src={I} />
             </div>
-            <div className="rd-main-virgo-container">
+            <div className="offer-rd-main-virgo-container">
               <p className="leveraging-ai-and">
                 #92, 3rd Main, Virgo Nagar, Post,
               </p>
@@ -277,11 +277,11 @@ const Home = () => {
                 Seegehalli, Bengaluru, Karnataka 560049
               </p>
             </div>
-            <div className="infonarmtechcom-hrnarmtech">
+            <div className="offer-infonarmtechcom-hrnarmtech">
               <p className="leveraging-ai-and">info@narmtech.com</p>
               <p className="leveraging-ai-and">hr@narmtech.com</p>
             </div>
-            <div className="sales-and-services-91-container">
+            <div className="offer-sales-and-services-91-container">
               <p className="leveraging-ai-and">
                 +91 9611291621 - Sales and Services
               </p>
@@ -291,13 +291,13 @@ const Home = () => {
               <p className="leveraging-ai-and">+91 8297902227 - Whatsapp</p>
             </div>
           </div>
-          <div className="copyright-2023-">© Copyright 2023 - Narm Tech</div>
-          <div className="privacy-policy-parent">
-            <div className="privacy-policy">Privacy Policy</div>
-            <div className="privacy-policy">Terms & Conditions</div>
+          <div className="offer-copyright-2023-">© Copyright 2023 - Narm Tech</div>
+          <div className="offer-privacy-policy-parent">
+            <div className="offer-privacy-policy">Privacy Policy</div>
+            <div className="offer-privacy-policy">Terms & Conditions</div>
           </div>
         </div>
-        <div className="line-div"></div>
+        <div className="offer-line-div"></div>
       </div>
 
       <div className="menu-button"></div>

@@ -6,32 +6,32 @@ body {
 }
 :root {
   /* fonts */
-  --body-regular: Inter;
-  --font-open-sans: "Open Sans";
+   --contact-body-regular: Inter;
+   --contact-font-open-sans: "Open Sans";
 
   /* font sizes */
-  --body-regular-size: 16px;
-  --font-size-21xl: 40px;
-  --font-size-xl: 20px;
-  --font-size-lg: 18px;
+   --contact-body-regular-size: 16px;
+   --contact-font-size-21xl: 40px;
+   --contact-font-size-xl: 20px;
+   --contact-font-size-lg: 18px;
 
   /* Colors */
-  --color-white: #fff;
-  --white-white-stich: #fffffd;
-  --color-gray-100: rgba(255, 255, 255, 0.8);
-  --color-tomato: #fc4e2b;
-  --color-gainsboro: #d9d9d9;
-  --color-lightgray: rgba(204, 204, 204, 0.1);
-  --color-steelblue: #005886;
+   --contact-color-white: #fff;
+   --contact-white-white-stich: #fffffd;
+   --contact-color-gray-100: rgba(255, 255, 255, 0.8);
+   --contact-color-tomato: #fc4e2b;
+   --contact-color-gainsboro: #d9d9d9;
+   --contact-color-lightgray: rgba(204, 204, 204, 0.1);
+   --contact-color-steelblue: #005886;
 
   /* Paddings */
-  --padding-5xl: 24px;
-  --padding-33xl:  22px;
+  --contact-padding-5xl: 24px;
+  --contact-padding-33xl:  22px;
 
   /* Border radiuses */
-  --br-xl: 20px;
-  --br-11xl: 30px;
-  --br-20xl: 39px;
+   --contact-br-xl: 20px;
+   --contact-br-11xl: 30px;
+   --contact-br-20xl: 39px;
 }
  /* Main-css-code */
 
@@ -79,42 +79,42 @@ flex-shrink: 0;
 border-radius: 554.289px;
 border: 1px solid rgba(227, 227, 227, 0.50);
   }
-  .home {
+  .contact-home {
     position: relative;
     font-weight: 600;
     white-space: pre-wrap;
   }
-  .menu {
+  .c-menu {
     position: absolute;
     top: 35px;
     left: 552px;
-    border-radius: var(--br-20xl);
-    background-color: var(--color-lightgray);
+    border-radius: var( --contact-br-20xl);
+    background-color: var( --contact-color-lightgray);
     width: 116px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: var(--padding-5xl) var(--padding-33xl);
+    padding: var( --contact-padding-5xl) var( --contact-padding-33xl);
     box-sizing: border-box;
     cursor: pointer;
   }
-  .offerings {
+  .contact-offerings {
     position: relative;
     font-weight: 500;
   }
-  .menu1 {
+  .c-menu1 {
     position: absolute;
     top: 35px;
     left: 688px;
-    border-radius: var(--br-20xl);
-    background-color: var(--color-lightgray);
+    border-radius: var( --contact-br-20xl);
+    background-color: var( --contact-color-lightgray);
     width: 133px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: var(--padding-5xl) var(--padding-33xl);
+    padding: var(--contact-padding-5xl) var(--contact-padding-33xl);
     box-sizing: border-box;
     cursor: pointer;
   }
@@ -123,61 +123,61 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     font-weight: 500;
     white-space: pre-wrap;
   }
-  .menu2,
-  .menu3 {
+  .c-menu2,
+  .c-menu3 {
     position: absolute;
     top: 35px;
     left: 841px;
-    border-radius: var(--br-20xl);
-    background-color: var(--color-lightgray);
+    border-radius: var( --contact-br-20xl);
+    background-color: var( --contact-color-lightgray);
     width: 145px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: var(--padding-5xl) var(--padding-33xl);
+    padding: var( --contact-padding-5xl) var( --contact-padding-33xl);
     box-sizing: border-box;
     cursor: pointer;
   }
-  .menu3 {
+  .c-menu3 {
     left: 1006px;
     width: 130px;
   }
-  .our-team {
+  .contact-our-team {
     position: relative;
     font-weight: 600;
   }
-  .menu4 {
+  .c-menu4 {
     position: absolute;
     top: 35px;
     left: 1156px;
-    border-radius: var(--br-20xl);
-    background-color: var(--color-lightgray);
+    border-radius: var( --contact-br-20xl);
+    background-color: var( --contact-color-lightgray);
     width: 131px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: var(--padding-5xl) var(--padding-33xl);
+    padding: var( --contact-padding-5xl) var( --contact-padding-33xl);
     box-sizing: border-box;
     cursor: pointer;
   }
   .contact-us1 {
     position: relative;
   }
-  .menu5 {
+  .c-menu5 {
     position: absolute;
     top: 35px;
     left: 1307px;
-    border-radius: var(--br-20xl);
+    border-radius: var( --contact-br-20xl);
     font-weight: 600;
-    background-color: var(--color-lightgray);
+    background-color: var( --contact-color-lightgray);
     width: 145px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: var(--padding-5xl) var(--padding-33xl);
+    padding: var(--contact-padding-5xl) var(--contact-padding-33xl);
     box-sizing: border-box;
   }
   .background-icon {
@@ -192,20 +192,20 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     position: absolute;
     top: 171px;
     left: 159px;
-    border-radius: var(--br-11xl);
+    border-radius: var( --contact-br-11xl);
     width: 571.71px;
     height: 575.62px;
     object-fit: cover;
   }
   .background-parent,
-  .get-in-touch {
+  .contact-get-in-touch {
     position: absolute;
     top: 203px;
     left: -11px;
     width: 730.71px;
     height: 916px;
   }
-  .get-in-touch {
+  .contact-get-in-touch {
     top: 0;
     left: 0;
     line-height: 133.2%;
@@ -215,13 +215,13 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     width: 589px;
     height: 61px;
   }
-  .get-in-touch-with-us-wrapper {
+  .contact-get-in-touch-with-us-wrapper {
     position: absolute;
-    top: 289px;
+    top: 298px;
     left: 815px;
     width: 589px;
     height: 61px;
-    font-size: var(--font-size-21xl);
+    font-size: var( --contact-font-size-21xl);
     color: #0b3a55;
   }
   .if-you-have-a-question-or-any {
@@ -231,7 +231,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     position: absolute;
     top: 364px;
     left: 815px;
-    font-size: var(--font-size-xl);
+    font-size: var( --contact-font-size-xl);
     line-height: 160%;
     font-weight: 500;
     color: #4e4e4e;
@@ -243,7 +243,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     position: absolute;
     top: 455px;
     left: 819px;
-    border-radius: var(--br-11xl);
+    border-radius: var( --contact-br-11xl);
     background-color: #f1f1f1;
     width: 543px;
     height: 479px;
@@ -257,8 +257,8 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     text-transform: capitalize;
     font-weight: 500;
     display: inline-block;
-    border-radius: var(--br-xl);
-    background-color: var(--color-gainsboro);
+    border-radius: var( --contact-br-xl);
+    background-color: var( --contact-color-gainsboro);
     width: 466px;
     height: 67px;
   }
@@ -269,8 +269,8 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     left: 850px;
     width: 466px;
     height: 67px;
-    font-size: var(--font-size-xl);
-    color: var(--color-gray-100);
+    font-size: var( --contact-font-size-xl);
+    color: var( --contact-color-gray-100);
   }
   .rectangle-group {
     top: 472px;
@@ -283,8 +283,8 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     text-transform: capitalize;
     font-weight: 500;
     display: inline-block;
-    border-radius: var(--br-xl);
-    background-color: var(--color-gainsboro);
+    border-radius: var( --contact-br-xl);
+    background-color: var( --contact-color-gainsboro);
     width: 466px;
     height: 67px;
   }
@@ -294,8 +294,8 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     left: 850px;
     width: 466px;
     height: 67px;
-    font-size: var(--font-size-xl);
-    color: var(--color-gray-100);
+    font-size: var( --contact-font-size-xl);
+    color: var( --contact-color-gray-100);
   }
  
   .your-message {
@@ -306,8 +306,8 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     text-transform: capitalize;
     font-weight: 500;
     display: inline-block;
-    border-radius: var(--br-xl);
-    background-color: var(--color-gainsboro);
+    border-radius: var( --contact-br-xl);
+    background-color: var( --contact-color-gainsboro);
     width: 466px;
     height: 114px;
   }
@@ -317,8 +317,8 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     left: 850px;
     width: 466px;
     height: 132px;
-    font-size: var(--font-size-xl);
-    color: var(--color-gray-100);
+    font-size: var( --contact-font-size-xl);
+    color: var( --contact-color-gray-100);
   }
   .instance-child {
     position: absolute;
@@ -328,8 +328,8 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     right: 0;
     bottom: 0;
     left: 0;
-    border-radius: var(--br-xl);
-    background-color: var(--color-tomato);
+    border-radius: var( --contact-br-xl);
+    background-color: var( --contact-color-tomato);
   }
   .contact-us-inner,
   .send {
@@ -342,17 +342,17 @@ border: 1px solid rgba(227, 227, 227, 0.50);
   .send {
     top: 989px;
     left: 856px;
-    font-size: var(--font-size-xl);
+    font-size: var( --contact-font-size-xl);
     line-height: 160%;
     text-transform: capitalize;
     display: inline-block;
-    color: var(--color-white);
+    color: var( --contact-color-white);
     text-align: center;
     width: 141px;
     height: 21px;
     cursor: pointer;
   }
-  .background-icon7 {
+  .contact-background-icon7 {
     position: absolute;
     top: 0;
     left: 30px;
@@ -360,11 +360,11 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     height: 362px;
     object-fit: contain;
   }
-  .contact-us2 {
+  .c-contact-us2 {
     position: absolute;
     top: 0;
     left: 351px;
-    font-size: var(--font-size-21xl);
+    font-size: var( --contact-font-size-21xl);
     line-height: 160%;
     font-weight: 600;
     color: #fff500;
@@ -435,7 +435,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     top: 82.13px;
     left: 786px;
   }
-  .group-container {
+  .contact-group-container {
     position: absolute;
     top: 23.87px;
     left: 0;
@@ -475,12 +475,12 @@ border: 1px solid rgba(227, 227, 227, 0.50);
   .line-div {
     top: 266px;
     left: -3px;
-    border-top: 3px solid var(--color-white);
+    border-top: 3px solid var( --contact-color-white);
     box-sizing: border-box;
     width: 1299px;
     height: 6px;
   }
-  .background-group {
+  .contact-background-group {
     position: absolute;
     top: 48px;
     left: 0;
@@ -500,9 +500,9 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     left: 110px;
     width: 1552.39px;
     text-align: center;
-    font-size: var(--body-regular-size);
-    color: var(--white-white-stich);
-    font-family: var(--body-regular);
+    font-size: var( --contact-body-regular-size);
+    color: var( --contact-white-white-stich);
+    font-family: var( --contact-body-regular);
   }
   .contact-us-item {
     position: absolute;
@@ -511,15 +511,15 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     width: 1505.39px;
     height: 838px;
   }
-  .contact-us {
+  .Contact-us {
     position: relative;
     height: 1477px;
     overflow: hidden;
-    font-size: var(--font-size-lg);
+    font-size: var( --contact-font-size-lg);
   display: flex;
   align-items: center;
   justify-content: center;
-    font-family: var(--font-open-sans);
+    font-family: var( --contact-font-open-sans);
   }
   .cricle3-contact{
     position: absolute;
@@ -560,46 +560,15 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     z-index: 1;
     top: 73px;
   }
-  .menu a,
-.menu1 a,
-.menu2 a,
-.menu3 a,
-.menu4 a,
-.menu5 a {
+  .c-menu a,
+.c-menu1 a,
+.c-menu2 a,
+.c-menu3 a,
+.c-menu4 a,
+.c-menu5 a {
   text-decoration: none;
-  body {
-    margin: 0;
-    line-height: normal;
-  }
-  :root {
-    /* fonts */
-    --body-regular: Inter;
-    --font-open-sans: "Open Sans";
-  
-    /* font sizes */
-    --body-regular-size: 16px;
-    --font-size-21xl: 40px;
-    --font-size-xl: 20px;
-    --font-size-lg: 18px;
-  
-    /* Colors */
-    --color-white: #fff;
-    --white-white-stich: #fffffd;
-    --color-gray-100: rgba(255, 255, 255, 0.8);
-    --color-tomato: #fc4e2b;
-    --color-gainsboro: #d9d9d9;
-    --color-lightgray: rgba(204, 204, 204, 0.1);
-    --color-steelblue: #005886;
-  
-    /* Paddings */
-    --padding-5xl: 24px;
-    --padding-33xl:  22px;
-  
-    /* Border radiuses */
-    --br-xl: 20px;
-    --br-11xl: 30px;
-    --br-20xl: 39px;
-  }
+  color: #a59999;
+ 
 }
   @media screen and (max-width: 600px) {
     .narm-tech-logo-1 {
@@ -614,7 +583,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     .background-icon1 {
         display: none;
     }
-    .get-in-touch-with-us-wrapper {
+    .contact-get-in-touch-with-us-wrapper {
         position: absolute;
         top: 96px;
         left: calc(50% - 127px);
@@ -624,186 +593,186 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         color: #0b3a55;
     }
     .if-you-have-container {
-        position: absolute;
-        top: 142px;
-        left: calc(50% - 166px);
-        font-size: 15px;
-        line-height: 160%;
-        font-weight: 500;
-        color: #4e4e4e;
-        display: inline-block;
-        width: 363px;
-        height: 64px;
+      position: absolute;
+      top: 142px;
+      left: calc(50% - 166px);
+      font-size: 15px;
+      line-height: 160%;
+      font-weight: 500;
+      color: #4e4e4e;
+      display: inline-block;
+      width: 363px;
+      height: 64px;
+  }
+  .contact-us-child {
+      position: absolute;
+      top:  221px;
+      left: calc(50% - 182px);
+      width: 365px;
+      height: 479px;
+  }
+  .rectangle-group {
+      position: absolute;
+      top: 225px;
+      left: calc(50% - 182px);
+      width: 325px;
+      height: 67px;
+  }
+  .your-number {
+      width: 340px;
+  }
+  .rectangle-parent {
+      position: absolute;
+      top: 320px;
+      left: calc(50% - 182px);
+      width: 325px;
+      height: 67px;
+  }
+  .rectangle-container {
+      position: absolute;
+      top: 420px;
+      left: calc(50% - 182px);
+      width: 466px;
+      height: 67px;
+  }
+  .your-message,
+  .your-email-address {
+      width: 340px;
+  }
+  .group-div {
+      position: absolute;
+      top: 520px;
+      left: calc(50% - 182px);
+      width: 466px;
+      height: 132px;
+  }
+  .contact-us-inner, .send {
+      position: absolute;
+      top: 722px;
+      left: calc(50% - 93px);
+      width: 164px;
+      height: 37px;
+  }
+  .group-parent {
+      top: 1097px;
+      left: calc(50% - 79px);
+   }
+  .fotter {
+      position: absolute;
+      top: -294px;
+      left: calc(50% - 871px);
+      width: 355px;
+      height: 674px;
+      background-color: rgb(72, 109, 255);
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
     }
-    .contact-us-child {
-        position: absolute;
-        top:  221px;
-        left: calc(50% - 182px);
-        width: 365px;
-        height: 479px;
+    .c-contact-us2 {
+      position: absolute;
+      top: -357px;
+      left: calc(50% - 792px);
+      font-size: 20px;
+      line-height: 160%;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 450px;
+      height: 44px;
     }
-    .rectangle-group {
-        position: absolute;
-        top: 225px;
-        left: calc(50% - 182px);
-        width: 325px;
-        height: 67px;
+    .isolation-mode-icon {
+      top: -319.87px;
+      left: calc(50% - 567px);
+      width: 40px;
+      height: 45px;
     }
-    .your-number {
-        width: 340px;
+    .rd-main-virgo-container {
+      position: absolute;
+      top: -280.87px;
+      left: calc(50% - 731px);
+      line-height: 160%;
+      font-weight: 600;
+      display: inline-block;
+      width: 353px;
+      font-size: 15px;
+      height: 51px;
+      mix-blend-mode: normal;
     }
-    .rectangle-parent {
-        position: absolute;
-        top: 320px;
-        left: calc(50% - 182px);
-        width: 325px;
-        height: 67px;
+    .frame-parent {
+      position: absolute;
+      top: -187.87px;
+      left: calc(50% - 599px);
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 12px;
     }
-    .rectangle-container {
-        position: absolute;
-        top: 420px;
-        left: calc(50% - 182px);
-        width: 466px;
-        height: 67px;
+    .layer-1-icon {
+      position: absolute;
+      top: -127.26px;
+      left: calc(50% - 568px);
+      width: 40px;
+      height: 45px;
+      overflow: hidden;
     }
-    .your-message,
-    .your-email-address {
-        width: 340px;
+    .infonarmtechcom-hrnarmtech {
+      position: absolute;
+      top: -79.87px;
+      left: calc(50% - 728px);
+      line-height: 160%;
+      font-weight: 600;
+      font-size: 15px;
+      display: inline-block;
+      width: 357px;
+      height: 67px;
+      mix-blend-mode: normal;
     }
-    .group-div {
-        position: absolute;
-        top: 520px;
-        left: calc(50% - 182px);
-        width: 466px;
-        height: 132px;
+    .contact-group-icon {
+      position: absolute;
+      top: 30.87px;
+      left: calc(50% - 568px);
+      width: 35px;
+      height: 40px;
     }
-    .contact-us-inner, .send {
-        position: absolute;
-        top: 722px;
-        left: calc(50% - 93px);
-        width: 164px;
-        height: 37px;
+    .sales-and-services-91-container {
+      top: 80.87px;
+      left: calc(50% - 729px);
+      font-size: 15px;
     }
-    .group-parent {
-        top: 1097px;
-        left: calc(50% - 79px);
-     }
-    .fotter {
-        position: absolute;
-        top: -294px;
-        left: calc(50% - 871px);
-        width: 355px;
-        height: 674px;
-        background-color: rgb(72, 109, 255);
-        border-top-right-radius: 15px;
-        border-top-left-radius: 15px;
-      }
-      .contact-us2 {
-        position: absolute;
-        top: -357px;
-        left: calc(50% - 792px);
-        font-size: 20px;
-        line-height: 160%;
-        font-weight: 600;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 450px;
-        height: 44px;
-      }
-      .isolation-mode-icon {
-        top: -319.87px;
-        left: calc(50% - 567px);
-        width: 40px;
-        height: 45px;
-      }
-      .rd-main-virgo-container {
-        position: absolute;
-        top: -280.87px;
-        left: calc(50% - 731px);
-        line-height: 160%;
-        font-weight: 600;
-        display: inline-block;
-        width: 353px;
-        font-size: 15px;
-        height: 51px;
-        mix-blend-mode: normal;
-      }
-      .frame-parent {
-        position: absolute;
-        top: -187.87px;
-        left: calc(50% - 599px);
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: flex-start;
-        gap: 12px;
-      }
-      .layer-1-icon {
-        position: absolute;
-        top: -127.26px;
-        left: calc(50% - 568px);
-        width: 40px;
-        height: 45px;
-        overflow: hidden;
-      }
-      .infonarmtechcom-hrnarmtech {
-        position: absolute;
-        top: -79.87px;
-        left: calc(50% - 728px);
-        line-height: 160%;
-        font-weight: 600;
-        font-size: 15px;
-        display: inline-block;
-        width: 357px;
-        height: 67px;
-        mix-blend-mode: normal;
-      }
-      .group-icon {
-        position: absolute;
-        top: 30.87px;
-        left: calc(50% - 568px);
-        width: 35px;
-        height: 40px;
-      }
-      .sales-and-services-91-container {
-        top: 80.87px;
-        left: calc(50% - 729px);
-        font-size: 15px;
-      }
-      .copyright-2023- {
-        position: absolute;
-        top: 268px;
-        left: calc(50% - 783px);
-        line-height: 160%;
-        display: inline-block;
-        font-size: 10px;
-        width: 242px;
-      }
-      .privacy-policy-parent {
-        position: absolute;
-        top: 268px;
-        left: calc(50% - 555px);
-        display: flex;
-        font-size: 10px;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 10px;
-      }
-      .line-div {
-        top: 266px;
-    left: calc(50% - 747px);
-        border-top: 3px solid var(--color-white);
-        box-sizing: border-box;
-        width: 399px;
-        height: 6px;
+    .copyright-2023- {
+      position: absolute;
+      top: 268px;
+      left: calc(50% - 783px);
+      line-height: 160%;
+      display: inline-block;
+      font-size: 10px;
+      width: 242px;
     }
+    .privacy-policy-parent {
+      position: absolute;
+      top: 268px;
+      left: calc(50% - 555px);
+      display: flex;
+      font-size: 10px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+    }
+    .line-div {
+      top: 266px;
+  left: calc(50% - 747px);
+      border-top: 3px solid var(--color-white);
+      box-sizing: border-box;
+      width: 399px;
+      height: 6px;
+  }
     .cricle-contact,
-     .background-icon7{
+     .contact-background-icon7{
         display: none;
      }
-     .menu5{
+     .c-menu5{
         position: absolute;
         top: 25px;
             left: calc(50% + 92px);
@@ -835,12 +804,12 @@ border: 1px solid rgba(227, 227, 227, 0.50);
             background-color: #f1f1f1;
           }
         
-          .menu:hover .dropdown-content,
-          .menu2:hover .dropdown-content,
-          .menu3:hover .dropdown-content,
-          .menu4:hover .dropdown-content,
-          .menu5:hover .dropdown-content,
-          .menu1:hover .dropdown-content {
+          .c-menu:hover .dropdown-content,
+          .c-menu2:hover .dropdown-content,
+          .c-menu3:hover .dropdown-content,
+          .c-menu4:hover .dropdown-content,
+          .c-menu5:hover .dropdown-content,
+          .c-menu1:hover .dropdown-content {
             display: block;
           }
 }
@@ -855,10 +824,10 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         height: 53px;
         object-fit: cover;
       }
-      .menu,.menu1,.menu2,.menu3,.menu4{
+      .c-menu,.c-menu1,.c-menu2,.c-menu3,.c-menu4{
         display: none;
       }
-      .get-in-touch-with-us-wrapper {
+      .contact-get-in-touch-with-us-wrapper {
         position: absolute;
         top: 96px;
         left: calc(50% - 306px);
@@ -939,7 +908,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
       }
-      .contact-us2 {
+      .c-contact-us2 {
         position: absolute;
         top: -357px;
         left: calc(50% - 792px);
@@ -1035,7 +1004,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
       .line-div {
         top: 266px;
         left: calc(50% - 866px);
-        border-top: 3px solid var(--color-white);
+        border-top: 3px solid var( --contact-color-white);
         box-sizing: border-box;
         width: 629px;
         height: 6px;
@@ -1043,14 +1012,14 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     .cricle-contact,
     .background-icon1,
     .background-icon ,
-     .background-icon7{
+     .contact-background-icon7{
         display: none;
      }
      .group-parent {
         top: 1097px;
         left: calc(50% - 79px);
      }
-     .menu5{
+     .c-menu5{
         position: absolute;
         top: 23px;
         left: calc(50% + 179px);
@@ -1082,12 +1051,12 @@ border: 1px solid rgba(227, 227, 227, 0.50);
             background-color: #f1f1f1;
           }
         
-          .menu:hover .dropdown-content,
-          .menu2:hover .dropdown-content,
-          .menu3:hover .dropdown-content,
-          .menu4:hover .dropdown-content,
-          .menu5:hover .dropdown-content,
-          .menu1:hover .dropdown-content {
+          .c-menu:hover .dropdown-content,
+          .c-menu2:hover .dropdown-content,
+          .c-menu3:hover .dropdown-content,
+          .c-menu4:hover .dropdown-content,
+          .c-menu5:hover .dropdown-content,
+          .c-menu1:hover .dropdown-content {
             display: block;
           }
 }

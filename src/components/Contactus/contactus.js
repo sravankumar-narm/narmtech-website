@@ -13,28 +13,28 @@ import I from "../../Images/contact/I.png";
 
 function Contactus() {
   return (
-    <div className="contact-us">
+    <div className="Contact-us">
     <div className="menu-button"></div>
     <img className="narm-tech-logo-1" src={Logo} />
 
 
-    <div className="menu">
-        <a href="#" className="home">Home</a>
+    <div className="c-menu">
+        <a href="/" className="contact-home">Home</a>
       </div>
-      <div className="menu1">
-        <a href="#" className="offerings">Offerings</a>
+      <div className="c-menu1">
+        <a href="/offers" className="contact-offerings">Offerings</a>
       </div>
-      <div className="menu2">
-        <a href="#" className="home">Consulting</a>
+      <div className="c-menu2">
+        <a href="/consulting" className="contact-home">Consulting</a>
       </div>
-      <div className="menu3">
-        <a href="#" className="home">About us</a>
+      <div className="c-menu3">
+        <a href="/aboutus" className="contact-home">About us</a>
       </div>
-      <div className="menu4">
-        <a href="#" className="our-team">Our Team</a>
+      <div className="c-menu4">
+        <a href="/ourteam" className="contact-our-team">Our Team</a>
       </div>
-      <div className="menu5">
-        <a href="#" className="our-team">Contact us</a>
+      <div className="c-menu5">
+        <a href="#" className="/contactus">Contact us</a>
         <div className="dropdown-content">
             <div>Home</div>
             <div>Offerings</div>
@@ -61,8 +61,8 @@ function Contactus() {
      <circle className="cricle2"></circle>
     </div>
 
-    <div className="get-in-touch-with-us-wrapper">
-      <div className="get-in-touch">Get in touch with us</div>
+    <div className="contact-get-in-touch-with-us-wrapper">
+      <div className="contact-get-in-touch">Get in touch with us</div>
     </div>
     <div className="if-you-have-container">
       <p className="if-you-have-a-question-or-any">
@@ -99,12 +99,12 @@ function Contactus() {
       <b className="send">Send</b>
       <div className="group-parent">
       <div className="fotter"></div>
-      <div className="background-group" id="groupContainer15">
-        <img className="background-icon7" alt="" src={contant} />
+      <div className="contact-background-group" id="groupContainer15">
+        <img className="contact-background-icon7" alt="" src={contant} />
         <div className="contact-us-parent">
-          <div className="contact-us2">Contact Us</div>
-          <div className="group-container">
-            <img className="group-icon" alt="" src={contant3} />
+          <div className="c-contact-us2">Contact Us</div>
+          <div className="contact-group-container">
+            <img className="contact-group-icon" alt="" src={contant3} />
 
             <img className="layer-1-icon" alt="" src={contant2} />
 
