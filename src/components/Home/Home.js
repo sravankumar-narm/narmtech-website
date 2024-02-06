@@ -47,16 +47,16 @@ const Home = () => {
           you work.
         </p>
       </div>
-      <div className="home-inner">
-        <div className="instance-child"></div>
+      <div className="Home-inner">
+        <div className="Home-instance-child"></div>
       </div>
-      <div className="home-child">
+      <div className="Home-child">
         <div className="instance-item"></div>
       </div>
-      <div className="rectangle-div">
+      <div className="Home-rectangle-div">
         <div className="instance-item"></div>
       </div>
-      <div className="home-inner1">
+      <div className="Home-inner1">
         <div className="instance-item"></div>
       </div>
       <b className="read-more">Read More</b>
@@ -64,7 +64,7 @@ const Home = () => {
         <div className="icon">
           <img className="icon1" alt="" src={settings} />
         </div>
-        <div className="text">
+        <div className="text1">
           <div className="powerful-settings">Powerful Settings</div>
           <div className="provide-excellent-customer-container">
             <p className="our-ai-powered-products-for-bu">
@@ -80,7 +80,7 @@ const Home = () => {
         <div className="icon">
           <img className="icon3" alt="" src={settings1} />
         </div>
-        <div className="text">
+        <div className="text1">
           <div className="powerful-settings">User Friendly</div>
           <div className="use-timeline-to">
             Use Timeline to plan projects right how the pieces fit together.
@@ -91,7 +91,7 @@ const Home = () => {
         <div className="ucin-wrapper">
           <img className="ucin-icon" alt="" src={settings2} />
         </div>
-        <div className="text">
+        <div className="text1">
           <div className="powerful-settings">Integrated platform</div>
           <div className="unified-and-interconnected-container">
             <p className="our-ai-powered-products-for-bu">
@@ -238,12 +238,12 @@ const Home = () => {
       <img className="navigation-icon1" alt="" src={Navigation1} />
 
       <b className="what-clients-say">What Clients say</b>
-      <div className="content-wrapper">
-        <div className="content2">
-          <div className="user">
-            <img className="image-icon" alt="" src={photo} />
+      <div className="Home-content-wrapper">
+        <div className="Home-content2">
+          <div className="Home-user">
+            <img className="Home-image-icon" alt="" src={photo} />
 
-            <div className="name">
+            <div className="Home-name">
               <div className="full-name-1">Full Name 1</div>
               <div className="designation">Designation</div>
             </div>
@@ -264,24 +264,24 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="fotter"></div>
-      <div className="background-parent" id="groupContainer3">
-        <img className="background-icon1" alt="" src={contant} />
-        <div className="contact-us-parent">
-          <div className="contact-us1">Contact Us</div>
-          <div className="group-parent">
-            <img className="group-child" alt="" src={contant3} />
-            <img className="layer-1-icon1" alt="" src={contant2} />
-            <img className="isolation-mode-icon" alt="" src={contant1} />
+      <div className="Homefotter"></div>
+      <div className="Home-background-parent" id="groupContainer3">
+        <img className="Homebackground-icon1" alt="" src={contant} />
+        <div className="Home-contact-us-parent">
+          <div className="Home-contact-us1">Contact Us</div>
+          <div className="Home-group-parent">
+            <img className="Home-group-child" alt="" src={contant3} />
+            <img className="Home-layer-1-icon1" alt="" src={contant2} />
+            <img className="Home-isolation-mode-icon" alt="" src={contant1} />
 
-            <div className="frame-parent">
-              <img className="frame-icon" alt="" src={F} />
+            <div className="Home-frame-parent">
+              <img className="Home-frame-icon" alt="" src={F} />
 
-              <img className="frame-icon" alt="" src={X} />
+              <img className="Home-frame-icon" alt="" src={X} />
 
-              <img className="frame-icon" alt="" src={I} />
+              <img className="Home-frame-icon" alt="" src={I} />
             </div>
-            <div className="rd-main-virgo-container">
+            <div className="Home-rd-main-virgo-container">
               <p className="our-ai-powered-products-for-bu">
                 #92, 3rd Main, Virgo Nagar, Post,
               </p>
@@ -289,13 +289,13 @@ const Home = () => {
                 Seegehalli, Bengaluru, Karnataka 560049
               </p>
             </div>
-            <div className="infonarmtechcom-hrnarmtech">
+            <div className="Home-infonarmtechcom-hrnarmtech">
               <p className="our-ai-powered-products-for-bu">
                 info@narmtech.com
               </p>
               <p className="our-ai-powered-products-for-bu">hr@narmtech.com</p>
             </div>
-            <div className="sales-and-services-91-container">
+            <div className="Home-sales-and-services-91-container">
               <p className="our-ai-powered-products-for-bu">
                 +91 9611291621 - Sales and Services
               </p>
@@ -307,20 +307,20 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="copyright-2023-">© Copyright 2023 - Narm Tech</div>
-          <div className="privacy-policy-parent">
-            <div className="privacy-policy">Privacy Policy</div>
-            <div className="privacy-policy">Terms & Conditions</div>
+          <div className="Home-copyright-2023-">© Copyright 2023 - Narm Tech</div>
+          <div className="Home-privacy-policy-parent">
+            <div className="Home-privacy-policy">Privacy Policy</div>
+            <div className="Home-privacy-policy">Terms & Conditions</div>
           </div>
         </div>
-        <div className="group-item"></div>
+        <div className="Home-group-item"></div>
       </div>
       <img className="frame-icon3" alt="" src="./public/frame.svg" />
       <img className="frame-icon4" alt="" src="./public/frame.svg" />
-      <div className="pattern1"></div>
-      <img className="background-icon2" alt="" src={Background7} />
-      <img className="background-icon3" alt="" src={robot} />
-      <img className="background-icon10" alt="" src={shape} />
+      <div className="Homepattern1"></div>
+      <img className="Homebackground-icon2" alt="" src={Background7} />
+      <img className="Homebackground-icon3" alt="" src={robot} />
+      <img className="Homebackground-icon10" alt="" src={shape} />
       <div className="ai-l-l-m-empowered">
         <div className="ai-l-container">
           <span>AI & L</span>
@@ -335,8 +335,8 @@ const Home = () => {
           Business Operations Improvement with
         </p>
       </div>
-      <div className="pattern6"></div>
-      <div className="pattern7"></div>
+      <div className="Homepattern6"></div>
+      <div className="Homepattern7"></div>
       <img className="narm-tech-logo-1" alt="" src={Logo} />
       <div className="menu6">
         <div className="consulting"><a href="/">Home</a></div>
@@ -368,16 +368,16 @@ const Home = () => {
         Powered Products, ensuring enhanced efficiency.
       </div>
       <div className="team">
-        <div className="cricle10"></div>
-        <div className="cricle11"></div>
-        <div className="cricle12"></div>
-        <div className="cricle13"></div>
-        <div className="cricle14"></div>
-        <div className="cricle15"></div>
-        <div className="cricle16"></div>
-        <div className="cricle17"></div>
-        <div className="cricle18"></div>
-        <div className="cricle19"></div>
+        <div className="Homecricle10"></div>
+        <div className="Homecricle11"></div>
+        <div className="Homecricle12"></div>
+        <div className="Homecricle13"></div>
+        <div className="Homecricle14"></div>
+        <div className="Homecricle15"></div>
+        <div className="Homecricle16"></div>
+        <div className="Homecricle17"></div>
+        <div className="Homecricle18"></div>
+        <div className="Homecricle19"></div>
         <img className="union-icon" alt="" src="./public/union.svg" />
 
         <b className="our-team2">Our Team</b>
@@ -407,9 +407,9 @@ const Home = () => {
           <img className="ram-child" alt="" src={photo} />
         </div>
       </div>
-      <div className="rectangle-parent">
-        <div className="group-inner"></div>
-        <div className="group-child1"></div>
+      <div className="Home-rectangle-parent">
+        <div className="Home-group-inner"></div>
+        <div className="Home-group-child1"></div>
         <div className="program-manager-tata-container">
           <p className="our-ai-powered-products-for-bu">Program Manager,</p>
           <p className="our-ai-powered-products-for-bu">
@@ -423,13 +423,13 @@ const Home = () => {
           <img className="author-child" alt="" src={photo} />
           <img className="frame-icon5" alt="" src={I} />
         </div>
-        <div className="pattern2"></div>
-        <div className="pattern3"></div>
+        <div className="Homepattern2"></div>
+        <div className="Homepattern3"></div>
       </div>
-      <div className="rectangle-group">
-        <div className="group-child2"></div>
-        <div className="group-child3"></div>
-        <div className="research-associate-ai-container">
+      <div className="Home-rectangle-group">
+        <div className="Home-group-child2"></div>
+        <div className="Home-group-child3"></div>
+        <div className="Home-research-associate-ai-container">
           <p className="our-ai-powered-products-for-bu">Research Associate,</p>
           <p className="our-ai-powered-products-for-bu">
             AI Center of Excellence, TATA Consultancy Services, Bangalore,
@@ -443,10 +443,10 @@ const Home = () => {
           <img className="author-child" alt="" src={photo} />
         </div>
       </div>
-      <div className="rectangle-container">
-        <div className="group-child2"></div>
-        <div className="group-child3"></div>
-        <div className="research-associate-ai-container1">
+      <div className="Home-rectangle-container">
+        <div className="Home-group-child2"></div>
+        <div className="Home-group-child3"></div>
+        <div className="Home-research-associate-ai-container1">
           <p className="our-ai-powered-products-for-bu">
             Professor and Head of Department,AITS, Rajampet,
           </p>
@@ -462,21 +462,21 @@ const Home = () => {
           <img className="author-child" alt="" src={photo} />
         </div>
       </div>
-      <div className="line-div"></div>
-      <div className="pattern4"></div>
-      <div className="pattern5"></div>
-      <div className="cricle"></div>
-      <div className="cricle1"></div>
-      <div className="cricle2"></div>
-      <div className="cricle3"></div>
-      <div className="cricle4"></div>
-      <div className="cricle5"></div>
-      <div className="cricle6"></div>
-      <div className="cricle7"></div>
-      <div className="cricle8"></div>
-      <div className="cricle9"></div>
-      <div className="pattern8"></div>
-      <div className="pattern9"></div>
+      <div className="Home-line-div"></div>
+      <div className="Homepattern4"></div>
+      <div className="Homepattern5"></div>
+      <div className="Homecricle"></div>
+      <div className="Homecricle1"></div>
+      <div className="Homecricle2"></div>
+      <div className="Homecricle3"></div>
+      <div className="Homecricle4"></div>
+      <div className="Homecricle5"></div>
+      <div className="Homecricle6"></div>
+      <div className="Homecricle7"></div>
+      <div className="Homecricle8"></div>
+      <div className="Homecricle9"></div>
+      <div className="Homepattern8"></div>
+      <div className="Homepattern9"></div>
       <div className="about-us2">
         <div className="about-us-child" />
         <b className="about-us3">About us</b>
@@ -494,15 +494,15 @@ const Home = () => {
           </p>
         </div>
         <div className="about-us-inner">
-          <div className="instance-child5"></div>
+          <div className="Home-instance-child5"></div>
         </div>
         <img className="mask-group-icon" alt="" src={hand} />
       </div>
-      <div className="group-div">
-        <div className="group-wrapper">
-          <div className="instance-parent">
-            <div className="rectangle-parent1">
-              <div className="component-child"></div>
+      <div className="Home-group-div">
+        <div className="Home-group-wrapper">
+          <div className="Home-instance-parent">
+            <div className="Home-rectangle-parent1">
+              <div className="Home-component-child"></div>
               <div className="vision-to-transform-container">
                 <p className="vision">Vision</p>
                 <p className="to-transform-the">
@@ -521,8 +521,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="rectangle-group1">
-              <div className="instance-child1"></div>
+            <div className="Home-rectangle-group1">
+              <div className="Home-instance-child1"></div>
               <div className="vision-to-transform-container">
                 <p className="mission">Mission</p>
                 <p className="transforming-business-operatio">
@@ -534,8 +534,8 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="rectangle-container1">
-              <div className="instance-child1"></div>
+            <div className="Home-rectangle-container1">
+              <div className="Home-instance-child1"></div>
               <div className="vision-to-transform-container">
                 <p className="vision">Values</p>
                 <p className="to-transform-the">
