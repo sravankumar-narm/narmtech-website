@@ -1,67 +1,45 @@
-"use client";
-
-import Image from "next/image";
-// import Logo from "../images/logo.png"
-import Logo1 from "../images/Logo 1.png";
-import backgoundimg2 from "../images/back-img-2.png";
-import img2 from "../images/img-2.png";
-import backgroundimg1 from "../images/Back-img-2.png";
-import img1 from "../images/img-1.png";
-import img3 from "../images/img-3.png";
-import vector15 from "../images/Vector 15.png";
-import vector14 from "../images/Vector 14.png";
-import wtsapp from "../images/wtsapp.png";
-import mail from "../images/mail.png";
-import location from "../images/location.png";
-import fb from "../images/fb.png";
-import x from "../images/x.png";
-import li from "../images/li.png";
-import backgroundimg3 from "../images/Back-img-3.png";
-// import button from "../images/button.png"
-export default function Home() {
+// import Logo from "../../Images/consult/logo.png";
+import Logo from "../../Images/consult/logo.png";
+import backgoundimg2 from "../../Images/consult/Back-img-2.png";
+import img2 from "../../Images/consult/img-2.png";
+import backgroundimg1 from "../../Images/consult/Back-img-2.png";
+import img1 from "../../Images/consult/img-1.png";
+import img3 from "../../Images/consult/img-3.png";
+import vector15 from "../../Images/consult/Vector 15.png";
+import vector14 from "../../Images/consult/Vector 14.png";
+import robot from "../../Images/consult/robot.png";
+import wtsapp from "../../Images/consult/wtsapp.png";
+import mail from "../../Images/consult/mail.png";
+import location from "../../Images/consult/location.png";
+import fb from "../../Images/consult/fb.png";
+import x from "../../Images/consult/x.png";
+import li from "../../Images/consult/li.png";
+import backgroundimg3 from "../../Images/consult/Back-img-3.png";
+// import button from "../../Images/consult/button.png"
+function Consulting() {
   return (
     <>
       {/* navigation bar */}
       <div className="nav">
-        <Image className="logo1" src={Logo1} />
-
+        <img className="logo" src={Logo} />
         <ul className="nav-items">
-          <li className="li-home">
-            <a className="home" href=" #">
-              Home
-            </a>
-            <ul className="drop-down">
-              <li>Offerings</li>
-              <li>Consulting</li>
-              <li>About Us</li>
-              <li>Our Team</li>
-              <li>Contact Us</li>
-            </ul>
+          <li>
+            <a href="/">Home</a>
           </li>
-          <li className="li-offerings">
-            <a className="offerings" href=" #">
-              Offerings
-            </a>
+          <li>
+            <a href=" #">Offerings</a>
           </li>
-          <li className="li-consulting">
-            <a className="consulting" href=" #">
-              Consulting
-            </a>
+          <li>
+            <a href=" #">Consulting</a>
           </li>
-          <li className="li-about-us">
-            <a className="about-us" href=" #">
-              About Us
-            </a>
+          <li>
+            <a href=" #">About Us</a>
           </li>
-          <li className="li-our-team">
-            <a className="our-team" href=" #">
-              Our Team
-            </a>
+          <li>
+            <a href=" #">Our Team</a>
           </li>
-          <li className="li-contact-us">
-            <a className="contact-us" href=" #">
-              Contact us
-            </a>
+          <li>
+            <a href=" #">Contact us</a>
           </li>
         </ul>
       </div>
@@ -69,11 +47,11 @@ export default function Home() {
       {/* DATA-ANALYTICS */}
 
       <div className="data-analytics-1">
-        <Image className="back-img-1" src={backgroundimg1} />
-        <Image className="inner-box-1" src={img1} />
+        <img className="back-img-1" src={backgroundimg1} />
+        <img className="inner-box-1" src={img1} />
       </div>
       <div className="data-analytics-2">
-        <h1>Data & Analytics</h1>
+        <h1>Data-Analytics</h1>
         {/* sub-box-1 */}
         <span className="analytics-sub-box1">
           <svg
@@ -148,7 +126,7 @@ export default function Home() {
             implementing data platforms, along with <br />
             conducting Proof of Concepts.
           </p>
-          {/* <Image className="robot" src={robot} /> */}
+          <img className="robot" src={robot} />
         </span>
         {/* sub-box-4 */}
         <span className="analytics-sub-box4">
@@ -193,17 +171,17 @@ export default function Home() {
             />
           </svg>
           <p className="analytics-para5">
-            <b>Data Science Consulting:</b> offering expertise in <br />{" "}
+            <b>Data Science Consulting:</b> Offering expertise in <br />{" "}
             leveraging data science techniques and
             <br /> methodologies for business insights.
           </p>
         </span>
+        <img className="vector-1" src={vector15} />
       </div>
-      <Image className="vector-1" src={vector15} />
       {/* DATA-TRANSFORMATION */}
 
       <div className="data-transformation-1">
-        <h1>Data Transformation</h1>
+        <h1>Data-Transformation</h1>
         {/* sub-box-1 */}
         <span className="transformation-sub-box1">
           <svg
@@ -279,16 +257,16 @@ export default function Home() {
         </span>
       </div>
       <div className="data-transformation-2">
-        <Image className="back-img-2" src={backgoundimg2} />
-        <Image className="inner-box-2" src={img2} />
+        <img className="back-img-2" src={backgoundimg2} />
+        <img className="inner-box-2" src={img2} />
       </div>
       <div className="data-engineering-1">
-        <Image className="back-img-3" src={backgoundimg2} />
-        <Image className="inner-box-3" src={img3} />
+        <img className="back-img-3" src={backgoundimg2} />
+        <img className="inner-box-3" src={img3} />
       </div>
 
       <div className="data-engineering-2">
-        <h1>Data Engineering</h1>
+        <h1>Data-Engineering</h1>
         {/* sub-box-1 */}
         <span className="engineering-sub-box1">
           <svg
@@ -314,6 +292,7 @@ export default function Home() {
             <br /> solutions, and data engineering processes.
           </p>
         </span>
+        {/* sub-box-2 */}
         <span className="engineering-sub-box2">
           <svg
             className="engineering-button-2"
@@ -331,7 +310,6 @@ export default function Home() {
               stroke="#1EB1E6"
             />
           </svg>
-          {/* sub-box-2 */}
           <p className="engineering-para2">
             <b>BI and Analytics Implementation:</b>
             <br />
@@ -364,35 +342,35 @@ export default function Home() {
           </p>
         </span>
       </div>
-      <Image className="vector-2" src={vector14} />
+      <img className="vector-2" src={vector14} />
       {/* FOOTER-PART */}
       <div className="footer">
-        <Image className="back-img-4" src={backgroundimg3} />
+        <img className="back-img-4" src={backgroundimg3} />
         <h1>Contact Us</h1>
 
         {/* icon-1 */}
-        <Image className="location-icon" src={location} />
+        <img className="location-icon" src={location} />
         <p className="para-1">
           #92, 3rd Main, Virgo Nagar, Post,
           <br />
           Seegehalli, Bengaluru, Karnataka 560049
         </p>
 
-        <Image className="fb-icon" src={fb} />
+        <img className="fb-icon" src={fb} />
 
-        <Image className="x-icon" src={x} />
+        <img className="x-icon" src={x} />
 
-        <Image className="linkedin-icon" src={li} />
+        <img className="linkedin-icon" src={li} />
 
         {/* icon-2 */}
-        <Image className="mail-icon" src={mail} />
+        <img className="mail-icon" src={mail} />
         <p className="para-2">
           info@narmtech.com<br></br>
           hr@narmtech.com
         </p>
 
         {/* icon-3 */}
-        <Image className="whatsapp-icon" src={wtsapp} />
+        <img className="whatsapp-icon" src={wtsapp} />
         <p className="para-3">
           +91 9611291621 - Sales and Services<br></br>
           +91 9663901621 - Hiring Queries<br></br>
@@ -422,3 +400,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Consulting
