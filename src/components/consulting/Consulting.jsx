@@ -1,4 +1,5 @@
 // import Logo from "../../Images/consult/logo.png";
+import "./Consulting.css";
 import Logo from "../../Images/consult/logo.png";
 import backgoundimg2 from "../../Images/consult/Back-img-2.png";
 import img2 from "../../Images/consult/img-2.png";
@@ -22,26 +23,24 @@ function Consulting() {
       {/* navigation bar */}
       <div className="nav">
         <img className="logo" src={Logo} />
-        <ul className="nav-items">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href=" #">Offerings</a>
-          </li>
-          <li>
-            <a href=" #">Consulting</a>
-          </li>
-          <li>
-            <a href=" #">About Us</a>
-          </li>
-          <li>
-            <a href=" #">Our Team</a>
-          </li>
-          <li>
-            <a href=" #">Contact us</a>
-          </li>
-        </ul>
+        <div className="menu">
+          <a href="/">Home</a>
+        </div>
+        <div className="menu1">
+          <a href="/offers">Offerings</a>
+        </div>
+        <div className="menu2">
+          <a href="/consulting">Consulting</a>
+        </div>
+        <div className="menu3">
+          <a href="/aboutus">About us</a>
+        </div>
+        <div className="menu4">
+          <a href="/ourteam">Our Team</a>
+        </div>
+        <div className="menu5">
+          <a href="/contactus">Contact us</a>
+        </div>
       </div>
 
       {/* DATA-ANALYTICS */}
@@ -401,4 +400,4 @@ function Consulting() {
   );
 }
 
-export default Consulting
+export default Consulting;

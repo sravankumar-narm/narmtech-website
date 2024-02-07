@@ -1,20 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-body {
-  width: 100vw;
-  height: 800px;
-  display: grid;
-  grid-template-areas:
-    "nav nav"
-    "data-analytics-1 data-analytics-2"
-    "data-transformation-1 data-transformation-2"
-    "data-engineering-1 data-engineering-2"
-    "footer footer";
-  grid-template-rows: 150px 880px 850px 800px 260px;
-  grid-template-columns: 620px 650px;
-}
 .nav,
 .data-analytics-1,
 .data-analytics-2,
