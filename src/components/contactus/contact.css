@@ -374,15 +374,15 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     width: 450px;
     height: 44px;
   }
-  .group-icon {
+  .contact-group-icon {
     position: absolute;
     top: 0;
     left: 934px;
     width: 60px;
     height: 57.28px;
   }
-  .isolation-mode-icon,
-  .layer-1-icon {
+  .contact-isolation-mode-icon,
+  .contact-layer-1-icon {
     position: absolute;
     top: 30.74px;
     left: 541px;
@@ -390,20 +390,20 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     height: 62.21px;
     overflow: hidden;
   }
-  .isolation-mode-icon {
+  .contact-isolation-mode-icon {
     top: 8.13px;
     left: 154px;
     width: 50px;
     height: 67px;
   }
-  .frame-icon {
+  .contact-frame-icon {
     width: 24px;
     position: relative;
     height: 24px;
     overflow: hidden;
     flex-shrink: 0;
   }
-  .frame-parent {
+  .contact-frame-parent {
     position: absolute;
     top: 170.13px;
     left: 133px;
@@ -413,9 +413,9 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     justify-content: flex-start;
     gap: 12px;
   }
-  .infonarmtechcom-hrnarmtech,
-  .rd-main-virgo-container,
-  .sales-and-services-91-container {
+  .contact-infonarmtechcom-hrnarmtech,
+  .contact-rd-main-virgo-container,
+  .contact-sales-and-services-91-container {
     position: absolute;
     top: 82.13px;
     left: 0;
@@ -426,12 +426,12 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     height: 67px;
     mix-blend-mode: normal;
   }
-  .infonarmtechcom-hrnarmtech,
-  .sales-and-services-91-container {
+  .contact-infonarmtechcom-hrnarmtech,
+  .contact-sales-and-services-91-container {
     top: 105.13px;
     left: 393px;
   }
-  .sales-and-services-91-container {
+  .contact-sales-and-services-91-container {
     top: 82.13px;
     left: 786px;
   }
@@ -442,7 +442,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     width: 1143px;
     height: 174.13px;
   }
-  .copyright-2023- {
+  .contact-copyright-2023- {
     position: absolute;
     top: 255px;
     left: 20px;
@@ -450,11 +450,11 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     display: inline-block;
     width: 242px;
   }
-  .privacy-policy {
+  .contact-privacy-policy {
     position: relative;
     line-height: 160%;
   }
-  .privacy-policy-parent {
+  .contact-privacy-policy-parent {
     position: absolute;
     top: 255px;
     left: 887px;
@@ -680,13 +680,13 @@ border: 1px solid rgba(227, 227, 227, 0.50);
       width: 450px;
       height: 44px;
     }
-    .isolation-mode-icon {
+    .contact-isolation-mode-icon {
       top: -319.87px;
       left: calc(50% - 567px);
       width: 40px;
       height: 45px;
     }
-    .rd-main-virgo-container {
+    .contact-rd-main-virgo-container {
       position: absolute;
       top: -280.87px;
       left: calc(50% - 731px);
@@ -698,7 +698,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
       height: 51px;
       mix-blend-mode: normal;
     }
-    .frame-parent {
+    .contact-frame-parent {
       position: absolute;
       top: -187.87px;
       left: calc(50% - 599px);
@@ -708,7 +708,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
       justify-content: flex-start;
       gap: 12px;
     }
-    .layer-1-icon {
+    .contact-layer-1-icon {
       position: absolute;
       top: -127.26px;
       left: calc(50% - 568px);
@@ -716,7 +716,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
       height: 45px;
       overflow: hidden;
     }
-    .infonarmtechcom-hrnarmtech {
+    .contact-infonarmtechcom-hrnarmtech {
       position: absolute;
       top: -79.87px;
       left: calc(50% - 728px);
@@ -735,12 +735,12 @@ border: 1px solid rgba(227, 227, 227, 0.50);
       width: 35px;
       height: 40px;
     }
-    .sales-and-services-91-container {
+    .contact-sales-and-services-91-container {
       top: 80.87px;
       left: calc(50% - 729px);
       font-size: 15px;
     }
-    .copyright-2023- {
+    .contact-copyright-2023- {
       position: absolute;
       top: 268px;
       left: calc(50% - 783px);
@@ -749,7 +749,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
       font-size: 10px;
       width: 242px;
     }
-    .privacy-policy-parent {
+    .contact-privacy-policy-parent {
       position: absolute;
       top: 268px;
       left: calc(50% - 555px);
@@ -921,13 +921,13 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         width: 450px;
         height: 44px;
       }
-      .isolation-mode-icon {
+      .contact-isolation-mode-icon {
         top: -319.87px;
         left: calc(50% - 567px);
         width: 50px;
         height: 55px;
       }
-      .rd-main-virgo-container {
+      .contact-rd-main-virgo-container {
         position: absolute;
         top: -270.87px;
         left: calc(50% - 801px);
@@ -939,7 +939,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         height: 51px;
         mix-blend-mode: normal;
       }
-      .frame-parent {
+      .contact-frame-parent {
         position: absolute;
         top: -177.87px;
         left: calc(50% - 599px);
@@ -949,7 +949,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         justify-content: flex-start;
         gap: 12px;
       }
-      .layer-1-icon {
+      .contact-layer-1-icon {
         position: absolute;
         top: -117.26px;
         left: calc(50% - 568px);
@@ -957,7 +957,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         height: 55px;
         overflow: hidden;
       }
-      .infonarmtechcom-hrnarmtech {
+      .contact-infonarmtechcom-hrnarmtech {
         position: absolute;
         top: -69.87px;
         left: calc(50% - 728px);
@@ -969,19 +969,19 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         height: 67px;
         mix-blend-mode: normal;
       }
-      .group-icon {
+      .contact-group-icon {
         position: absolute;
         top: 30.87px;
         left: calc(50% - 568px);
         width: 50px;
         height: 55px;
       }
-      .sales-and-services-91-container {
+      .contact-sales-and-services-91-container {
         top: 80.87px;
         left: calc(50% - 729px);
         font-size: 15px;
       }
-      .copyright-2023- {
+      .contact-copyright-2023- {
         position: absolute;
         top: 268px;
         left: calc(50% - 783px);
@@ -990,7 +990,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
         font-size: 10px;
         width: 242px;
       }
-      .privacy-policy-parent {
+      .contact-privacy-policy-parent {
         position: absolute;
         top: 268px;
         left: calc(50% - 555px);

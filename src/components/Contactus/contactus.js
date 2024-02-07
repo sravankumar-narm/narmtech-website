@@ -106,18 +106,18 @@ function Contactus() {
           <div className="contact-group-container">
             <img className="contact-group-icon" alt="" src={contant3} />
 
-            <img className="layer-1-icon" alt="" src={contant2} />
+            <img className="contact-layer-1-icon" alt="" src={contant2} />
 
-            <img className="isolation-mode-icon" alt="" src={contant1} />
+            <img className="contact-isolation-mode-icon" alt="" src={contant1} />
 
-            <div className="frame-parent">
-              <img className="frame-icon" alt="" src={F} />
+            <div className="contact-frame-parent">
+              <img className="contact-frame-icon" alt="" src={F} />
 
-              <img className="frame-icon" alt="" src={X} />
+              <img className="contact-frame-icon" alt="" src={X} />
 
-              <img className="frame-icon" alt="" src={I} />
+              <img className="contact-frame-icon" alt="" src={I} />
             </div>
-            <div className="rd-main-virgo-container">
+            <div className="contact-rd-main-virgo-container">
               <p className="leveraging-ai-and">
                 #92, 3rd Main, Virgo Nagar, Post,
               </p>
@@ -125,11 +125,11 @@ function Contactus() {
                 Seegehalli, Bengaluru, Karnataka 560049
               </p>
             </div>
-            <div className="infonarmtechcom-hrnarmtech">
+            <div className="contact-infonarmtechcom-hrnarmtech">
               <p className="leveraging-ai-and">info@narmtech.com</p>
               <p className="leveraging-ai-and">hr@narmtech.com</p>
             </div>
-            <div className="sales-and-services-91-container">
+            <div className="contact-sales-and-services-91-container">
               <p className="leveraging-ai-and">
                 +91 9611291621 - Sales and Services
               </p>
@@ -139,10 +139,10 @@ function Contactus() {
               <p className="leveraging-ai-and">+91 8297902227 - Whatsapp</p>
             </div>
           </div>
-          <div className="copyright-2023-">© Copyright 2023 - Narm Tech</div>
-          <div className="privacy-policy-parent">
-            <div className="privacy-policy">Privacy Policy</div>
-            <div className="privacy-policy">Terms & Conditions</div>
+          <div className="contact-copyright-2023-">© Copyright 2023 - Narm Tech</div>
+          <div className="contact-privacy-policy-parent">
+            <div className="contact-privacy-policy">Privacy Policy</div>
+            <div className="contact-privacy-policy">Terms & Conditions</div>
           </div>
         </div>
         <circle className="cricle3"></circle>
