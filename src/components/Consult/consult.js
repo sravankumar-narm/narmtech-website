@@ -1,5 +1,4 @@
-import { useCallback } from "react";
-import "./legal.css";
+import "./consult.css";
 import Logo from "../../Images/legal/narm-tech-logo-1@2x.png";
 import background2x from "../../Images/legal/background@2x.png";
 import background1x from "../../Images/legal/background-1@2x.png";
@@ -14,38 +13,7 @@ import frame2 from "../../Images/legal/frame-2.svg";
 import background4 from "../../Images/legal/background-4.svg"
 
 const Legal = () => {
-  const onMenuContainerClick = useCallback(() => {
-    //  "Home"
-  }, []);
-
-  const onMenuClick = useCallback(() => {
-    // "offer"
-  }, []);
-
-  const onMenuContainer1Click = useCallback(() => {
-    // "Consult"
-  }, []);
-
-  const onMenuContainer2Click = useCallback(() => {
-    //  "Home"
-  }, []);
-
-  const onMenu1Click = useCallback(() => {
-    // "Home"
-  }, []);
-
-  const onMenu2Click = useCallback(() => {
-    //  "Contact us"
-  }, []);
-
-  const onKnowMoreTextClick = useCallback(() => {
-    // "Know more"
-  }, []);
-
-  const onGroupContainerClick = useCallback(() => {
-    //  "Contact us"
-  }, []);
-
+  
   return (
     <div className="legal">
       <header className="legalInner">
