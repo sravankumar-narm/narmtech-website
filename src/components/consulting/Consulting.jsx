@@ -18,9 +18,9 @@ function Consulting() {
     <div className="contact">
       <header className="contact-legalInner">
         <div className="narmLogoParent">
-          <div className="narmLogo">
+          <div className="consult-narmLogo">
             <img
-              className="narmTechLogo1"
+              className="consult-narmTechLogo1"
               loading="eager"
               alt=""
               src={Logo}
@@ -63,15 +63,15 @@ function Consulting() {
                 <div className="consult-thisPowerfulSolutionContainer">
                   <div className="consult-thispowerfulsoution1">
                     <div className="Dot"></div>
-                    <p className="thisPowerfulSolution">
+                    <p className="contact-thisPowerfulSolution">
                       <h className="Data">Data Strategy:</h>Providing guidance
                       and planning for effective data utilization and
                       management.
                     </p>
                   </div>
-                  <div className="bySeamlesslyHandling1">
+                  <div className="consult-bySeamlesslyHandling1">
                     <div className="Dot"></div>
-                    <p className="bySeamlesslyHandling">
+                    <p className="consult-bySeamlesslyHandling">
                       <h className="Data">
                         Data Management Capability Consulting:
                       </h>
