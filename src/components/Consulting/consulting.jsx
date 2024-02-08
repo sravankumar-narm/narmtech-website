@@ -122,7 +122,7 @@ function Consulting() {
                 </div>
               </div>
             </div>
-            <div className="consult-frameContainer">
+            <div className="consult-frameContainer1">
               <div className="consult-legalParent">
                 <h1 className="consult-legal1">Data Transformation</h1>
                 <div className="consult-thisPowerfulSolutionContainer">
@@ -160,14 +160,14 @@ function Consulting() {
         <div className="contact-contactusButton">
           <div className="consult-frameParent">
             <div className="consult-frameWrapper">
-              <div className="consult-backgroundParent">
+              <div className="consult-backgroundParent2">
                 <img className="consult-backgroundIcon" alt="" src={backgoundimg2} />
                 <div className="consult-wrapperBackground">
                   <img className="consult-backgroundIcon1" alt="" src={img3} />
                 </div>
               </div>
             </div>
-            <div className="consult-frameContainer">
+            <div className="consult-frameContainer2">
               <div className="consult-legalParent">
                 <h1 className="consult-legal1">Data Engineering</h1>
                 <div className="consult-thisPowerfulSolutionContainer">
