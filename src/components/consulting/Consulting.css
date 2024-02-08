@@ -4,7 +4,7 @@
 
   --consult-body-regular-size: 16px;
   --consult-font-size-21xl: 40px;
-  --consult-font-size-5xl: 24px;
+  --consult-font-size-5xl: 47px;
   --consult-font-size-lg: 18px;
   --consult-font-size-11xl: 30px;
 
@@ -239,14 +239,18 @@
   /*left: 0;*/
   left: 0;
   max-height: 100%;
+  max-width: 100%;
   width: 653.9px;
+  background-size: cover;
+  
 }
 .consult-backgroundIcon1 {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
   z-index: 1;
   left: -60px;
   top: 60px;
-  transform: scale(1.252);
+  background-size: cover;
 }
 .consult-wrapperBackground {
   position: absolute;
@@ -292,16 +296,14 @@
   margin: 0;
 }
 .consult-thispowerfulsoution1 {
-  width: 610.7px;
-  height: 115px;
+  max-width: 610.7px;
   border-radius: 30px;
-  padding: 26px 23px 26px 23px;
+  padding: 26px 23px 0px 23px;
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
 .contact-thisPowerfulSolution {
-  width: 474.7px;
-  height: 64px;
+  max-width: 474.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
@@ -326,40 +328,35 @@ li::marker {
   border: 1px solid #1eb1e5;
 }
 .generatingFormsAnd1 {
-  width: 610.7px;
-  height: 152px;
+  max-width: 610.7px;
   border-radius: 30px;
   padding: 26px 23px 26px 23px;
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
 .generatingFormsAnd {
-  width: 534.7px;
-  height: 64px;
+  max-width: 534.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
   margin-left: 30px;
 }
 .lifecycleManagementOf1 {
-  width: 610.7px;
-  height: 148px;
+  max-width: 610.7px;
   border-radius: 30px;
   padding: 26px 23px 26px 23px;
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
 .lifecycleManagementOf {
-  width: 515.7px;
-  height: 96px;
+  max-width: 515.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
   margin-left: 30px;
 }
 .recommendationsWithRespect1 {
-  width: 610.7px;
-  height: 148px;
+  max-width: 610.7px;
   border-radius: 30px;
   padding: 26px 23px 26px 23px;
   border: 1px solid #e0e0e0;
@@ -369,8 +366,7 @@ li::marker {
   margin-bottom: 10px;
 }
 .recommendationsWithRespect {
-  width: 515.7px;
-  height: 96px;
+  max-width: 515.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
@@ -383,59 +379,53 @@ li::marker {
   margin-bottom: 0;
 }
 .consult-bySeamlesslyHandling1 {
-  width: 610.7px;
-  height: 148px;
+ max-width: 610.7px;
+
   border-radius: 30px;
   border: 1px solid #e0e0e0;
-  padding: 26px 23px 26px 23px;
+  padding: 26px 23px 0px 23px;
   font-size: 20px;
   margin-bottom: 10px;
 }
 .consult-bySeamlesslyHandling {
-  width: 530.7px;
-  height: 96px;
+  max-width: 530.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
   margin-left: 30px;
 }
 .DataModeling1 {
-  width: 610.7px;
-  height: 188px;
+  max-width: 610.7px;
   border-radius: 30px;
-  padding: 26px 23px 26px 23px;
+  padding: 26px 23px 0px 23px;
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
 .DataModeling {
-  width: 534.7px;
-  height: 64px;
+  max-width: 534.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
   margin-left: 30px;
 }
 .BIandAnalytics1 {
-  width: 610.7px;
-  height: 120px;
+  max-width: 610.7px;
   border-radius: 30px;
-  padding: 26px 23px 26px 23px;
+  padding: 26px 23px 0px 23px;
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
 .BIandAnalytics {
-  width: 515.7px;
-  height: 96px;
+  max-width: 515.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
   margin-left: 30px;
 }
 .DataArchitecture1 {
-  width: 610.7px;
-  height: 190px;
+  max-width: 610.7px;
   border-radius: 30px;
-  padding: 26px 23px 26px 23px;
+  padding: 26px 23px 0px 23px;
   border: 1px solid #e0e0e0;
   font-size: 20px;
   font-weight: 400;
@@ -443,50 +433,44 @@ li::marker {
   margin-bottom: 10px;
 }
 .DataArchitecture {
-  width: 522.7px;
-  height: 96px;
+  max-width: 522.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
   margin-left: 30px;
 }
 .DataDiscovery1 {
-  width: 610.7px;
-  height: 148px;
+  max-width: 610.7px;
   border-radius: 30px;
-  padding: 26px 23px 26px 23px;
+  padding: 26px 23px 0px 23px;
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
 .DataDiscovery {
-  width: 534.7px;
-  height: 64px;
+  max-width: 534.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
   margin-left: 30px;
 }
 .DataDemocratization1 {
-  width: 610.7px;
-  height: 114px;
+  max-width: 610.7px;
   border-radius: 30px;
-  padding: 26px 23px 26px 23px;
+  padding: 26px 23px 0px 23px;
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
 .DataDemocratization {
-  width: 515.7px;
-  height: 96px;
+  max-width: 515.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
   margin-left: 30px;
 }
 .DataAnalyticsModernization1 {
-  width: 610.7px;
-  height: 114px;
+  max-width: 610.7px;
   border-radius: 30px;
-  padding: 26px 23px 26px 23px;
+  padding: 26px 23px 0px 23px;
   border: 1px solid #e0e0e0;
   font-size: 20px;
   font-weight: 400;
@@ -494,8 +478,7 @@ li::marker {
   margin-bottom: 10px;
 }
 .DataAnalyticsModernization {
-  width: 522.7px;
-  height: 96px;
+  max-width: 522.7px;
   font-size: 20px;
   font-weight: 400;
   margin-top: -35px;
@@ -525,14 +508,15 @@ li::marker {
   color: var(--consult-color-gray-100);
   font-family: var(--consult-font-open-sans);
 }
-.consult-backgroundParent1 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+.consult-backgroundIcon11 {
   top: 0;
-  right: -0.3px;
   bottom: 0;
+  /* left: 0; */
   left: 0;
+  max-height: 100%;
+  max-width: 100%;
+  width: 653.9px;
+  background-size: cover;
 }
 .consult-backgroundIcon12 {
   top: 0;
@@ -540,7 +524,7 @@ li::marker {
   /* left: 0; */
   left: -261px;
   max-height: 100%;
-  width: 653.9px;
+  max-width: 653.9px;
 }
 .consult-backgroundIcon11,
 .consult-backgroundIcon12 {
@@ -554,13 +538,35 @@ li::marker {
   z-index: 0;
   transform: rotate(180);
 }
+.consult-frameWrapper,
+.consult-legal1 {
+  position: relative;
+  max-width: 100%;
+}
+.consult-frameWrapper {
+  flex: 1;
+  height: 916px;
+  min-width: 475px;
+}
+.consult-legal11 {
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  width: 599px;
+}
+
+.consult-legal1 {
+  margin: 0;
+}
 .consult-frameWrapper1 {
   flex: 1;
   height: 916px;
   min-width: 475px;
 }
 .consult-frameWrapper1,
-.legal1 {
+.legal11 {
   position: relative;
   max-width: 100%;
 }
@@ -570,7 +576,7 @@ li::marker {
   align-items: flex-start;
   padding: 0 0 var(--consult-padding-16xl);
   box-sizing: border-box;
-  min-width: 615px;
+  max-width: 615px;
 }
 .consult-frameContainer1,
 .consult-frameParent1,
@@ -618,7 +624,7 @@ li::marker {
 }
 
 /*added margin ( 1st legal text)*/
-.consult-backgroundIcon1 {
+.consult-backgroundIcon11 {
   position: relative;
   z-index: 0;
 }
@@ -636,6 +642,21 @@ li::marker {
   max-width: 100%;
 }
 .consult-frameContainer {
+  width: 615px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--consult-padding-16xl);
+  box-sizing: border-box;
+  min-width: 615px;
+}
+.consult-frameContainer2,
+.consult-frameParent,
+.consult-legalParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.consult-frameContainer2 {
   width: 615px;
   flex-direction: column;
   align-items: flex-start;
@@ -1303,6 +1324,9 @@ li::marker {
   .consult-frameParent {
     flex-wrap: wrap;
   }
+  .consult-frameParent1 {
+    flex-wrap: wrap;
+  }
   .homeMenuFrameParent,
   .rectangleParent {
     gap: var(--consult-gap-14xl);
@@ -1327,6 +1351,14 @@ li::marker {
 }
 @media screen and (max-width: 750px) {
   .consult-frameContainer,
+  .consult-frameWrapper {
+    min-width: 100%;
+  }
+  .consult-frameContainer2,
+  .consult-frameWrapper {
+    min-width: 100%;
+  }
+  .consult-frameContainer1,
   .consult-frameWrapper {
     min-width: 100%;
   }
@@ -1358,7 +1390,10 @@ li::marker {
     gap: var(--consult-gap-14xl);
   }
   .consult-policyTitleFrame {
-    gap: 18px;
+    gap: 238px;
+    top: 230px;
+    position: relative;
+    left: 20px;
   }
   .copyright2023NarmTechParent {
     flex-wrap: wrap;
@@ -1405,11 +1440,173 @@ li::marker {
   .consult-contactUs1 {
     font-size: var(--consult-font-size-5xl);
     line-height: 38px;
+    top:56px;
+    left: 20px;
+  }
+  .consult-narmTechLogo1 {
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 74px);
+    width: 148px;
+    height: 24px;
+    object-fit: cover;
+  }
+  .contact-menu,.contact-menu1,.contact-menu3,.contact-menu4,.contact-menu5{
+    display: none;
+  }
+  .contact-menu2{
+    position: relative;
+    left: 10px;
+    top:80px
   }
   .consult-postDetailsFrameParent {
     gap: 21px;
     padding-top: var(--consult-padding-xl);
     padding-bottom: 33px;
     box-sizing: border-box;
+    top: -842px;
   }
+  .consult-backgroundIcon {
+    top: 0;
+    bottom: 0;
+    /* left: 0; */
+    left: 0;
+    max-height: 100%;
+    width: 653.9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.consult-backgroundParent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -140px;
+  right: -6.3px;
+  bottom: 0;
+  left: 0;
+}
+.consult-wrapperBackground {
+  position: absolute;
+  top: 110px;
+  left: 62px;
+  width: 370.7px;
+  height: 575.6px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.consult-frameContainer{
+  position: relative;
+  top:-276px;
+}
+.consult-backgroundParent1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -422px;
+  right: -0.3px;
+  bottom: 0;
+  left: 0;
+}
+.consult-wrapperBackground1 {
+  position: absolute;
+  top: 171px;
+  left: 159px;
+  border-radius: 30px;
+  width: 571.7px;
+  height: 575.6px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.consult-backgroundParent11 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -276px;
+  right: -0.3px;
+  bottom: 0;
+  left: 0;
+}
+.consult-backgroundIcon12 {
+  top: 0;
+  bottom: 0;
+  /* left: 0; */
+  left: -292px;
+  max-height: 100%;
+  max-width: 370.9px;
+
+}
+.consult-frameContainer1{
+  position: relative;
+  top:-586px;
+}
+.consult-backgroundParent2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -714px;
+  right: -0.3px;
+  bottom: 0;
+  left: 0;
+}
+.consult-frameContainer2{
+  position: relative;
+  top:-886px;
+}
+.consult-backgroundIcon3 {
+  position: absolute;
+  max-width:100% ;
+  height: 1000px;
+}
+.consult-layerFrame {
+  position: absolute;
+  top: 0;
+  left: 450px;
+  background: linear-gradient(111.41deg, #684fff, #7190fe 87.74%);
+  width: 28%;
+  height: 260%;
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+}
+.consult-framesFrameChild,
+.consult-layer1Icon,
+.consult-isolationModeIcon {
+  position: absolute;
+  top: 186px;
+  left: 569px;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  z-index: 1;
+}
+.consult-layer1Icon{
+  top: 509px;
+    left: 120px;
+}
+.consult-framesFrameChild{
+  top: 8%;
+    left: 550px;
+}
+.consult-footerCopyright {
+  top: 863px;
+}
+.consult-frameTripletsIcon, .consult-frameTripletsIcon1, .consult-frameTripletsIcon2 {
+  position: absolute;
+  top: 408px;
+  left: 556px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  z-index: 1;
+}
+.consult-frameTripletsIcon1{
+  top: 408px;
+  left: 656px;
+}
+.consult-frameTripletsIcon2{
+  left: 607px;
+}
 }
