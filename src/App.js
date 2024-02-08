@@ -7,6 +7,7 @@ import Contactus from "./components/Contactus/contactus.js";
 import Dummy from "./components/Dummy/Dummy.js";
 import Legal from "./components/Legal/Legal.js";
 import Ourteam from "./components/Ourteam/Ourteam.js";
+import Aboutus from "./components/aboutus/Aboutus.js";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route exact path="/dummy" element={<Dummy />} />
         <Route exact path="/legal" element={<Legal />} />
         <Route exact path="/ourteam" element={<Ourteam />} />
+        <Route exact path="/aboutus" element={<Aboutus />} />
       </Routes>
     </BrowserRouter>
   );
