@@ -273,6 +273,15 @@
   bottom: 0;
   left: 0;
 }
+.consult-backgroundParent1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -0.3px;
+  bottom: 0;
+  left: 58px;
+}
 .consult-frameWrapper,
 .consult-legal1 {
   position: relative;
@@ -1507,7 +1516,7 @@ li::marker {
   top: -422px;
   right: -0.3px;
   bottom: 0;
-  left: 0;
+  left: 31px;
 }
 .consult-wrapperBackground1 {
   position: absolute;
@@ -1567,7 +1576,7 @@ li::marker {
   left: 450px;
   background: linear-gradient(111.41deg, #684fff, #7190fe 87.74%);
   width: 28%;
-  height: 260%;
+  height: 110%;
   border-top-left-radius: 39px;
   border-top-right-radius: 39px;
 }
@@ -1587,12 +1596,25 @@ li::marker {
     left: 120px;
 }
 .consult-framesFrameChild{
-  top: 8%;
-    left: 550px;
+  top: 76%;
+    left: 575px;
 }
 .consult-footerCopyright {
-  top: 863px;
+  top: 178px;
 }
+.consult-salesAndServices91Container {
+  position: relative;
+  top: -58px;
+}
+.consult-copyright2023, .consult-privacyPolicy, .consult-termsConditions {
+  position: relative;
+  line-height: 160%;
+  z-index: 1;
+  top: 158px;
+  flex-direction: row;
+}
+
+
 .consult-frameTripletsIcon, .consult-frameTripletsIcon1, .consult-frameTripletsIcon2 {
   position: absolute;
   top: 408px;
