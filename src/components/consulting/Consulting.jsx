@@ -26,7 +26,7 @@ function Consulting() {
               src={Logo}
             />
           </div>
-          <div className="contact-menu">
+          {/* <div className="contact-menu">
             <a href="/">Home</a>
           </div>
           <div className="contact-menu1">
@@ -43,8 +43,26 @@ function Consulting() {
           </div>
           <div className="contact-menu5">
             <a href="/contactus">Contact us</a>
-          </div>
-        </div>
+          </div> */}
+          <div className="menu">
+        <a href="/">Home</a>
+      </div>
+      <div className="menu1">
+        <a href="/offers">Offerings</a>
+      </div>
+      <div className="menu2">
+        <a href="/consulting">Consulting</a>
+      </div>
+      <div className="menu3">
+        <a href="/aboutus">About us</a>
+      </div>
+      <div className="menu4">
+        <a href="/ourteam">Our Team</a>
+      </div>
+      <div className="menu5">
+        <a href="/contactus">Contact us</a>
+      </div>
+       </div>
       </header>
       <section className="contact-ourTeamButton">
         <div className="contact-contactusButton">

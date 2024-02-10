@@ -18,32 +18,25 @@ function Contactus() {
     <img className="narm-tech-logo-1" src={Logo} />
 
 
-    <div className="c-menu">
-        <a href="/" className="contact-home">Home</a>
+    <div className="menu">
+        <a href="/">Home</a>
       </div>
-      <div className="c-menu1">
-        <a href="/offers" className="contact-offerings">Offerings</a>
+      <div className="menu1">
+        <a href="/offers">Offerings</a>
       </div>
-      <div className="c-menu2">
-        <a href="/consulting" className="contact-home">Consulting</a>
+      <div className="menu2">
+        <a href="/consulting">Consulting</a>
       </div>
-      <div className="c-menu3">
-        <a href="/aboutus" className="contact-home">About us</a>
+      <div className="menu3">
+        <a href="/aboutus">About us</a>
       </div>
-      <div className="c-menu4">
-        <a href="/ourteam" className="contact-our-team">Our Team</a>
+      <div className="menu4">
+        <a href="/ourteam">Our Team</a>
       </div>
-      <div className="c-menu5">
-        <a href="#" className="/contactus">Contact us</a>
-        <div className="dropdown-content">
-            <div>Home</div>
-            <div>Offerings</div>
-            <div>Consulting</div>
-            <div>About us</div>
-            <div>Our Team</div>
-           
-           </div>
-    </div>
+      <div className="menu5">
+        <a href="/contactus">Contact us</a>
+      </div>
+      
     <div className="background-parent">
       <img
         className="background-icon"
