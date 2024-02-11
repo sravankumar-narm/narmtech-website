@@ -913,6 +913,7 @@
   width: 1167px;
   padding: 0 var(--padding-5xl) 0 0;
   box-sizing: border-box;
+  height: 165px;
 }
 .footerCopyright {
   align-self: stretch;
@@ -922,7 +923,7 @@
   height: 6px;
   z-index: 1;
 }
-.copyright2023,
+.copyright2024,
 .privacyPolicy,
 .termsConditions {
   position: relative;
@@ -936,14 +937,14 @@
   justify-content: flex-start;
   gap: 28px;
 }
-.copyright2023NarmTechParent,
+.copyright2024NarmTechParent,
 .privacyPolicyTerms {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.copyright2023NarmTechParent {
+.copyright2024NarmTechParent {
   flex: 1;
   justify-content: space-between;
   gap: var(--gap-xl);
@@ -1107,7 +1108,7 @@
   .policyTitleFrame {
     gap: 18px;
   }
-  .copyright2023NarmTechParent {
+  .copyright2024NarmTechParent {
     flex-wrap: wrap;
   }
   .lineSeparator {

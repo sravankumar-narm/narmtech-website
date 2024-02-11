@@ -1219,7 +1219,7 @@ li::marker {
   height: 6px;
   z-index: 1;
 }
-.consult-copyright2023,
+.consult-copyright2024,
 .consult-privacyPolicy,
 .consult-termsConditions {
   position: relative;
@@ -1233,14 +1233,14 @@ li::marker {
   justify-content: flex-start;
   gap: 28px;
 }
-.consult-copyright2023NarmTechParent,
+.consult-copyright2024NarmTechParent,
 .consult-privacyPolicyTerms {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
 }
-.consult-copyright2023NarmTechParent {
+.consult-copyright2024NarmTechParent {
   flex: 1;
   justify-content: space-between;
   gap: var(--consult-gap-xl);
@@ -1404,7 +1404,7 @@ li::marker {
     position: relative;
     left: 20px;
   }
-  .copyright2023NarmTechParent {
+  .copyright2024NarmTechParent {
     flex-wrap: wrap;
   }
   .consult-lineSeparator {
@@ -1606,7 +1606,7 @@ li::marker {
   position: relative;
   top: -58px;
 }
-.consult-copyright2023, .consult-privacyPolicy, .consult-termsConditions {
+.consult-copyright2024, .consult-privacyPolicy, .consult-termsConditions {
   position: relative;
   line-height: 160%;
   z-index: 1;

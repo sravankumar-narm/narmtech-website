@@ -179,7 +179,7 @@ function Aboutus() {
               </p>
             </div>
           </div>
-          <div className="About-copyright-2023-">© Copyright 2023 - Narm Tech</div>
+          <div className="About-copyright-2024-">© Copyright 2024 - Narm Tech</div>
           <div className="About-privacy-policy-parent">
             <div className="About-privacy-policy">Privacy Policy</div>
             <div className="About-privacy-policy">Terms & Conditions</div>

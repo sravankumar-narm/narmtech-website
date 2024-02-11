@@ -1,6 +1,4 @@
-"use client";
 import React, { useCallback, useState } from "react";
-import styles from "./agri.module.css";
 import "./agri.css";
 
 const Legal = () => {
@@ -49,7 +47,7 @@ const Legal = () => {
 
   return (
     <div className="legal">
-      <header className={`legalInner ${isMenuOpen ? menuOpen : ""}`}>
+      <header className={`legalInner`}>
         <div className="narmLogoParent">
           <div className="narmLogo">
             <img
@@ -60,7 +58,7 @@ const Legal = () => {
             />
           </div>
           <div
-            className={`mobileMenuButton ${isMenuOpen ? open : ""}`}
+            className={`mobileMenuButton`}
             onClick={toggleMenu}
           >
             ☰
@@ -349,9 +347,9 @@ const Legal = () => {
             <div className="lineSeparator">
               <div className="footerCopyright" />
               <div className="privacyPolicyTerms">
-                <div className="copyright2023NarmTechParent">
-                  <div className="copyright2023">
-                    © Copyright 2023 - Narm Tech
+                <div className="copyright2024NarmTechParent">
+                  <div className="copyright2024">
+                    © Copyright 2024 - Narm Tech
                   </div>
                   <div className="privacyPolicyParent">
                     <div className="privacyPolicy">Privacy Policy</div>

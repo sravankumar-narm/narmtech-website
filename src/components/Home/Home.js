@@ -307,7 +307,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="Home-copyright-2023-">© Copyright 2023 - Narm Tech</div>
+          <div className="Home-copyright-2024-">© Copyright 2024 - Narm Tech</div>
           <div className="Home-privacy-policy-parent">
             <div className="Home-privacy-policy">Privacy Policy</div>
             <div className="Home-privacy-policy">Terms & Conditions</div>

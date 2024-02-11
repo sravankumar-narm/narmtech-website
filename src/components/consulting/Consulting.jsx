@@ -283,8 +283,8 @@ function Consulting() {
             <div className="consult-lineSeparator">
               <div className="consult-footerCopyright" />
               <div className="consult-privacyPolicyTerms">
-                <div className="consult-copyright2023NarmTechParent">
-                  <div className="consult-copyright2023">
+                <div className="consult-copyright2024NarmTechParent">
+                  <div className="consult-copyright2024">
                     © Copyright 2024 - Narm Tech
                   </div>
                   <div className="consult-privacyPolicyParent">

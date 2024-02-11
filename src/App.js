@@ -8,6 +8,9 @@ import Dummy from "./components/Dummy/Dummy.js";
 import Legal from "./components/Legal/Legal.js";
 import Ourteam from "./components/Ourteam/Ourteam.js";
 import Aboutus from "./components/aboutus/Aboutus.js";
+import IT from './components/IT/It.js';
+import Edu from './components/Edu/edu.js';
+import Agri from './components/Agri/Agri.js'
 
 
 const App = () => {
@@ -22,6 +25,9 @@ const App = () => {
         <Route exact path="/legal" element={<Legal />} />
         <Route exact path="/ourteam" element={<Ourteam />} />
         <Route exact path="/aboutus" element={<Aboutus />} />
+        <Route exact path="/it" element={<IT />} />
+        <Route exact path="/adhyayn" element={<Edu />} />
+        <Route exact path="/agri" element={<Agri />} />
       </Routes>
     </BrowserRouter>
   );

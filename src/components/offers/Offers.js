@@ -17,7 +17,23 @@ import F from "../../Images/offers/F.png";
 import X from "../../Images/offers/X.png";
 import I from "../../Images/offers/I.png";
 import "./offers.css";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+  const navigate = useNavigate();
+
+  const handleLegal = () => {
+    navigate("/legal");
+  };
+  const handleIt = () => {
+    navigate("/it");
+  };
+  const handleEdu = () => {
+    navigate("/adhyayn");
+  };
+  const handleAgri = () => {
+    navigate("/agri");
+  };
   return (
     <div className="offer">
       <div className="menu-button"></div>
@@ -186,28 +202,28 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <div className="offer-inner">
+      <div className="offer-inner" onClick={handleLegal}>
         <div className="instance-child"></div>
       </div>
-      <div className="offer-rectangle-div">
+      <div className="offer-rectangle-div" onClick={handleEdu}>
         <div className="instance-child"></div>
       </div>
-      <div className="offer-inner1">
+      <div className="offer-inner1" onClick={handleIt}>
         <div className="instance-child"></div>
       </div>
-      <div className="offer-inner2">
+      <div className="offer-inner2" onClick={handleAgri}>
         <div className="instance-child"></div>
       </div>
-      <b className="more-details" id="moreDetailsText">
+      <b className="more-details" id="moreDetailsText" onClick={handleLegal}>
         More Details
       </b>
-      <b className="more-details1" id="moreDetailsText1">
+      <b className="more-details1" id="moreDetailsText1" onClick={handleEdu}>
         More Details
       </b>
-      <b className="more-details2" id="moreDetailsText2">
+      <b className="more-details2" id="moreDetailsText2" onClick={handleIt}>
         More Details
       </b>
-      <b className="more-details3" id="moreDetailsText3">
+      <b className="more-details3" id="moreDetailsText3" onClick={handleAgri}>
         More Details
       </b>
       <div className="offer-image-parent">
@@ -291,7 +307,7 @@ const Home = () => {
               <p className="leveraging-ai-and">+91 8297902227 - Whatsapp</p>
             </div>
           </div>
-          <div className="offer-copyright-2023-">© Copyright 2023 - Narm Tech</div>
+          <div className="offer-copyright-2024-">© Copyright 2024 - Narm Tech</div>
           <div className="offer-privacy-policy-parent">
             <div className="offer-privacy-policy">Privacy Policy</div>
             <div className="offer-privacy-policy">Terms & Conditions</div>

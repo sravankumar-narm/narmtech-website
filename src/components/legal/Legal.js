@@ -294,8 +294,8 @@ const Legal = () => {
             <div className="lineSeparator">
               <div className="footerCopyright" />
               <div className="privacyPolicyTerms">
-                <div className="copyright2023NarmTechParent">
-                  <div className="copyright2023">
+                <div className="copyright2024NarmTechParent">
+                  <div className="copyright2024">
                     © Copyright 2024 - Narm Tech
                   </div>
                   <div className="privacyPolicyParent">

@@ -126,7 +126,7 @@ function Dummy() {
               <p className="leveraging-ai-and">+91 8297902227 - Whatsapp</p>
             </div>
           </div>
-          <div className="copyright-2023-">© Copyright 2023 - Narm Tech</div>
+          <div className="copyright-2024-">© Copyright 2024 - Narm Tech</div>
           <div className="privacy-policy-parent">
             <div className="privacy-policy">Privacy Policy</div>
             <div className="privacy-policy">Terms & Conditions</div>

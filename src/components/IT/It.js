@@ -1,7 +1,16 @@
-"use client"
 import React, { useCallback, useState } from "react";
-import styles from "./IT.module.css";
-import './IT.css';
+import "./It.css";
+import backgroundIcon2 from '../../Images/IT/background-2.svg';
+import group27 from '../../Images/IT/group-27.svg'
+import background3 from '../../Images/IT/background-3.svg'
+import layer1Icon from '../../Images/IT/layer-1.svg'
+import isolationModeIcon from '../../Images/IT/isolation-mode.svg'
+import frameTripletsIcon from '../../Images/IT/frame.svg';
+import frameTripletsIcon1 from '../../Images/IT/frame-1.svg';
+import frameTripletsIcon2 from '../../Images/IT/frame-2.svg';
+import backgroundIcon4 from '../../Images/IT/background-4.svg';
+import backgroundIcon from '../../Images/IT/background@2x.png';
+import backgroundIcon1 from '../../Images/IT/Vyayah1.png'
 
 const Legal = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -49,9 +58,7 @@ const Legal = () => {
 
   return (
     <div className="legal">
-      <header
-        className={`legalInner ${isMenuOpen ? menuOpen : ""}`}
-      >
+      <header className={`legalInner`}>
         <div className="narmLogoParent">
           <div className="narmLogo">
             <img
@@ -61,60 +68,28 @@ const Legal = () => {
               src="Images/Edu/narm-tech-logo-1@2x.png"
             />
           </div>
-          <div
-            className={`mobileMenuButton ${
-              isMenuOpen ? open : ""
-            }`}
-            onClick={toggleMenu}
-          >
-            ☰
+
+          <div className="menu">
+            <a href="/">Home</a>
           </div>
-
-          <div className="menuButton">
-            <div className="menu" onClick={onMenuContainerClick}>
-              <div className="home">{`Home`}</div>
-            </div>
-
-            <button className="menu1" onClick={onMenuClick}>
-              <div className="offerings">Offerings</div>
-            </button>
-            <div className="menu2" onClick={onMenuContainer1Click}>
-              <div className="consulting">{`Consulting `}</div>
-            </div>
-            <div className="menu3" onClick={onMenuContainer2Click}>
-              <div className="aboutUs">{`About us`}</div>
-            </div>
-            <button className="menu4" onClick={onMenu1Click}>
-              <div className="ourTeam">Our Team</div>
-            </button>
-            <button className="menu5" onClick={onMenu2Click}>
-              <div className="contactUs">Contact us</div>
-            </button>
+          <div className="menu1">
+            <a href="/offers">Offerings</a>
+          </div>
+          <div className="menu2">
+            <a href="/consulting">Consulting</a>
+          </div>
+          <div className="menu3">
+            <a href="/aboutus">About us</a>
+          </div>
+          <div className="menu4">
+            <a href="/ourteam">Our Team</a>
+          </div>
+          <div className="menu5">
+            <a href="/contactus">Contact us</a>
           </div>
         </div>
       </header>
-      {isMenuOpen && (
-        <div className="mobileMenu">
-          <div className="menuItem" onClick={closeMenu}>
-            Home
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            Offerings
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            Consulting
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            About Us
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            Our team
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            Contact Us
-          </div>
-        </div>
-      )}
+      
       <section className="ourTeamButton">
         <div className="contactusButton">
           <div className="frameParent">
@@ -123,16 +98,14 @@ const Legal = () => {
                 <img
                   className="backgroundIcon"
                   alt=""
-                  src="Images/IT/background@2x.png"
+                  src={backgroundIcon}
                 />
                 <div className="wrapperBackground">
                   <img
                     className="backgroundIcon1"
                     alt=""
-                    src="Images/IT/Vyayah1.png"
+                    src={backgroundIcon1}
                   />
-                  
-                  
                 </div>
               </div>
             </div>
@@ -141,25 +114,27 @@ const Legal = () => {
                 <h1 className="legal1">IT Infrastructure</h1>
                 <div className="thisPowerfulSolutionContainer">
                   <p className="thisPowerfulSolution">
-                  Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to
-                   provide cost-effective recommendations. These recommendations help organizations optimize their IT spending,
-                   identifycost-saving opportunities, and align their resources with business needs
+                    Leveraging AI and analytics, the product analyzes usage
+                    patterns, performance metrics, and cost data to provide
+                    cost-effective recommendations. These recommendations help
+                    organizations optimize their IT spending,
+                    identifycost-saving opportunities, and align their resources
+                    with business needs
                   </p>
-                  
+
                   <ul className="intelligentDocumentsVerifica">
-                    <li
-                      className="intelligentDocumentsVerifica1"
-                    >{`Continuous recommendations of resource optimization with respect
+                    <li className="intelligentDocumentsVerifica1">{`Continuous recommendations of resource optimization with respect
                     to cost and performance`}</li>
                     <li className="generatingFormsAnd">
-                    Recommendation on IT investments.
+                      Recommendation on IT investments.
                     </li>
                     <li className="lifecycleManagementOf">
-                    Comprehensive insights and control over the IT infrastructure.
-
+                      Comprehensive insights and control over the IT
+                      infrastructure.
                     </li>
                     <li className="recommendationsWithRespect">
-                    Integrated Command Center with advanced analytics and monitoring of infrastructure.
+                      Integrated Command Center with advanced analytics and
+                      monitoring of infrastructure.
                     </li>
                     <li>Intelligent Forecasting and Alerts</li>
                   </ul>
@@ -175,12 +150,13 @@ const Legal = () => {
                   <h2 className="legal2">IT Infrastructure</h2>
                   <div className="thisPowerfulSolutionContainer1">
                     <p className="thisPowerfulSolution1">
-                    Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, 
-                    and cost data to provide cost-effective recommendations. These recommendations help organizations 
-                    optimize their IT spending, identify cost-saving
-                     opportunities, and align their resources with business needs
+                      Leveraging AI and analytics, the product analyzes usage
+                      patterns, performance metrics, and cost data to provide
+                      cost-effective recommendations. These recommendations help
+                      organizations optimize their IT spending, identify
+                      cost-saving opportunities, and align their resources with
+                      business needs
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -188,7 +164,11 @@ const Legal = () => {
           </div>
         </div>
       </section>
-      <img className="backgroundIcon2" alt="" src="Images/IT/background-2.svg" />
+      <img
+        className="backgroundIcon2"
+        alt=""
+        src={backgroundIcon2}
+      />
       <section className="legalChild">
         <div className="frameGroup">
           <div className="frameWrapper1">
@@ -196,12 +176,12 @@ const Legal = () => {
               <h2 className="legal3">IT Infrastructure</h2>
               <div className="thisPowerfulSolutionContainer2">
                 <p className="thisPowerfulSolution2">
-                Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, 
-                and cost data to provide cost-effective recommendations. These recommendations help organizations 
-                optimize their IT spending,
-                 identify cost-saving opportunities, and align their resources with business needs
+                  Leveraging AI and analytics, the product analyzes usage
+                  patterns, performance metrics, and cost data to provide
+                  cost-effective recommendations. These recommendations help
+                  organizations optimize their IT spending, identify cost-saving
+                  opportunities, and align their resources with business needs
                 </p>
-              
               </div>
             </div>
           </div>
@@ -215,11 +195,12 @@ const Legal = () => {
             <h2 className="legal4">IT Infrastructure</h2>
             <div className="thisPowerfulSolutionContainer3">
               <p className="thisPowerfulSolution3">
-              Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to
-               provide cost-effective recommendations. These recommendations help organizations optimize their IT spending, 
-              identify cost-saving opportunities, and align their resources with business needs
+                Leveraging AI and analytics, the product analyzes usage
+                patterns, performance metrics, and cost data to provide
+                cost-effective recommendations. These recommendations help
+                organizations optimize their IT spending, identify cost-saving
+                opportunities, and align their resources with business needs
               </p>
-            
             </div>
           </div>
         </div>
@@ -230,11 +211,12 @@ const Legal = () => {
             <h2 className="legal5">IT Infrastructure</h2>
             <div className="thisPowerfulSolutionContainer4">
               <p className="thisPowerfulSolution4">
-              Leveraging AI and analytics, the product analyzes usage patterns, performance metrics, and cost data to provide
-               cost-effective recommendations. These recommendations help organizations optimize their IT spending,
-               identify cost-saving opportunities, and align their resources with business needs
+                Leveraging AI and analytics, the product analyzes usage
+                patterns, performance metrics, and cost data to provide
+                cost-effective recommendations. These recommendations help
+                organizations optimize their IT spending, identify cost-saving
+                opportunities, and align their resources with business needs
               </p>
-  
             </div>
           </div>
           <div className="instanceFrame" />
@@ -251,10 +233,7 @@ const Legal = () => {
         </div>
       </div>
       <footer className="contactInfoGroup">
-        <div
-          className="postDetailsFrameParent"
-          onClick={onGroupContainerClick}
-        >
+        <div className="postDetailsFrameParent" onClick={onGroupContainerClick}>
           <div className="postDetailsFrame">
             <h1 className="contactUs1">Contact Us</h1>
           </div>
@@ -263,52 +242,50 @@ const Legal = () => {
               className="framesFrameChild"
               loading="eager"
               alt=""
-              src="Images/IT/group-27.svg"
+              src={group27}
             />
             <div className="layerFrame">
               <img
                 className="backgroundIcon3"
                 alt=""
-                src="Images/IT/background-3.svg"
+                src={background3}
               />
               <img
                 className="layer1Icon"
                 loading="eager"
                 alt=""
-                src="Images/IT/layer-1.svg"
+                src={layer1Icon}
               />
             </div>
             <img
               className="isolationModeIcon"
               loading="eager"
               alt=""
-              src="Images/IT/isolation-mode.svg"
+              src={isolationModeIcon}
             />
             <img
               className="frameTripletsIcon"
               loading="eager"
               alt=""
-              src="Images/IT/frame.svg"
+              src={frameTripletsIcon}
             />
             <img
               className="frameTripletsIcon1"
               alt=""
-              src="Images/IT/frame-1.svg"
+              src={frameTripletsIcon1}
             />
             <img
               className="frameTripletsIcon2"
               alt=""
-              src="Images/IT/frame-2.svg"
+              src={frameTripletsIcon2}
             />
           </div>
           <div className="postLocationLine">
             <div className="postInfo">
               <div className="policyTitleFrame">
                 <div className="rdMainVirgoContainer">
-                  <p
-                    className="rdMainVirgo"
-                  >{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
-                  <p className={styles.seegehalliBengaluruKarnata}>
+                  <p className="rdMainVirgo">{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
+                  <p className={`seegehalliBengaluruKarnata`}>
                     Seegehalli, Bengaluru, Karnataka 560049
                   </p>
                 </div>
@@ -331,15 +308,13 @@ const Legal = () => {
             <div className="lineSeparator">
               <div className="footerCopyright" />
               <div className="privacyPolicyTerms">
-                <div className="copyright2023NarmTechParent">
-                  <div className="copyright2023">
-                    © Copyright 2023 - Narm Tech
+                <div className="copyright2024NarmTechParent">
+                  <div className="copyright2024">
+                    © Copyright 2024 - Narm Tech
                   </div>
                   <div className="privacyPolicyParent">
                     <div className="privacyPolicy">Privacy Policy</div>
-                    <div
-                      className="termsConditions"
-                    >{`Terms & Conditions`}</div>
+                    <div className="termsConditions">{`Terms & Conditions`}</div>
                   </div>
                 </div>
               </div>
@@ -347,7 +322,11 @@ const Legal = () => {
           </div>
         </div>
       </footer>
-      <img className="backgroundIcon4" alt="" src="Images/IT/background-4.svg" />
+      <img
+        className="backgroundIcon4"
+        alt=""
+        src={backgroundIcon4}
+      />
     </div>
   );
 };

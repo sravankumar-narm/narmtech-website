@@ -1,121 +1,45 @@
 "use client";
 import React, { useCallback, useState } from "react";
-import styles from "./Edu.module.css";
 import "./edu.css";
+import Logo from '../../Images/Edu/narm-tech-logo-1@2x.png'
 
 const Legal = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = useCallback(() => {
-    console.log("toggle menu clicked");
-    setMenuOpen((prevIsMenuOpen) => !prevIsMenuOpen);
-  }, []);
-
-  const closeMenu = useCallback(() => {
-    setMenuOpen(false);
-  }, []);
-
-  const onMenuContainerClick = useCallback(() => {
-    //  "Home"
-  }, []);
-
-  const onMenuClick = useCallback(() => {
-    // "offer"
-  }, []);
-
-  const onMenuContainer1Click = useCallback(() => {
-    // "Consult"
-  }, []);
-
-  const onMenuContainer2Click = useCallback(() => {
-    //  "Home"
-  }, []);
-
-  const onMenu1Click = useCallback(() => {
-    // "Home"
-  }, []);
-
-  const onMenu2Click = useCallback(() => {
-    //  "Contact us"
-  }, []);
-
-  const onKnowMoreTextClick = useCallback(() => {
-    // "Know more"
-  }, []);
-
-  const onGroupContainerClick = useCallback(() => {
-    //  "Contact us"
-  }, []);
-
+  
   return (
     <div className="legal">
-      <header
-        className={`legalInner ${isMenuOpen ? menuOpen : ""}`}
-      >
+      <header className={`legalInner`}>
         <div className="narmLogoParent">
           <div className="narmLog">
             <img
               className="narmTechLogo1"
               loading="eager"
               alt=""
-              src="Images/Edu/narm-tech-logo-1@2x.png"
+              src={Logo}
             />
           </div>
-          <div
-            className={`mobileMenuButton ${
-              isMenuOpen ? open : ""
-            }`}
-            onClick={toggleMenu}
-          >
-            ☰
-
-          </div>
-
+    
           <div className="menuButton">
-            <div className="menu" onClick={onMenuContainerClick}>
-              <div className="home">{`Home`}</div>
+            <div className="menu">
+              <a href="/">Home</a>
             </div>
-
-            <button className="menu1" onClick={onMenuClick}>
-              <div className="offerings">Offerings</div>
-            </button>
-            <div className="menu2" onClick={onMenuContainer1Click}>
-              <div className="consulting">{`Consulting `}</div>
+            <div className="menu1">
+              <a href="/offers">Offerings</a>
             </div>
-            <div className="menu3" onClick={onMenuContainer2Click}>
-              <div className="aboutUs">{`About us`}</div>
+            <div className="menu2">
+              <a href="/consulting">Consulting</a>
             </div>
-            <button className="menu4" onClick={onMenu1Click}>
-              <div className="ourTeam">Our Team</div>
-            </button>
-            <button className="menu5" onClick={onMenu2Click}>
-              <div className="contactUs">Contact us</div>
-            </button>
+            <div className="menu3">
+              <a href="/aboutus">About us</a>
+            </div>
+            <div className="menu4">
+              <a href="/ourteam">Our Team</a>
+            </div>
+            <div className="menu5">
+              <a href="/contactus">Contact us</a>
+            </div>
           </div>
         </div>
       </header>
-      {isMenuOpen && (
-        <div className="mobileMenu">
-          <div className="menuItem" onClick={closeMenu}>
-            Home
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            Offerings
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            Consulting
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            About Us
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            Our team
-          </div>
-          <div className="menuItem" onClick={closeMenu}>
-            Contact Us
-          </div>
-        </div>
-      )}
       <section className="ourTeamButton">
         <div className="contactusButton">
           <div className="frameParent">
@@ -144,14 +68,12 @@ const Legal = () => {
                     patterns, performance metrics, and cost data to provide
                     cost-effective recommendations. These recommendations help
                     organizations optimize their IT spending,
-                    identifycost-saving opportunities, and align their
-                    resources with business
+                    identifycost-saving opportunities, and align their resources
+                    with business
                   </p>
 
                   <ul className="intelligentDocumentsVerifica">
-                    <li
-                      className="intelligentDocumentsVerifica1"
-                    >{`Intelligent, Automated, Guided Administrative Tasks: From Admissions to Convocations/Placements.`}</li>
+                    <li className="intelligentDocumentsVerifica1">{`Intelligent, Automated, Guided Administrative Tasks: From Admissions to Convocations/Placements.`}</li>
                     <li className="generatingFormsAnd">
                       Attendance tracking, Grading.
                     </li>
@@ -206,7 +128,7 @@ const Legal = () => {
         src="Images/Edu/background-2.svg"
       />
       <section className="legalChild">
-        <div className= "frameGroup">
+        <div className="frameGroup">
           <div className="frameWrapper1">
             <div className="legalContainer">
               <h2 className="legal3">Education</h2>
@@ -215,9 +137,8 @@ const Legal = () => {
                   Leveraging AI and analytics, the product analyzes usage
                   patterns, performance metrics, and cost data to provide
                   cost-effective recommendations. These recommendations help
-                  organizations optimize their IT spending, identify
-                  cost-saving opportunities, and align their resources with
-                  business needs
+                  organizations optimize their IT spending, identify cost-saving
+                  opportunities, and align their resources with business needs
                 </p>
               </div>
             </div>
@@ -264,16 +185,13 @@ const Legal = () => {
           <div className="contactUsRectangleInner">
             <div className="instanceChild" />
           </div>
-          <b className="knowMore" onClick={onKnowMoreTextClick}>
+          <b className="knowMore">
             Know More
           </b>
         </div>
       </div>
       <footer className="contactInfoGroup">
-        <div
-          className="postDetailsFrameParent"
-          onClick={onGroupContainerClick}
-        >
+        <div className="postDetailsFrameParent">
           <div className="postDetailsFrame">
             <h1 className="contactUs1">Contact Us</h1>
           </div>
@@ -324,9 +242,7 @@ const Legal = () => {
             <div className="postInfo">
               <div className="policyTitleFrame">
                 <div className="rdMainVirgoContainer">
-                  <p
-                    className="rdMainVirgo"
-                  >{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
+                  <p className="rdMainVirgo">{`#92, 3rd Main, Virgo Nagar, Post, `}</p>
                   <p className="seegehalliBengaluruKarnata">
                     Seegehalli, Bengaluru, Karnataka 560049
                   </p>
@@ -350,15 +266,13 @@ const Legal = () => {
             <div className="lineSeparator">
               <div className="footerCopyright" />
               <div className="privacyPolicyTerms">
-                <div className="copyright2023NarmTechParent">
-                  <div className="copyright2023">
-                    © Copyright 2023 - Narm Tech
+                <div className="copyright2024NarmTechParent">
+                  <div className="copyright2024">
+                    © Copyright 2024 - Narm Tech
                   </div>
                   <div className="privacyPolicyParent">
                     <div className="privacyPolicy">Privacy Policy</div>
-                    <div
-                      className="termsConditions"
-                    >{`Terms & Conditions`}</div>
+                    <div className="termsConditions">{`Terms & Conditions`}</div>
                   </div>
                 </div>
               </div>
