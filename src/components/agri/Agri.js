@@ -1,5 +1,19 @@
 import React, { useCallback, useState } from "react";
 import "./agri.css";
+import Logo from '../../Images/agri/narm-tech-logo-1@2x.png'
+import background2x from '../../Images/agri/background@2x.png'
+import background2 from '../../Images/agri/background-2.svg'
+import background from '../../Images/agri/Vyavasayah-background.png'
+import Vyavasayah from '../../Images/agri/Vyavasayah.png'
+import Vyavasayah1 from '../../Images/agri/Vyavasayah1.png'
+import group2 from '../../Images/agri/group-27.svg'
+import background3 from '../../Images/agri/background-3.svg'
+import layer1 from '../../Images/agri/layer-1.svg'
+import isolation from '../../Images/agri/isolation-mode.svg'
+import frame1 from '../../Images/agri/frame-1.svg'
+import frame2 from '../../Images/agri/frame-2.svg'
+import frame from '../../Images/agri/frame.svg'
+import background4 from '../../Images/agri/background-4.svg'
 
 const Legal = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -54,7 +68,7 @@ const Legal = () => {
               className="narmTechLogo1"
               loading="eager"
               alt=""
-              src="Images/agri/narm-tech-logo-1@2x.png"
+              src={Logo}
             />
           </div>
           <div
@@ -117,13 +131,13 @@ const Legal = () => {
                 <img
                   className="backgroundIcon"
                   alt=""
-                  src="Images/agri/background@2x.png"
+                  src={background2x}
                 />
                 <div className="wrapperBackground">
                   <img
                     className="backgroundIcon1"
                     alt=""
-                    src="Images/agri/Vyavasayah1.png"
+                    src={Vyavasayah1}
                   />
                 </div>
               </div>
@@ -197,7 +211,7 @@ const Legal = () => {
       <img
         className="backgroundIcon2"
         alt=""
-        src="Images/agri/background-2.svg"
+        src={background2}
       />
       <section className="legalChild">
         <div className="frameGroup">
@@ -281,42 +295,42 @@ const Legal = () => {
               className="framesFrameChild"
               loading="eager"
               alt=""
-              src="Images/agri/group-27.svg"
+              src={group2}
             />
             <div className="layerFrame">
               <img
                 className="backgroundIcon3"
                 alt=""
-                src="Images/agri/background-3.svg"
+                src={background3}
               />
               <img
                 className="layer1Icon"
                 loading="eager"
                 alt=""
-                src="Images/agri/layer-1.svg"
+                src={layer1}
               />
             </div>
             <img
               className="isolationModeIcon"
               loading="eager"
               alt=""
-              src="Images/agri/isolation-mode.svg"
+              src={isolation}
             />
             <img
               className="frameTripletsIcon"
               loading="eager"
               alt=""
-              src="Images/agri/frame.svg"
+              src={frame}
             />
             <img
               className="frameTripletsIcon1"
               alt=""
-              src="Images/agri/frame-1.svg"
+              src={frame1}
             />
             <img
               className="frameTripletsIcon2"
               alt=""
-              src="Images/agri/frame-2.svg"
+              src={frame2}
             />
           </div>
           <div className="postLocationLine">
@@ -364,7 +378,7 @@ const Legal = () => {
       <img
         className="backgroundIcon4"
         alt=""
-        src="Images/agri/background-4.svg"
+        src={background4}
       />
     </div>
   );

@@ -1491,6 +1491,7 @@
     line-height: 36px;
     display: inline-block;
     width: 270px;
+    font-size: var(--Home-font-size-6xM);
   }
   .manager-narmtech,
   .name2 {
@@ -1616,6 +1617,7 @@
     line-height: 36px;
     display: inline-block;
     width: 270px;
+    font-size: var(--Home-font-size-6xM);
   }
   .Home-research-associate-ai-container1 {
       position: absolute;
@@ -1995,6 +1997,7 @@
     top: 0%;
     left: 6.38%;
     display: inline-block;
+    font-size: var(--Home-font-size-6xM);
   }
   .Home-group-div {
     position: absolute;
@@ -2156,6 +2159,7 @@
       --Home-font-size-31xl: 47px;;
       --Home-font-size-3xs: 10px;
       --Home-font-size-6xs: 7px;
+      --Home-font-size-6xM:15px;
     
       /* Colors */
       --Home-color-white: #fff;
@@ -3366,7 +3370,6 @@
       flex-direction: column;
   }
   .Homefotter{
-  position: absolute;
   position: absolute;
   top: 4631px;
   left: calc(50% - 174px);

@@ -343,7 +343,7 @@ li::marker {
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
-.generatingFormsAnd {
+.GeneratingFormsAnd {
   max-width: 534.7px;
   font-size: 20px;
   font-weight: 400;
@@ -357,7 +357,7 @@ li::marker {
   border: 1px solid #e0e0e0;
   margin-bottom: 10px;
 }
-.lifecycleManagementOf {
+.LifecycleManagementOf {
   max-width: 515.7px;
   font-size: 20px;
   font-weight: 400;
@@ -374,7 +374,7 @@ li::marker {
   gap: 10px;
   margin-bottom: 10px;
 }
-.recommendationsWithRespect {
+.RecommendationsWithRespect {
   max-width: 515.7px;
   font-size: 20px;
   font-weight: 400;
@@ -984,17 +984,7 @@ li::marker {
   box-sizing: border-box;
   gap: var(--consult-gap-47xl);
 }
-.contactUsFrame {
-  width: 1279px;
-  align-items: flex-start;
-  justify-content: flex-end;
-  min-height: 332px;
-  flex-shrink: 0;
-  text-align: right;
-  font-size: var(--consult-font-size-11xl);
-  color: var(--consult-color-gray-100);
-  font-family: var(--consult-font-open-sans);
-}
+
 .instanceChild {
   position: absolute;
   height: 100%;

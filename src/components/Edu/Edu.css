@@ -381,7 +381,7 @@ z-index: 2;
   align-items: center;
   gap: 51px;
 }
-.frameChild {
+.FrameChild {
   position: relative;
   border-radius: var(--br-3xs);
   background-color: white;
@@ -390,11 +390,12 @@ z-index: 2;
   border: 1px solid black;
 }
 
-.overlayImage{
+.overlayImage {
   position: absolute;
-  width: 800px;
-  height: 200px;
-  top: 20px;
+  width: 640px;
+  height: 484px;
+  top: -121px;
+  left: -194px;
 }
 .legal2 {
   position: relative;

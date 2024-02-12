@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from "react";
 import "./It.css";
+import Logo from '../../Images/IT/narm-tech-logo-1@2x.png';
 import backgroundIcon2 from '../../Images/IT/background-2.svg';
 import group27 from '../../Images/IT/group-27.svg'
 import background3 from '../../Images/IT/background-3.svg'
@@ -65,7 +66,7 @@ const Legal = () => {
               className="narmTechLogo1"
               loading="eager"
               alt=""
-              src="Images/Edu/narm-tech-logo-1@2x.png"
+              src={Logo}
             />
           </div>
 
