@@ -317,22 +317,22 @@ const Home = () => {
       </div>
 
       <div className="menu-button"></div>
-      <div className="menu">
+      <div className="offer-menu">
         <a href="/">Home</a>
       </div>
-      <div className="menu1">
+      <div className="offer-menu1">
         <a href="/offers">Offerings</a>
       </div>
-      <div className="menu2">
+      <div className="offer-menu2">
         <a href="/consulting">Consulting</a>
       </div>
-      <div className="menu3">
+      <div className="offer-menu3">
         <a href="/aboutus">About us</a>
       </div>
-      <div className="menu4">
+      <div className="offer-menu4">
         <a href="/ourteam">Our Team</a>
       </div>
-      <div className="menu5">
+      <div className="offer-menu5">
         <a href="/contactus">Contact us</a>
       </div>
       <img
