@@ -17,7 +17,7 @@
     text-align: center;
   }
   .unique-and-powerful-container {
-    top: 1856px;
+    top: 1816px;
     left: calc(50% - 387px);
     font-size: var(--Home-font-size-xl);
     line-height: 160%;
@@ -123,8 +123,8 @@
   }
   .content {
     position: absolute;
-    top: 1999px;
-    left: 124px;
+    top: 1955px;
+    left: 170px;
     gap: var(--Home-gap-3xl);
     font-size: var(--Home-font-size-11xl);
     color: var(--Home-color-darkslategray-300);
@@ -132,7 +132,7 @@
   .icon3,
   .use-timeline-to {
     position: relative;
-    width: 68px;
+    width: 60px;
     height: 58px;
   }
   .use-timeline-to {
@@ -141,14 +141,14 @@
     text-transform: capitalize;
     color: var(--Home-color-dimgray);
     display: inline-block;
-    width: 361px;
+    width: 399px;
     height: 69px;
     flex-shrink: 0;
   }
   .icon-text {
     position: absolute;
-    top: 1996px;
-    left: 592px;
+    top: 1955px;
+    left: 652px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -179,7 +179,7 @@
   }
   .content1 {
     position: absolute;
-    top: 1985px;
+    top: 1955px;
     left: 1083.5px;
     display: flex;
     flex-direction: column;
@@ -225,7 +225,7 @@
   .learn-more2 {
     position: absolute;
     top: 3027px;
-    left: 228px;
+    left: 208px;
     text-decoration: underline;
     color: var(--Home-color-darkslategray-200);
     cursor: pointer;
@@ -233,10 +233,10 @@
   }
   .learn-more1,
   .learn-more2 {
-    left: 704px;
+    left: 664px;
   }
   .learn-more2 {
-    left: 1176px;
+    left: 1136px;
   }
   .stroke {
     position: absolute;
@@ -891,10 +891,10 @@
     color: var(--Home-color-black);
     font-family: var(--Home-font-nunito);
   }
-  .data-analytics {
+  .ai-and-llm-powered-saas-products{
     position: absolute;
     top: 2863px;
-    left: 156px;
+    left: 99px;
     font-size: var(--Home-font-size-11xl);
     line-height: 110%;
     color: var(--Home-color-gray-300);
@@ -911,7 +911,7 @@
     width: 388px;
   }
   .data-discovery-and-container,
-  .data-transformation {
+  .UI-and-UX-services {
     position: absolute;
     top: 2863px;
     left: 598px;
@@ -930,11 +930,11 @@
     width: 388px;
   }
   
-  .data-engineering,
+  .Cloud-solutions-consulting,
   .data-modeling-data-container {
     position: absolute;
     top: 2863px;
-    left: 1099px;
+    left: 1030px;
     font-size: var(--Home-font-size-11xl);
     line-height: 110%;
     color: var(--Home-color-gray-300);
@@ -1370,8 +1370,8 @@
     line-height: 200%;
     color: var(--Home-color-darkslategray-200);
     display: inline-block;
-    width: 487px;
-    height: 119px;
+    width: 499px;
+    height: 309px;
   }
   .union-icon {
     position: relative;
@@ -1727,7 +1727,7 @@
   
   .Homecricle {
     position: absolute;
-    top: 678px;
+    top: 718px;
     left: -153px;
     width: 554.289px;
     height: 552.864px;
@@ -1736,7 +1736,7 @@
   }
   .Homecricle1 {
     position: absolute;
-    top: 706px;
+    top: 736px;
     left: 224px;
     width: 554.289px;
     height: 552.864px;
