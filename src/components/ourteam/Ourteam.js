@@ -182,7 +182,7 @@ function OurTeam() {
               </p>
             </div>
           </div>
-          <div className="Ourteam-copyright-2023-">© Copyright 2023 - Narm Tech</div>
+          <div className="Ourteam-copyright-2024-">© Copyright 2024 - Narm Tech</div>
           <div className="Ourteam-privacy-policy-parent">
             <div className="Ourteam-privacy-policy">Privacy Policy</div>
             <div className="Ourteam-privacy-policy">Terms & Conditions</div>

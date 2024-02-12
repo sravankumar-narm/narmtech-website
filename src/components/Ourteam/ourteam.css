@@ -605,6 +605,7 @@
   left: 47px;
   line-height: 36px;
   display: inline-block;
+  font-size: 15px;
   width: 270px;
 }
 .Ourteam-line-div {
@@ -747,7 +748,7 @@
   top: 82.13px;
   left: 786px;
 }
-.Ourteam-copyright-2023- {
+.Ourteam-copyright-2024- {
   position: absolute;
   top: 255px;
   left: 20px;
@@ -773,4 +774,301 @@
     position: absolute;
     text-transform: capitalize;
     top: 564px;
+  }
+  @media screen and (max-width: 768px) {
+
+    .Team {
+      position: absolute;
+      top: -90px;
+      left: -191px;
+    }
+  .Ourteamcricle10 {
+    position: absolute;
+    top: 221px;
+    left: calc(50% - 1048px);
+    width: 554.289px;
+    height: 552.864px;
+  }
+  .Ourteamcricle11 {
+    position: absolute;
+    top: 235px;
+    left: calc(50% - 787px);
+    width: 554.289px;
+    height: 552.864px;
+  }
+  .Ourteamcricle12 {
+    position: absolute;
+    top: 236px;
+    left: calc(50% - 575px);
+    width: 554.289px;
+    height: 552.864px;
+  }
+  .Ourteamcricle15 {
+    position: absolute;
+    top: 542px;
+    left: calc(50% - 1085px);
+    width: 554.289px;
+    height: 552.864px;
+    border-radius: 50%;
+    background-color: #684fff;
+  }
+  .Ourteamcricle16 {
+    position: absolute;
+    top: 542px;
+    left: calc(50% - 818px);
+    width: 554.289px;
+    height: 552.864px;
+    border-radius: 50%;
+    background-color: #684fff;
+  }
+  .Ourteamcricle17 {
+    position: absolute;
+    top: 522px;
+    left: calc(50% - 546px);
+    width: 554.289px;
+    height: 552.864px;
+  }
+  .Our-team2 {
+    top: 263px;
+    left: calc(50% - 760.99px);
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--Ourteam-color-yellow);
+    text-align: center;
+    justify-content: center;
+    width: 403px;
+    height: 36px;
+}
+.ram {
+    top: 291px;
+    left: calc(50% - 696.99px);
+    width: 260px;
+    height: 52px;
+    font-size: 20px;
+}
+.name1 {
+    top: 8.73px;
+    left: calc(50% - 43.99px);
+    font-weight: 800;
+    height: 21.73px;
+
+}
+.ceo-narmtech {
+    top: 39.38px;
+    left: calc(50% - 43.99px);
+    font-size: var(--Ourteam-body-regular-size);
+    height: 23.7px;
+}
+.ram-child {
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 74px;
+    height: 67.81px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.Ram-m-reddy-container {
+    top: 369px;
+    left: calc(50% - 696.99px);
+    font-size: 10px;
+    line-height: 15px;
+    display: inline-block;
+    color: white;
+    width: 335px;
+    height: 172px;
+}
+.ram, .ram-m-reddy-container {
+    position: absolute;
+}
+.ceo-narmtech, .our-team {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.advisory-team {
+    position: absolute;
+    top: 540px;
+    left: calc(50% - 735.99px);
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    color: var(--Ourteam-color-yellow);
+    text-align: center;
+    width: 403px;
+    height: 30px;
+}
+.Ourteam-rectangle-parent {
+  position: absolute;
+  top: 368px;
+}
+.Ourteam-group-inner {
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 841.99px);
+    border-radius: var(--Ourteam-br-xl);
+    background-color: #fffefe;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 354px;
+    height: 455px;
+}
+.Ourteam-research-associate-ai-container1, .Program-manager-tata-container , .Ourteam-research-associate-ai-container {
+    position: absolute;
+    top: 137px;
+    left: calc(50% - 820.99px);
+    font-size:10px;
+    line-height: 15px;
+    display: inline-block;
+    width: 270px;
+}
+ .Ourteam-research-associate-ai-container {
+    top: -70px;
+    left: calc(50% - 678.99px);
+}
+.Ourteam-research-associate-ai-container1 {
+    top: 82px;
+    left: calc(50% - 1107.99px);
+}
+.Author {
+    top: 193px;
+    left: calc(50% - 820.99px);
+    width: 260px;
+    color: var(--Ourteam-color-mediumslateblue);
+}
+.Author1 {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 678.99px);
+    width: 260px;
+    height: 46px;
+    color: var(--Ourteam-color-mediumslateblue);
+}
+.Author2 {
+    position: absolute;
+    top: 154px;
+    left: calc(50% - 1107.99px);
+    width: 260px;
+    height: 46px;
+    color: var(--Ourteam-color-mediumslateblue);
+}
+.Ourteam-group-child1{
+    display: none;
+}
+.Ourteamfotter{
+  position: absolute;
+  top: 1031px;
+  left: calc(50% - 174px);
+  width: 355px;
+  height: 631px;
+      background-color: rgb(72, 109, 255);
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      
+      
+  }
+  .Ourteam-contact-us1 {
+      position: absolute;
+      top: -307px;
+      left: calc(50% - 792px);
+      font-size: 20px;
+      line-height: 160%;
+      font-weight: 600;
+      color: var(--Ourteam-color-yellow);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 450px;
+      height: 44px;
+  }
+  .Ourteam-isolation-mode-icon {
+      top: -299.87px;
+      left: calc(50% - 567px);
+      width: 40px;
+      height: 45px;
+  }
+   .Ourteam-rd-main-virgo-container {
+      position: absolute;
+      top: -240.87px;
+      left: calc(50% - 731px);
+      line-height: 160%;
+      font-weight: 600;
+      display: inline-block;
+      width: 353px;
+      font-size: 15px;
+      height: 51px;
+      mix-blend-mode: normal
+  }
+  .Ourteam-frame-parent {
+      position: absolute;
+      top: -177.87px;
+      left: calc(50% - 599px);
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 12px;
+  }
+  .Ourteam-layer-1-icon1 {
+      position: absolute;
+      top: -107.26px;
+      left: calc(50% - 568px);
+      width: 40px;
+      height: 45px;
+      overflow: hidden;
+  }
+  .Ourteam-infonarmtechcom-hrnarmtech{
+      position: absolute;
+      top: -39.87px;
+      left: calc(50% - 728px);
+      line-height: 160%;
+      font-weight: 600;
+      font-size: 15px;
+      display: inline-block;
+      width: 357px;
+      height: 67px;
+      mix-blend-mode: normal;
+  }
+  .Ourteam-group-child {
+      position: absolute;
+      top: 40.87px;
+      left: calc(50% - 568px);
+      width: 35px;
+      height: 40px;
+  }
+  .Ourteam-sales-and-services-91-container {
+      top: 100.87px;
+      left: calc(50% - 729px);
+      font-size: 15px;
+  }
+  .Ourteam-copyright-2024- {
+      position: absolute;
+      top: 268px;
+      left: calc(50% - 783px);
+      line-height: 160%;
+      display: inline-block;
+      font-size: 10px;
+      width: 242px;
+  }
+  .Ourteam-privacy-policy-parent {
+      position: absolute;
+      top: 268px;
+      left: calc(50% - 555px);
+      display: flex;
+      font-size: 10px;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+  }
+  .Ourteam-group-item {
+      top: 266px;
+      left: -106px;
+      border-top: 3px solid var(--Ourteam-color-white);
+      box-sizing: border-box;
+      width: 1299px;
+      height: 6px;
+  }
+  .Ourteambackground-icon1 {
+    display: none;
+}
   }
