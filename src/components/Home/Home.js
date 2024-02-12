@@ -3,7 +3,7 @@ import React from "react";
 // import Image from "next/image";
 // import Logo from "./Images/Logo.png";
 //import Logo from './Images/home/Logo.png'
-import Logo from "../../Images/home/Logo.png"
+import Logo from "../../Images/home/Logo.png";
 import Background7 from "../../Images/home/Background7.png";
 import robot from "../../Images/home/robo_design.gif";
 import shape from "../../Images/home/shape.png";
@@ -18,7 +18,7 @@ import line from "../../Images/home/Line.png";
 import photo from "../../Images/home/Phtoo.png";
 import star from "../../Images/home/Star.png";
 import contant1 from "../../Images/home/location.png";
-import contant2 from "../../Images/home/email.png"; 
+import contant2 from "../../Images/home/email.png";
 import contant3 from "../../Images/home/whatapp.png";
 import contant from "../../Images/home/Background2.png";
 import F from "../../Images/home/F.png";
@@ -27,7 +27,6 @@ import I from "../../Images/home/I.png";
 import Navigation from "../../Images/home/Navigation.png";
 import Navigation1 from "../../Images/home/Navigation1.png";
 import "./Home.css";
-
 
 const Home = () => {
   return (
@@ -65,13 +64,22 @@ const Home = () => {
           <img className="icon1" alt="" src={settings} />
         </div>
         <div className="text1">
-          <div className="powerful-settings">Powerful Settings</div>
+          <div className="powerful-settings">Powerful AI/ML solutions</div>
           <div className="provide-excellent-customer-container">
             <p className="our-ai-powered-products-for-bu">
-              Provide excellent customer service.
+              Pioneering solutions to customers.
             </p>
             <p className="our-ai-powered-products-for-bu">
-              Answer more tickets.
+              Unparalleled efficiency and effectiveness.
+            </p>
+            <p className="our-ai-powered-products-for-bu">
+              Enhancing decision-making processes with
+            </p>
+            <p className="our-ai-powered-products-for-bu">
+              insightful,data-driven precision.
+            </p>
+            <p className="our-ai-powered-products-for-bu">
+              data-driven precision.
             </p>
           </div>
         </div>
@@ -83,7 +91,9 @@ const Home = () => {
         <div className="text1">
           <div className="powerful-settings">User Friendly</div>
           <div className="use-timeline-to">
-            Use Timeline to plan projects right how the pieces fit together.
+            Experience unparalleled convenience and satisfaction with NarmTech's
+            user-friendly products and services, designed to effortlessly meet
+            the needs of every user.
           </div>
         </div>
       </div>
@@ -95,10 +105,16 @@ const Home = () => {
           <div className="powerful-settings">Integrated platform</div>
           <div className="unified-and-interconnected-container">
             <p className="our-ai-powered-products-for-bu">
-              unified and interconnected system
+              Experience a cohesive environment where
             </p>
             <p className="our-ai-powered-products-for-bu">
-              that combines various features
+              AI/ML, and LLMs seamlessly work together,
+            </p>
+            <p className="our-ai-powered-products-for-bu">
+              creating an integrated platform that delivers
+            </p>
+            <p className="our-ai-powered-products-for-bu">
+              a holistic and efficient user experience.
             </p>
           </div>
         </div>
@@ -119,13 +135,13 @@ const Home = () => {
         <p className="our-ai-powered-products-for-bu">your productivity</p>
       </b>
       <b className="learn-more" id="learnMoreText">
-        Learn More
+        Learn More (AI & LLM)
       </b>
       <b className="learn-more1" id="learnMoreText1">
-        Learn More
+        Learn More (UI & UX)
       </b>
       <b className="learn-more2" id="learnMoreText2">
-        Learn More
+        Learn More (Cloud Sols)
       </b>
       <div className="icon4">
         <div className="stroke"></div>
@@ -169,16 +185,22 @@ const Home = () => {
           <div className="menu-bar-child5"></div>
         </div>
       </div>
-      <b className="data-analytics">Data & Analytics</b>
+      <b className="ai-and-llm-powered-saas-products">
+      AI & LLM powered SAAS products 
+      </b>
       <div className="data-strategy-data">
-        Data Strategy, Data Science Consulting, BI Consulting
+      Web Applications Development | Mobile Applications
+       Development – Andriod & iOS| Empowering 
+       applications with AI & LLM capability.    
       </div>
-      <b className="data-transformation">Data Transformation</b>
+      <b className=" UI-and-UX-services">UI and UX services</b>
       <div className="data-discovery-and-container">
         <p className="our-ai-powered-products-for-bu">
-          Data Discovery and Augmentation
+          high-fidelity UX Design | Protyping | Enhancing
         </p>
-        <p className="our-ai-powered-products-for-bu">Data Democratization</p>
+        <p className="our-ai-powered-products-for-bu">
+          visual appearance and User experience of Web & Mob Applications
+        </p>
       </div>
       <div className="icon5">
         <div className="stroke1"></div>
@@ -206,12 +228,18 @@ const Home = () => {
           <img className="Rect" src={password} />
         </div>
       </div>
-      <b className="data-engineering">Data Engineering</b>
+      <b className="Cloud-solutions-consulting">Cloud solutions consulting</b>
       <div className="data-modeling-data-container">
         <p className="our-ai-powered-products-for-bu">
-          Data Modeling, Data Integration,
+          Scalable and Cost-optimized Cloud Solutions| Hybrid
         </p>
-        <p className="our-ai-powered-products-for-bu">and Data Engineering</p>
+        <p className="our-ai-powered-products-for-bu">
+          Cloud Platform & Infrastructure designs | Cloud
+        </p>
+
+        <p className="our-ai-powered-products-for-bu">
+          Migration and Adoption strategies.
+        </p>
       </div>
       <div className="icon6" alt="" src="./public/icon.svg">
         <div className="stroke2"></div>
@@ -307,7 +335,9 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="Home-copyright-2024-">© Copyright 2024 - Narm Tech</div>
+          <div className="Home-copyright-2024-">
+            © Copyright 2024 - Narm Tech
+          </div>
           <div className="Home-privacy-policy-parent">
             <div className="Home-privacy-policy">Privacy Policy</div>
             <div className="Home-privacy-policy">Terms & Conditions</div>
@@ -332,14 +362,16 @@ const Home = () => {
       </div>
       <div className="business-operations-improvemen-container">
         <p className="our-ai-powered-products-for-bu">
-          Business Operations Improvement with
+          Transforming Business Operations
         </p>
       </div>
       <div className="Homepattern6"></div>
       <div className="Homepattern7"></div>
       <img className="narm-tech-logo-1" alt="" src={Logo} />
       <div className="menu6">
-        <div className="consulting"><a href="/">Home</a></div>
+        <div className="consulting">
+          <a href="/">Home</a>
+        </div>
         {/* <div className="dropdown-content">
           <div>Offerings</div>
           <div>Consulting</div>
@@ -349,24 +381,37 @@ const Home = () => {
         </div> */}
       </div>
       <div className="menu7">
-        <div className="offerings"><a href="/offers">Offerings</a></div>
+        <div className="offerings">
+          <a href="/offers">Offerings</a>
+        </div>
       </div>
       <div className="menu8">
-        <div className="consulting"><a href="/consulting">Consulting</a></div>
+        <div className="consulting">
+          <a href="/consulting">Consulting</a>
+        </div>
       </div>
       <div className="menu9">
-        <div className="consulting"><a href="/aboutus">About us</a></div>
+        <div className="consulting">
+          <a href="/aboutus">About us</a>
+        </div>
       </div>
       <div className="menu10">
-        <div className="offerings"><a href="/ourteam">Our Team</a></div>
+        <div className="offerings">
+          <a href="/ourteam">Our Team</a>
+        </div>
       </div>
       <div className="menu11">
-        <div className="offerings"><a href="/contactus">Contact us</a></div>
+        <div className="offerings">
+          <a href="/contactus">Contact us</a>
+        </div>
       </div>
       <div className="streamline-business-operations">
-        Streamline Business Operations seamlessly by leveraging NARM Tech's AI
-        Powered Products, ensuring enhanced efficiency.
+        NarmTech delivers cutting-edge solutions to customers, leveraging the
+        power of AI & ML, LLM-driven Algorithms., seamless user experience (UX),
+        and intuitive user interface (UI) to provide a truly transformative and
+        user-friendly experience with unparalleled efficiency and effectiveness.
       </div>
+
       <div className="team">
         <div className="Homecricle10"></div>
         <div className="Homecricle11"></div>

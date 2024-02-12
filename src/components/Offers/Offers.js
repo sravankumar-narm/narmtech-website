@@ -85,7 +85,7 @@ const Home = () => {
       <div className="offer-background-parent">
         <div className="offer-background1"></div>
         <div className="offer-sub-content">
-          <b className="offer-legal">Legal</b>
+          <b className="offer-legal">NYAYAH (Launching on Nov 2024)</b>
           <div className="offer-this-powerful-solution-container">
             <p className="leveraging-ai-and">
               This powerful solution revolutionizes the legal landscape by
@@ -93,25 +93,21 @@ const Home = () => {
               automation and organization capabilities.
             </p>
             <p className="leveraging-ai-and">
-              By seamlessly handling their day-to-day operations, streamlining
-              data management, and organizing critical documentation, this
-              software acts as a catalyst for enhanced efficiency in legal
-              processes
+            AI intelligence is extensively applied in the following: 
             </p>
             <ul className="continuous-recommendations-of">
               <li className="recommendation-on-it">
-                Intelligent Documents Verification & Creating Insights, Reports
+              Lifecycle Management of Legal cases, handling day-to-day operations.
               </li>
               <li className="recommendation-on-it">
-                Generating Forms and Documents Quickly
+              	Documents Verification and Creating Insights and reports.
               </li>
               <li className="recommendation-on-it">
-                Lifecycle Management of Legal Cases
+              	Quick and efficient generation of legal Forms and Documents.
               </li>
               <li className="recommendation-on-it">
-                Recommendations with respect to statues available
+              Recommendations concerning Statutes, also Validations, and Intelligent Citations.
               </li>
-              <li>Validations and Intelligent Citations</li>
             </ul>
           </div>
         </div>
