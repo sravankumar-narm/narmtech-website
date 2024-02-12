@@ -728,3 +728,276 @@ height: 100%;
     top: 564px;
   }
  
+
+  @media screen and (max-width: 768px) {
+    .narm-tech-logo {
+      position: absolute;
+      top: 34px;
+      left: calc(50% - 74px);
+      width: 148px;
+      height: 24px;
+      object-fit: cover;
+    }
+  .Aboutcricle1 {
+    position: absolute;
+    top: 346px;
+    left: calc(50% - 266px);
+    width: 554.289px;
+    height: 552.864px;
+  }
+  .Aboutcricle2 {
+    position: absolute;
+    top: 338px;
+    left: calc(50% - 60px);
+    width: 554.289px;
+    height: 552.864px;
+  }
+  .Aboutcricle3 {
+    position: absolute;
+    top: 336px;
+    left: calc(50% - -185px);
+    width: 554.289px;
+    height: 552.864px;
+  }
+  .Aboutcricle5 {
+    position: absolute;
+    top: 462px;
+    left: calc(50% - 292px);
+    width: 554.289px;
+    height: 552.864px;
+    border-radius: 50%;
+    background-color: #684fff;
+  }
+  .Aboutcricle6 {
+    position: absolute;
+    top: 448px;
+    left: calc(50% - 94px);
+    width: 554.289px;
+    height: 552.864px;
+    border-radius: 50%;
+    background-color: #684fff;
+  }
+  .Aboutcricle7 {
+    position: absolute;
+    top: 451px;
+    left: calc(50% - -81px);
+    width: 554.289px;
+    height: 552.864px;
+  }
+  .About-us-inner,
+  .about-us-child,
+  .About-instance-child5 {
+    display: none;
+  }
+  .about-us-inner {
+    display: none;
+  }
+  .mask-group-icon {
+    display: none;
+  }
+  .About-us3 {
+    position: absolute;
+    top: 101px;
+    left: -205px;
+    width: 1860px;
+    height: 467px;
+    font-size: var(--About-body-regular-size);
+    color: var(--About-color-yellow);
+  }
+  .About-us3 {
+    top: -60px;
+    left: calc(50% - 759px);
+    color: #fff500;
+    font-size: 15px;
+    font-style: normal;
+    width: 314px;
+    height: 254px;
+    font-weight: 700;
+    line-height: 133.2%; /* 19.98px */
+    text-transform: capitalize;
+  }
+  .About-narm-tech-is-container {
+    top: -29px;
+    left: calc(50% - 759px);
+    font-size: 12px;
+    line-height: 200%;
+    font-weight: 600;
+    font-family: "Open Sans";
+    display: inline-block;
+    width: 314px;
+    height: 254px;
+  }
+  .About-group-div {
+    top: 563px;
+    left: calc(50% - 220px);
+    width: 467px;
+    height: 292px;
+    font-size: var(--drop-menu-menu-size);
+    color: var(--About-color-darkslategray-100);
+  }
+  .About-group-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1269px;
+    height: 265px;
+    overflow-x: auto;
+  }
+  .About-instance-parent {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 390.5px);
+    width: 1101px;
+    height: 236px;
+  }
+  .About-component-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .About-rectangle-parent1 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 550.5px);
+    width: 332.41px;
+    height: 236px;
+    overflow: hidden;
+  }
+  .About-rectangle-group1 {
+    left: calc(50% - 146.03px);
+    font-size: var(--About-font-size-mini);
+    color: var(--About-color-steelblue);
+  }
+  .About-rectangle-container1 {
+    left: calc(50% + 218.09px);
+  }
+  .About-rectangle-container1,
+  .About-rectangle-group1 {
+    position: absolute;
+    top: 0;
+    width: 332.41px;
+    height: 236px;
+    overflow: hidden;
+  }
+  .Aboutfotter{
+    position: absolute;
+    top: 981px;
+    left: calc(50% - 174px);
+    width: 355px;
+    height: 631px;
+        background-color: rgb(72, 109, 255);
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        
+        
+    }
+    .About-contact-us1 {
+        position: absolute;
+        top: -307px;
+        left: calc(50% - 792px);
+        font-size: 20px;
+        line-height: 160%;
+        font-weight: 600;
+        color: var(--About-color-yellow);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 450px;
+        height: 44px;
+    }
+    .About-isolation-mode-icon {
+        top: -299.87px;
+        left: calc(50% - 567px);
+        width: 40px;
+        height: 45px;
+    }
+     .About-rd-main-virgo-container {
+        position: absolute;
+        top: -240.87px;
+        left: calc(50% - 731px);
+        line-height: 160%;
+        font-weight: 600;
+        display: inline-block;
+        width: 353px;
+        font-size: 15px;
+        height: 51px;
+        mix-blend-mode: normal
+    }
+    .About-frame-parent {
+        position: absolute;
+        top: -177.87px;
+        left: calc(50% - 599px);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 12px;
+    }
+    .About-layer-1-icon1 {
+        position: absolute;
+        top: -107.26px;
+        left: calc(50% - 568px);
+        width: 40px;
+        height: 45px;
+        overflow: hidden;
+    }
+    .About-infonarmtechcom-hrnarmtech{
+        position: absolute;
+        top: -39.87px;
+        left: calc(50% - 728px);
+        line-height: 160%;
+        font-weight: 600;
+        font-size: 15px;
+        display: inline-block;
+        width: 357px;
+        height: 67px;
+        mix-blend-mode: normal;
+    }
+    .About-group-child {
+        position: absolute;
+        top: 40.87px;
+        left: calc(50% - 568px);
+        width: 35px;
+        height: 40px;
+    }
+    .About-sales-and-services-91-container {
+        top: 100.87px;
+        left: calc(50% - 729px);
+        font-size: 15px;
+    }
+    .About-copyright-2024- {
+        position: absolute;
+        top: 268px;
+        left: calc(50% - 783px);
+        line-height: 160%;
+        display: inline-block;
+        font-size: 10px;
+        width: 242px;
+    }
+    .About-privacy-policy-parent {
+        position: absolute;
+        top: 268px;
+        left: calc(50% - 555px);
+        display: flex;
+        font-size: 10px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .About-group-item {
+        top: 266px;
+        left: -106px;
+        border-top: 3px solid var(--About-color-white);
+        box-sizing: border-box;
+        width: 1299px;
+        height: 6px;
+    }
+    .Aboutbackground-icon1 {
+      display: none;
+  }
+}

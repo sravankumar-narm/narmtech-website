@@ -2,6 +2,21 @@
 import React, { useCallback, useState } from "react";
 import "./edu.css";
 import Logo from '../../Images/Edu/narm-tech-logo-1@2x.png'
+import background from '../../Images/Edu/background@2x.png'
+import Adhyayn1 from '../../Images/Edu/Adhyayn1.png'
+import Quizifai1 from '../../Images/Edu/Quizifai1.png'
+import background2 from '../../Images/Edu/background-2.svg'
+import group2 from '../../Images/Edu/group-27.svg'
+import background3 from '../../Images/Edu/background-3.svg'
+import layer1 from '../../Images/Edu/layer-1.svg'
+import isolation from '../../Images/Edu/isolation-mode.svg'
+import frame1 from '../../Images/Edu/frame-1.svg'
+import frame2 from '../../Images/Edu/frame-2.svg'
+import frame from '../../Images/Edu/frame.svg'
+import background4 from '../../Images/Edu/background-4.svg'
+
+
+
 
 const Legal = () => {
   
@@ -48,13 +63,13 @@ const Legal = () => {
                 <img
                   className="backgroundIcon"
                   alt=""
-                  src="Images/Edu/background@2x.png"
+                  src={background}
                 />
                 <div className="wrapperBackground">
                   <img
                     className="backgroundIcon1"
                     alt=""
-                    src="Images/Edu/Adhyayn1.png"
+                    src={Adhyayn1}
                   />
                 </div>
               </div>
@@ -96,10 +111,10 @@ const Legal = () => {
           </div>
           <div className="contactusButtonInner">
             <div className="rectangleParent">
-              <div className="frameChild">
+              <div className="FrameChild">
                 <img
                   className="overlayImage"
-                  src="Images/Edu/Quizifai1.png"
+                  src={Quizifai1}
                   alt=""
                 />
               </div>
@@ -125,7 +140,7 @@ const Legal = () => {
       <img
         className="backgroundIcon2"
         alt=""
-        src="Images/Edu/background-2.svg"
+        src={background2}
       />
       <section className="legalChild">
         <div className="frameGroup">
@@ -200,42 +215,42 @@ const Legal = () => {
               className="framesFrameChild"
               loading="eager"
               alt=""
-              src="Images/Edu/group-27.svg"
+              src={group2}
             />
             <div className="layerFrame">
               <img
                 className="backgroundIcon3"
                 alt=""
-                src="Images/Edu/background-3.svg"
+                src={background3}
               />
               <img
                 className="layer1Icon"
                 loading="eager"
                 alt=""
-                src="Images/Edu/layer-1.svg"
+                src={layer1}
               />
             </div>
             <img
               className="isolationModeIcon"
               loading="eager"
               alt=""
-              src="Images/Edu/isolation-mode.svg"
+              src={isolation}
             />
             <img
               className="frameTripletsIcon"
               loading="eager"
               alt=""
-              src="Images/Edu/frame.svg"
+              src={frame}
             />
             <img
               className="frameTripletsIcon1"
               alt=""
-              src="Images/Edu/frame-1.svg"
+              src={frame1}
             />
             <img
               className="frameTripletsIcon2"
               alt=""
-              src="Images/Edu/frame-2.svg"
+              src={frame2}
             />
           </div>
           <div className="postLocationLine">
@@ -283,7 +298,7 @@ const Legal = () => {
       <img
         className="backgroundIcon4"
         alt=""
-        src="Images/Edu/background-4.svg"
+        src={background4}
       />
     </div>
   );

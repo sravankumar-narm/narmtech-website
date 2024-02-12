@@ -99,7 +99,7 @@ function Consulting() {
                   </div>
                   <div className="generatingFormsAnd1">
                     <div className="Dot"></div>
-                    <p className="generatingFormsAnd">
+                    <p className="GeneratingFormsAnd">
                       <h className="Data">
                         Data Platform Consulting, Solution Design, And PoC:
                       </h>
@@ -109,7 +109,7 @@ function Consulting() {
                   </div>
                   <div className="lifecycleManagementOf1">
                     <div className="Dot"></div>
-                    <p className="lifecycleManagementOf">
+                    <p className="LifecycleManagementOf">
                       <h className="Data">BI Consulting:</h>
                       Providing consulting services for business intelligence,
                       including data visualization and reporting.
@@ -117,7 +117,7 @@ function Consulting() {
                   </div>
                   <div className="recommendationsWithRespect1">
                     <div className="Dot"></div>
-                    <p className="recommendationsWithRespect">
+                    <p className="RecommendationsWithRespect">
                       <h className="Data">Data Science Consulting:</h>
                       Offering expertise in leveraging data science techniques
                       and methodologies for business insights.
