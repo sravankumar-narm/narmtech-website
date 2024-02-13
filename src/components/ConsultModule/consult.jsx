@@ -12,7 +12,7 @@ import fb from "../../Images/consult/fb.png";
 import x from "../../Images/consult/x.png";
 import li from "../../Images/consult/li.png";
 import backgroundimg3 from "../../Images/consult/Back-img-3.png";
-import "./Consulting.css";
+import "./consult.css";
 function Consulting() {
   return (
     <div className="contact">

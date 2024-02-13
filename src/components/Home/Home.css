@@ -159,8 +159,8 @@
   }
   .ucin-icon {
     position: relative;
-    width: 76px;
-    height: 76px;
+    width: 60px;
+    /* height: 76px; */
   }
   .ucin-wrapper {
     width: 76px;
