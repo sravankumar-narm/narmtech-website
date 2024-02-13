@@ -224,7 +224,7 @@ function Consulting() {
           </div>
         </div>
       </section>
-      <footer className="contactInfoGroup">
+      <footer className="consult-InfoGroup">
         <div className="consult-postDetailsFrameParent">
           <div className="consult-postDetailsFrame">
             <h1 className="consult-contactUs1">Contact Us</h1>

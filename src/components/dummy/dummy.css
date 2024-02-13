@@ -815,14 +815,14 @@ border: 1px solid rgba(227, 227, 227, 0.50);
      .background-icon7{
         display: none;
      }
-     .menu5{
+     /* .menu5{
         position: absolute;
         top: 25px;
             left: calc(50% + 92px);
             width: 85px;
         padding: 10px;
       
-        }
+        } */
         .our-team   {
           font-size: 12px;
       }

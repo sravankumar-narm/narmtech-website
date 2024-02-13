@@ -261,6 +261,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     background-color: var( --contact-color-gainsboro);
     width: 466px;
     height: 67px;
+    border: #f1f1f1;
   }
   .rectangle-group,
   .rectangle-parent {
@@ -287,6 +288,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     background-color: var( --contact-color-gainsboro);
     width: 466px;
     height: 67px;
+    border: #f1f1f1;
   }
   .rectangle-container {
     position: absolute;
@@ -310,6 +312,7 @@ border: 1px solid rgba(227, 227, 227, 0.50);
     background-color: var( --contact-color-gainsboro);
     width: 466px;
     height: 114px;
+    
   }
   .group-div {
     position: absolute;

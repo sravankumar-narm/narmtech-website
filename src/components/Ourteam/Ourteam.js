@@ -19,26 +19,26 @@ function OurTeam() {
       <header className="navbar">
         {/* logo */}
         <div className="ourteam-logo">
-          <img className="narm-tech-logo" src={Logo}></img>
+          <img className="narm-tech-logo-2" src={Logo}></img>
         </div>
         {/* nav-bar */}
         <div className="Navbar-items">
-           <div className="menu">
+           <div className="Ourteam-menu">
             <a href="/">Home</a>
           </div>
-          <div className="menu1">
+          <div className="Ourteam-menu1">
             <a href="/offers">Offerings</a>
           </div>
-          <div className="menu2">
+          <div className="Ourteam-menu2">
             <a href="/consulting">Consulting</a>
           </div>
-          <div className="menu3">
+          <div className="Ourteam-menu3">
             <a href="/aboutus">About us</a>
           </div>
-          <div className="menu4">
+          <div className="Ourteam-menu4">
             <a href="/ourteam">Our Team</a>
           </div>
-          <div className="menu5">
+          <div className="Ourteam-menu5">
             <a href="/contactus">Contact us</a>
           </div>
         </div>

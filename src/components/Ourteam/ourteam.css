@@ -1,46 +1,45 @@
 :root{
 
-    --body-regular: Inter;
---font-open-sans: "Open Sans";
+  --body-regular: Inter;
+  --font-open-sans: "Open Sans";
 
+  
+  --body-regular-size: 16px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-lg: 18px;
+  --font-size-11xl: 30px;
 
---body-regular-size: 16px;
---font-size-21xl: 40px;
---font-size-5xl: 24px;
---font-size-lg: 18px;
---font-size-11xl: 30px;
+  
+  --color-white: #fff;
+  --white-white-stich: #fefffd;
+  --color-gray-100: #242331;
+  --color-gainsboro: #d9d9d9;
+  --color-darkslategray: #444;
+  --color-lightgray: rgba(205, 205, 205, 0.1);
+  --color-darkgray: rgba(179, 179, 179, 0.1);
+  --color-mediumslateblue: #9d64fd;
 
+  
+  --gap-lgi: 19px;
+  --gap-base: 16px;
+  --gap-xl: 20px;
+  --gap-47xl: 66px;
+  --gap-14xl: 33px;
+  --gap-7xl: 26px;
 
---color-white: #fff;
---white-white-stich: #fefffd;
---color-gray-100: #242331;
---color-gainsboro: #d9d9d9;
---color-darkslategray: #444;
---color-lightgray: rgba(205, 205, 205, 0.1);
---color-darkgray: rgba(179, 179, 179, 0.1);
---color-mediumslateblue: #9d64fd;
+  
+  --padding-16xl: 35px;
+  --padding-11xl: 30px;
+  --padding-xl: 20px;
+  --padding-5xl: 24px;
+  --padding-12xl: 31px;
+  --padding-3xl: 22px;
+  --padding-7xl: 26px;
 
-
---gap-lgi: 19px;
---gap-base: 16px;
---gap-xl: 20px;
---gap-47xl: 66px;
---gap-14xl: 33px;
---gap-7xl: 26px;
-
-
---padding-16xl: 35px;
---padding-11xl: 30px;
---padding-xl: 20px;
---padding-5xl: 24px;
---padding-12xl: 31px;
---padding-3xl: 22px;
---padding-7xl: 26px;
-
-
---br-3xs: 10px;
---br-20xl: 49px;
-
+  
+  --br-3xs: 10px;
+  --br-20xl: 39px;
 }
 :root {
   /* fonts */
@@ -195,7 +194,7 @@
     white-space: pre-wrap;
     flex-shrink: 0;
   }
-  .menu {
+  .Ourteam-menu {
     border-radius: var(--br-20xl);
     background-color: rgb(243, 246, 248);
     width: 116px;
@@ -209,11 +208,46 @@
     z-index: 1;
     font-size: 20px;
     margin-right: 20px;
-    
-
+    }
+    .Ourteam-menu1 a,
+    .Ourteam-menu2 a,
+    .Ourteam-menu3 a,
+    .Ourteam-menu4 a,
+    .Ourteam-menu5 a,
+    .Ourteam-menu a{
+text-decoration: none;
+    }
+  .Ourteam-menu {
+    position: absolute;
+    top: 35px;
+    left: 552px;
   }
-
-  .menu1 {
+  .Ourteam-menu1 {
+    position: absolute;
+    top: 35px;
+    left: 688px;
+  }
+  .Ourteam-menu2,
+  .Ourteam-menu3 {
+    position: absolute;
+    top: 35px;
+    left: 841px;
+  }
+  .Ourteam-menu3 {
+    left: 1006px;
+    width: 130px;
+  }
+  .Ourteam-menu4 {
+    position: absolute;
+    top: 35px;
+    left: 1156px;
+  }
+  .Ourteam-menu5 {
+    position: absolute;
+    top: 35px;
+    left: 1307px;
+  }
+  .Ourteam-menu1 {
     cursor: pointer;
     border: 0;
     font-size: 20px;
@@ -228,14 +262,14 @@
     box-sizing: border-box;
     z-index: 1;
   }
-  .menu1:hover,
-  .menu4:hover,
-  .menu5:hover {
+  .Ourteam-menu1:hover,
+  .Ourteam-menu4:hover,
+  .Ourteam-menu5:hover {
     background-color: var(--color-darkgray);
   }
 
  
-  .menu2 {
+  .Ourteam-menu2 {
     flex: 1;
     border-radius: var(--br-20xl);
     background-color: rgb(243, 246, 248);
@@ -250,7 +284,7 @@
     z-index: 1;
     font-size: 20px;
   }
-  .menu3 {
+  .Ourteam-menu3 {
     border-radius: var(--br-20xl);
     background-color: rgb(243, 246, 248);
     display: flex;
@@ -265,7 +299,7 @@
     font-size: 20px;
   }
  
-  .menu4 {
+  .Ourteam-menu4 {
     cursor: pointer;
     border: 0;
     padding: var(--padding-5xl) 18px var(--padding-5xl) var(--padding-3xl);
@@ -280,7 +314,7 @@
     font-size: 20px;
 
   }
-  .menu5 {
+  .Ourteam-menu5 {
     cursor: pointer;
     border: 0;
     padding: var(--padding-5xl) var(--padding-3xl) var(--padding-5xl)
@@ -776,11 +810,24 @@
     top: 564px;
   }
   @media screen and (max-width: 768px) {
-
+    .narm-tech-logo-2 {
+      position: absolute;
+      top: 34px;
+      left: calc(50% - 134px);
+      width: 148px;
+      height: 24px;
+      object-fit: cover;
+  }
     .Team {
       position: absolute;
       top: -90px;
       left: -191px;
+    }
+    .Ourteam-menu4{
+      position: relative;
+      top: 74px;
+      left: calc(50% - 137px);
+      height: 70px;
     }
   .Ourteamcricle10 {
     position: absolute;

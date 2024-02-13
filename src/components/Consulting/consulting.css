@@ -1269,7 +1269,7 @@ li::marker {
   gap: 86px;
   cursor: pointer;
 }
-.consult-contactInfoGroup {
+.consult-InfoGroup {
   width: 1355px;
   display: flex;
   flex-direction: row;

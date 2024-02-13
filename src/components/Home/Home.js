@@ -70,16 +70,16 @@ const Home = () => {
               Pioneering solutions to customers.
             </p>
             <p className="our-ai-powered-products-for-bu">
-              Unparalleled efficiency and effectiveness.
+              Unparalleled efficiency and effectiven-
             </p>
             <p className="our-ai-powered-products-for-bu">
-              Enhancing decision-making processes with
+            -ess. Enhancing decision-making
             </p>
             <p className="our-ai-powered-products-for-bu">
-              insightful,data-driven precision.
+            processes with insightful data-driven
             </p>
             <p className="our-ai-powered-products-for-bu">
-              data-driven precision.
+            precision. data-driven precision.
             </p>
           </div>
         </div>
@@ -105,16 +105,16 @@ const Home = () => {
           <div className="powerful-settings">Integrated platform</div>
           <div className="unified-and-interconnected-container">
             <p className="our-ai-powered-products-for-bu">
-              Experience a cohesive environment where
+              Experience a cohesive environment
             </p>
             <p className="our-ai-powered-products-for-bu">
-              AI/ML, and LLMs seamlessly work together,
+            where AI/ML, and LLMs seamlessly
             </p>
             <p className="our-ai-powered-products-for-bu">
-              creating an integrated platform that delivers
+            work together, creating an integrated 
             </p>
             <p className="our-ai-powered-products-for-bu">
-              a holistic and efficient user experience.
+            platform that delivers a holistic and efficient user experience.
             </p>
           </div>
         </div>
@@ -188,6 +188,7 @@ const Home = () => {
       <b className="ai-and-llm-powered-saas-products">
       AI & LLM powered SAAS products 
       </b>
+     
       <div className="data-strategy-data">
       Web Applications Development | Mobile Applications
        Development – Andriod & iOS| Empowering 
