@@ -77,6 +77,14 @@ body {
 }
 .leveraging-ai-and {
   margin: 0;
+  /* margin-top: 50px; */
+}
+.leveraging-ai-and1,
+.leveraging-ai-and2{
+  margin-top: 50px;
+}
+.leveraging-ai-and3{
+  margin-top: 99px;
 }
 .recommendation-on-it {
   margin-bottom: 0;
@@ -240,8 +248,8 @@ body {
   left: 617px;
   border-radius: var(--br-31xl);
   background-color: var(--color-mediumslateblue);
-  width: 761px;
-  height: 717px;
+  width: 811px;
+  height: 817px;
   opacity: 0.1;
 }
 .background-Education {
@@ -269,7 +277,7 @@ body {
 }
 .offer-sub-content {
   position: absolute;
-  top: 253.58px;
+  top: 243.58px;
   left: 31.89px;
   width: 599px;
   display: flex;
@@ -302,7 +310,7 @@ body {
 }
 .offer-ai-powered-agriculture-life-container {
   position: absolute;
-  top: 279.58px;
+  top: 299.58px;
   left: 715px;
   line-height: 250%;
   display: inline-block;

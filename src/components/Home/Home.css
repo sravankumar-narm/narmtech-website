@@ -73,6 +73,7 @@
   .Home-inner1,
   .Home-rectangle-div {
     left: calc(50% - 193px);
+    
   }
   .Home-inner1 {
     left: calc(50% + 287px);
@@ -102,7 +103,7 @@
   }
   .powerful-settings {
     position: relative;
-    line-height: 133.2%;
+    line-height: 143.2%;
     text-transform: capitalize;
     font-weight: 500;
   }
@@ -159,7 +160,7 @@
   }
   .ucin-icon {
     position: relative;
-    width: 76px;
+    width: 96px;
     height: 76px;
   }
   .ucin-wrapper {
@@ -172,15 +173,15 @@
   .unified-and-interconnected-container {
     position: relative;
     font-size: var(--Home-font-size-xl);
-    line-height: 160%;
+    line-height: 170%;
     text-transform: capitalize;
     font-family: var(--Home-font-open-sans);
     color: var(--Home-color-dimgray);
   }
   .content1 {
     position: absolute;
-    top: 1955px;
-    left: 1083.5px;
+    top: 1932px;
+    left: 1123.5px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -188,7 +189,7 @@
     gap: 21px;
     font-size: var(--Home-font-size-11xl);
     color: var(--Home-color-darkslategray-300);
-    font-family: var(--Home-font-jost);
+   
   }
   .home-inner2,
   .home-inner3,
@@ -894,7 +895,7 @@
   .ai-and-llm-powered-saas-products{
     position: absolute;
     top: 2863px;
-    left: 99px;
+    left: 55px;
     font-size: var(--Home-font-size-11xl);
     line-height: 110%;
     color: var(--Home-color-gray-300);
@@ -2621,6 +2622,7 @@
       position: absolute;
       top:  1686px;
       left: calc(50% - 121px);
+      
   }
   
   .ucin-icon {

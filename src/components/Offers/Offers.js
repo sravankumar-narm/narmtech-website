@@ -46,7 +46,7 @@ const Home = () => {
 
       <div className="offer-background"></div>
       <div className="offer-leveraging-ai-and-container">
-        <p className="leveraging-ai-and">
+        <p className="leveraging-ai-and2">
           Leveraging AI and analytics, the product analyzes usage patterns,
           performance metrics, and cost data to provide cost-effective
           recommendations. These recommendations help organizations optimize
@@ -56,7 +56,7 @@ const Home = () => {
         <ul className="continuous-recommendations-of">
           <li className="recommendation-on-it">
             Continuous recommendations of resource optimization with respect to
-            cost and performance
+            cost and performance.
           </li>
           <li className="recommendation-on-it">
             Recommendation on IT investments.
@@ -68,7 +68,7 @@ const Home = () => {
             Integrated Command Center with advanced analytics and monitoring of
             infrastructure.
           </li>
-          <li>Intelligent Forecasting and Alerts</li>
+          <li>Intelligent Forecasting and Alerts.</li>
         </ul>
       </div>
       <img className="offer-background-icon" alt="" src={Logo6} />
@@ -81,7 +81,7 @@ const Home = () => {
       <div className="offer-background-icon4"></div>
       <div className="Agriculture-crical"></div>
 
-      <b className="it-infrastructure">IT Infrastructure</b>
+      <b className="it-infrastructure">	VYAYAH (Launching on Nov 2024)</b>
       <div className="offer-background-parent">
         <div className="offer-background1"></div>
         <div className="offer-sub-content">
@@ -117,9 +117,9 @@ const Home = () => {
       <div className="offer-group-parent">
         <div className="offer-background-wrapper"></div>
         <div className="offer-ai-powered-agriculture-life-cy-parent">
-          <b className="Agriculture">Agriculture</b>
+          <b className="Agriculture">VYAVASAYAH (Launching on May 2025)</b>
           <div className="offer-ai-powered-agriculture-life-container">
-            <p className="leveraging-ai-and">
+            <p className="leveraging-ai-and3">
               AI-powered Agriculture Life Cycle Operations Management
               Application empowers farmers. This AI-powered application offers a
               comprehensive suite of tools and functionalities to manage the
@@ -167,29 +167,26 @@ const Home = () => {
 
       <div className="background-Education"></div>
       <div className="education-parent">
-        <b className="education">Education</b>
+        <b className="education">ADHYAYN (Launching on Nov 2024)</b>
         <div className="offer-leveraging-ai-and-container1">
+          <p className="leveraging-ai-and1">
+          	Our ADHYAYN empowers educational institutions through the integration of AI and LLM Model Technologies. 
+          </p>
           <p className="leveraging-ai-and">
-            Leveraging AI and analytics, the product analyzes usage patterns,
-            performance metrics, and cost data to provide cost-effective
-            recommendations. These recommendations help organizations optimize
-            their IT spending, identify cost-saving opportunities, and align
-            their resources with business needs
+          AI intelligence is extensively applied in the following: 
           </p>
           <ul className="continuous-recommendations-of">
             <li className="recommendation-on-it">
-              Intelligent, Automated, Guided Administrative Tasks: from
-              Admissions to Convocations/Placements.
+            	Intelligent and complete automation of day-to-day activities such as Attendance Tracking,
+             Resource allocations, Classroom Assignments, Grading, and calendar management.
+             Administrative tasks such as Convocations/Placements.
             </li>
             <li className="recommendation-on-it">
-              Attendance tracking, Grading.
+             Efficient usage of Staff Time for high-value-added activities
             </li>
             <li className="recommendation-on-it">
               Optimized recommendations for resource allocation, including
               classroom assignments, course scheduling, and staff deployment.
-            </li>
-            <li className="recommendation-on-it">
-              Freeing up Staff Time for more value-added activities.
             </li>
             <li>
               Reports and Valuable insights, enabling decision-makers to make
